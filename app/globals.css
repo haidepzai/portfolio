@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-secondary text-base text-secondary;
+  }
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    @apply text-primary;
+  }
+  .h1 {
+    @apply font-primary text-[45px] xl:text-[90px] leading-none;
+  }
+  .h2 {
+    @apply text-[36px] tracking-[-0.02em] leading-[44px]
+    font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] font-semibold;
+  }
+  .lead {
+    @apply text-xl;
+  }
+  .btn {
+    @apply rounded-lg h-12 py-3 px-5;
+  }
+  .btn-accent {
+    @apply bg-accent hover:bg-accent-hover text-white;
+  }
+  .input, .textarea {
+    @apply w-full outline-none border border-[#d0d5dd] focus:border-accent rounded-lg placeholder:text-gray-500;
+  }
+  .input {
+    @apply h-12 px-[14px];
+  }
+  .textarea {
+    @apply resize-none p-[14px];
+  }
+  :root {
+
+    --radius: 0.5rem
+  }
+}
+
+.active {
+  @apply text-accent transition-all duration-200;
+}
