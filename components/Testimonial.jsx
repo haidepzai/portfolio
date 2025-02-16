@@ -84,10 +84,16 @@ const Testimonial = () => {
         />
         <div className="flex flex-col lg:flex-row gap-12">
           {/* slider info */}
-          <div className="w-max xl:w-[600px] flex flex-col justify-center items-center xl:items-start text-center xl:text-left mx-auto xl:mx-0">
+          <div className="w-full xl:w-[600px] flex flex-col justify-center items-center xl:items-start text-center xl:text-left mx-auto xl:mx-0">
             <GrCertificate className="text-9xl text-accent/20 leading-none mb-4" />
-            <h3 className="h3 mb-2">{slides[activeSlide].name}</h3>
-            <p className="mb-8 max-w-[360px]">{slides[activeSlide].message}</p>
+            <div className="min-h-[260px] md:min-h-[280px] w-full flex flex-col items-center xl:items-start overflow-hidden">
+              <h3 className="h3 mb-2 whitespace-normal break-words px-4 md:px-0 text-balance">
+                {slides[activeSlide].name}
+              </h3>
+              <p className="mb-8 max-w-[360px] px-4 md:px-0 line-clamp-4 md:line-clamp-none">
+                {slides[activeSlide].message}
+              </p>
+            </div>
             {/* slider controls */}
             <div className="flex gap-3 justify-center">
               <button
