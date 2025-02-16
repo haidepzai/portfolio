@@ -68,7 +68,7 @@ const journey = [
     position: "Software Development",
     duration: "Sep 2020 - Feb 2021",
     description:
-      "Software development in an agile and international development team. Development of tools in C# and .NET Framework. Development and extension of a web application in the intralogistics environment for transportation and stock management using Angular, HTML5 and CSS. Creation of REST APIs with ASP.NET. Documentation of the test results, as well as the creation of automated tests with Cypress. Preparation, configuration, implementation and evaluation of a comparison between the dynamic tour planning algorithm and the static tour planning algorithm for intralogistics tugger trains.",
+      "Software development in an agile and international development team. Development of tools in C# and .NET Framework. Development and extension of a web application in the intralogistics environment for transportation and stock management using Angular, HTML5 and CSS. Creation of REST APIs with ASP.NET. Creation of automated tests with Cypress. Preparation, configuration, implementation and evaluation of a comparison between the dynamic tour planning algorithm and the static tour planning algorithm for intralogistics tugger trains.",
   },
   {
     type: "experience",
