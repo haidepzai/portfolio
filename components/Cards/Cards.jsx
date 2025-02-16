@@ -29,7 +29,7 @@ const journey = [
     type: "experience",
     company: "Alfred Kärcher SE & Co. KG (Winnenden, Germany)",
     logoUrl: "/assets/journey/experience/karcher.svg",
-    position: "Master Thesis on API Management",
+    position: "API Management",
     duration: "Sept 2024 - Feb 2025",
     description:
       "Conception and evaluation of a customized API management strategy in Domain Driven Design. Analyzing the API landscape. Conducting Expert Interviews to identify current challenges in the development of APIs. Comparison of different API management tools.",

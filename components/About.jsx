@@ -57,7 +57,7 @@ const About = () => {
           {/* text */}
           <div className="text-center xl:text-left w-full xl:w-[50%] mx-auto xl:mx-0 flex flex-col gap-6">
             <div>
-              <AnimatedText text="My name is Son" textStyles="h2 mb-2" />
+              <AnimatedText text="My name is Son Hai" textStyles="h2 mb-2" />
               <p className="text-lg">Software Developer, M.Sc.</p>
             </div>
             <p className="max-w-[680px] mx-auto xl:mx-0 mb-2">
