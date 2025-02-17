@@ -4,7 +4,7 @@ const statsData = [
   {
     endCountNum: 4,
     endCountText: "+",
-    text: "Yrs. of Experience",
+    text: "Years of Experience",
   },
   {
     endCountNum: 55,
