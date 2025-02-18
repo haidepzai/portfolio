@@ -32,7 +32,7 @@ const journey = [
     position: "API Management",
     duration: "Sept 2024 - Feb 2025",
     description:
-      "Conception and evaluation of a customized API management strategy in Domain Driven Design. Analyzing the API landscape. Conducting Expert Interviews to identify current challenges in the development of APIs. Comparison of different API management tools.",
+      "Conception and evaluation of a customized API management strategy in Domain Driven Design. Analyzing the API landscape. Conducting Expert Interviews to identify current challenges in the development of APIs. Defining API standards and guidelines. Comparison of different API management tools.",
   },
   {
     type: "experience",
