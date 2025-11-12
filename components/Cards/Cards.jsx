@@ -27,6 +27,15 @@ const journey = [
   // experience
   {
     type: "experience",
+    company: "Accenture (Kaiserslautern, Germany)",
+    logoUrl: "/assets/journey/experience/accenture.svg",
+    position: "Java Backend Developer",
+    duration: "April 2025 - until now",
+    description:
+      "Participation in the development of a central IT system for judicial administration in the public sector. Focus on the further development of the core architecture and the implementation of backend components using Java and Spring Boot. Development of Microservices. Collaboration in an agile environment with business and development teams as part of a nationwide digitalization project.",
+  },
+  {
+    type: "experience",
     company: "Alfred Kärcher SE & Co. KG (Winnenden, Germany)",
     logoUrl: "/assets/journey/experience/karcher.svg",
     position: "API Management",
