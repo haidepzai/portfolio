@@ -1,30 +1,25 @@
 "use client";
 import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const links = [
-  {
-    name: "home",
-  },
-  {
-    name: "about",
-  },
-  {
-    name: "journey",
-  },
-  {
-    name: "work",
-  },
-  {
-    name: "contact",
-  },
+  { name: "home" },
+  { name: "about" },
+  { name: "journey" },
+  { name: "work" },
+  { name: "contact" },
 ];
 
-const nav = ({ containerStyles, listStyles, linkStyles, spy }) => {
+const Nav = ({ containerStyles, listStyles, linkStyles, spy }) => {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
   return (
     <nav className={containerStyles}>
       <ul className={listStyles}>
         {links.map((link, index) => {
-          return (
+          return isHome ? (
             <ScrollLink
               spy={spy}
               key={index}
@@ -36,6 +31,10 @@ const nav = ({ containerStyles, listStyles, linkStyles, spy }) => {
             >
               {link.name}
             </ScrollLink>
+          ) : (
+            <Link key={index} href={`/#${link.name}`} className={linkStyles}>
+              {link.name}
+            </Link>
           );
         })}
       </ul>
@@ -43,4 +42,4 @@ const nav = ({ containerStyles, listStyles, linkStyles, spy }) => {
   );
 };
 
-export default nav;
+export default Nav;

@@ -23,6 +23,13 @@ const Footer = () => {
             >
               Privacy Policy
             </Link>
+            {" "} | {" "}
+            <Link
+              href="/imprint"
+              className="hover:text-white transition"
+            >
+              Imprint
+            </Link>
           </div>
         </div>
       </div>
