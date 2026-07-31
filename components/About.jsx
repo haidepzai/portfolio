@@ -46,7 +46,7 @@ const About = () => {
                   />
                 </motion.div>
                 <div className="absolute text-center text-white">
-                  <div className="text-5xl font-bold leading-none">4+</div>
+                  <div className="text-5xl font-bold leading-none">3+</div>
                   <div className="leading-none text-center">
                     Years <br /> of Experience
                   </div>

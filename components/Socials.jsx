@@ -12,7 +12,7 @@ import { RiInstagramFill } from "react-icons/ri";
 const socials = [
   {
     icon: <FaGithub />,
-    path: "https://github.com/haidepzaii",
+    path: "https://github.com/haidepzai",
   },
   {
     icon: <FaGitlab />,
@@ -33,7 +33,7 @@ const socials = [
   {
     icon: <RiInstagramFill />,
     path: "https://www.instagram.com/haidepzai",
-  },  
+  },
 ];
 
 const Socials = ({ containerStyles, iconStyles }) => {
