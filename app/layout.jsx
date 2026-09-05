@@ -14,9 +14,39 @@ const bebasNeue = Bebas_Neue({
   variable: "--font-bebas",
 });
 
+const siteUrl = "https://sonhaivu.com";
+const description =
+  "Portfolio of Son Hai Vu — web developer building modern, performant websites and applications.";
+
 export const metadata = {
-  title: "Son Hai Vu",
-  description: "Portfolio of Son Hai Vu",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Son Hai Vu",
+    template: "%s | Son Hai Vu",
+  },
+  description,
+  openGraph: {
+    title: "Son Hai Vu",
+    description,
+    url: siteUrl,
+    siteName: "Son Hai Vu",
+    images: [
+      {
+        url: "/assets/banner.png",
+        width: 1200,
+        height: 630,
+        alt: "Son Hai Vu — Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Son Hai Vu",
+    description,
+    images: ["/assets/banner.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
