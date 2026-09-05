@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "Son Hai Vu",
     images: [
       {
-        url: "/assets/banner.png",
+        url: "/assets/banner.jpg",
         width: 1200,
         height: 630,
         alt: "Son Hai Vu — Portfolio",
@@ -45,7 +45,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Son Hai Vu",
     description,
-    images: ["/assets/banner.png"],
+    images: ["/assets/banner.jpg"],
   },
 };
 
