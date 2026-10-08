@@ -30,10 +30,10 @@ const Imprint = () => {
                     <br />
                     E-Mail:{" "}
                     <a
-                        href="mailto:haidepzai.solutions@gmail.com"
+                        href="mailto:info@sonhaivu.com"
                         className="text-accent underline"
                     >
-                        haidepzai.solutions@gmail.com
+                        info@sonhaivu.com
                     </a>
                 </p>
 

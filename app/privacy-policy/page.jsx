@@ -47,10 +47,10 @@ const PrivacyPolicy = () => {
           <br />
           E-Mail:{" "}
           <a
-            href="mailto:sv058@hdm-stuttgart.de"
+            href="mailto:info@sonhaivu.com"
             className="text-accent underline"
           >
-            sv058@hdm-stuttgart.de
+            info@sonhaivu.com
           </a>
         </p>
 
