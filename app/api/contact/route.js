@@ -1,5 +1,5 @@
 const recaptchaVerifyUrl = "https://www.google.com/recaptcha/api/siteverify";
-const formspreeUrl = "https://formspree.io/f/xdkapnzv";
+const resendUrl = "https://api.resend.com/emails";
 
 export async function POST(request) {
   const body = await request.json().catch(() => null);
@@ -36,6 +36,22 @@ export async function POST(request) {
     );
   }
 
+  const email = body.email.trim();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    return Response.json(
+      { error: "Please enter a valid email address." },
+      { status: 400 }
+    );
+  }
+
+  const resendApiKey = process.env.RESEND_API_KEY;
+  if (!resendApiKey) {
+    return Response.json(
+      { error: "The message service is not configured." },
+      { status: 503 }
+    );
+  }
+
   try {
     const verificationResponse = await fetch(recaptchaVerifyUrl, {
       method: "POST",
@@ -55,23 +71,29 @@ export async function POST(request) {
       );
     }
 
-    const formspreeResponse = await fetch(formspreeUrl, {
+    const resendResponse = await fetch(resendUrl, {
       method: "POST",
       headers: {
-        Accept: "application/json",
+        Authorization: `Bearer ${resendApiKey}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        firstname: body.firstname.trim(),
-        lastname: body.lastname.trim(),
-        email: body.email.trim(),
-        phone: typeof body.phone === "string" ? body.phone.trim() : "",
-        message: body.message.trim(),
+        from: "Son Hai Vu <info@sonhaivu.com>",
+        to: ["info@sonhaivu.com"],
+        reply_to: email,
+        subject: "New portfolio contact message",
+        text: [
+          `Name: ${body.firstname.trim()} ${body.lastname.trim()}`,
+          `Email: ${email}`,
+          `Phone: ${typeof body.phone === "string" ? body.phone.trim() : ""}`,
+          "",
+          body.message.trim(),
+        ].join("\n"),
       }),
       cache: "no-store",
     });
 
-    if (!formspreeResponse.ok) {
+    if (!resendResponse.ok) {
       return Response.json(
         { error: "Your message could not be sent. Please try again." },
         { status: 502 }

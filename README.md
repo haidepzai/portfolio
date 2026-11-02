@@ -23,11 +23,17 @@ The contact form uses Google reCAPTCHA v2. Add both keys to `.env.local`:
 ```env
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY=your-site-key
 RECAPTCHA_SECRET_KEY=your-secret-key
+RESEND_API_KEY=your-resend-api-key
 ```
 
 The site key and secret are different values. Keep the secret server-side and
 never prefix it with `NEXT_PUBLIC_`. The server verifies each CAPTCHA response
-before forwarding the contact form to Formspree.
+before sending the contact message through Resend. Messages are sent from
+`info@sonhaivu.com` to `info@sonhaivu.com`, with the visitor's email as Reply-To.
+Verify `sonhaivu.com` in Resend and configure the required DNS records before
+sending. The recipient address must have a working mailbox or forwarding setup;
+Resend provides outgoing email, not an inbox. Set the same environment variables
+on the deployment host and restart the local server after changing them.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
