@@ -31,6 +31,12 @@ const data = [
     title: "Omakase GO",
   },
   {
+    href: "https://marketplace.visualstudio.com/items?itemName=SonHaiVu.smart-todo-kanban",
+    category: "software",
+    img: "/assets/work/smart-kanban-board.png",
+    title: "Smart TODO Kanban",
+  },
+  {
     href: "https://gitlab.com/haidepzai/openbarber",
     category: "web",
     img: "/assets/work/openbarber.png",
