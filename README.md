@@ -16,6 +16,19 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Contact Form CAPTCHA
+
+The contact form uses Google reCAPTCHA v2. Add both keys to `.env.local`:
+
+```env
+NEXT_PUBLIC_RECAPTCHA_SITE_KEY=your-site-key
+RECAPTCHA_SECRET_KEY=your-secret-key
+```
+
+The site key and secret are different values. Keep the secret server-side and
+never prefix it with `NEXT_PUBLIC_`. The server verifies each CAPTCHA response
+before forwarding the contact form to Formspree.
+
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

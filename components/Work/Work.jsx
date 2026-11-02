@@ -7,6 +7,30 @@ import WorkItem from "./WorkItem";
 // sample data for projects with various categories
 const data = [
   {
+    href: "https://yomi-lens.vercel.app",
+    category: "app",
+    img: "/assets/work/yomi_lens_banner.png",
+    title: "Yomi Lens",
+  },
+  {
+    href: "https://manabu.study",
+    category: "web",
+    img: "/assets/work/manabu.png",
+    title: "Manabu",
+  },
+  {
+    href: "https://neo-seichi.vercel.app",
+    category: "app",
+    img: "/assets/work/neo-seichi.png",
+    title: "Neo Seichi",
+  },
+  {
+    href: "https://omakase-go.vercel.app",
+    category: "app",
+    img: "/assets/work/omakase.png",
+    title: "Omakase GO",
+  },
+  {
     href: "https://gitlab.com/haidepzai/openbarber",
     category: "web",
     img: "/assets/work/openbarber.png",

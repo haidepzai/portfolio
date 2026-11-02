@@ -1,13 +1,18 @@
 "use client";
-import { useState, useEffect } from "react";
-// form spree
-import { useForm, ValidationError } from "@formspree/react";
+import { useState, useEffect, useRef } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import AnimatedText from "./AnimatedText";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
 
-const Contact = () => {
-  const [state, handleSubmit] = useForm("xdkapnzv");
+const Contact = ({ recaptchaConsent }) => {
+  const recaptchaRef = useRef(null);
+  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+  const [captchaToken, setCaptchaToken] = useState(null);
+  const [captchaError, setCaptchaError] = useState("");
+  const [submitError, setSubmitError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submissionSucceeded, setSubmissionSucceeded] = useState(false);
 
   // state for form inputs
   const [formData, setFormData] = useState({
@@ -27,11 +32,40 @@ const Contact = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  // clear the form after submission and handle message visibility
+  // Show a brief confirmation after a successful submission.
   useEffect(() => {
-    if (state.succeeded) {
-      setShowIcon(true); // show the success icon
-      // clear for inputs
+    if (!submissionSucceeded) return;
+
+    setShowIcon(true);
+    const timer = setTimeout(() => setShowIcon(false), 3000);
+    return () => clearTimeout(timer);
+  }, [submissionSucceeded]);
+
+  // handle form submission
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    setSubmitError("");
+
+    if (!recaptchaSiteKey || !recaptchaConsent || !captchaToken) {
+      setSubmitError("Please complete the reCAPTCHA check before sending.");
+      return;
+    }
+
+    setIsSubmitting(true);
+    setSubmissionSucceeded(false);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...formData, recaptchaToken: captchaToken }),
+      });
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || "Your message could not be sent.");
+      }
+
       setFormData({
         firstname: "",
         lastname: "",
@@ -39,21 +73,18 @@ const Contact = () => {
         phone: "",
         message: "",
       });
-
-      // hide the icon and revert button text after 3 seconds
-      const timer = setTimeout(() => {
-        setShowIcon(false);
-      }, 3000);
-
-      // clean up the timer on comppoent unmount or befure re-running effect
-      return () => clearTimeout(timer);
+      setSubmissionSucceeded(true);
+    } catch (error) {
+      setSubmitError(
+        error instanceof Error
+          ? error.message
+          : "Your message could not be sent. Please try again."
+      );
+    } finally {
+      setCaptchaToken(null);
+      recaptchaRef.current?.reset();
+      setIsSubmitting(false);
     }
-  }, [state.succeeded]);
-
-  // handle form submission
-  const handleFormSubmit = (e) => {
-    e.preventDefault(); // prevent default form submission
-    handleSubmit(formData); // call formspree's submit handler with formData
   };
 
   return (
@@ -129,11 +160,6 @@ const Contact = () => {
                   placeholder="youremail@email.com"
                   required
                 />
-                <ValidationError
-                  prefix="Email"
-                  field="email"
-                  erros={state.errors}
-                />
               </div>
               {/* phone fields */}
               <div>
@@ -171,33 +197,75 @@ const Contact = () => {
                   rows="5"
                   required
                 />
-                <ValidationError
-                  prefix="Message"
-                  field="message"
-                  erros={state.errors}
-                />
+              </div>
+              <div className="space-y-2">
+                {recaptchaSiteKey && recaptchaConsent ? (
+                  <ReCAPTCHA
+                    ref={recaptchaRef}
+                    sitekey={recaptchaSiteKey}
+                    onChange={(token) => {
+                      setCaptchaToken(token);
+                      setCaptchaError("");
+                      setSubmitError("");
+                    }}
+                    onExpired={() => setCaptchaToken(null)}
+                    onErrored={() => {
+                      setCaptchaToken(null);
+                      setCaptchaError(
+                        "reCAPTCHA could not be loaded. Please try again."
+                      );
+                    }}
+                  />
+                ) : !recaptchaSiteKey ? (
+                  <p className="text-sm text-red-600" role="alert">
+                    CAPTCHA is not configured. Please contact the site owner.
+                  </p>
+                ) : (
+                  <p className="text-sm text-secondary" role="status">
+                    Accept the cookie notice to load Google reCAPTCHA and send
+                    this form.
+                  </p>
+                )}
+                {captchaError && (
+                  <p className="text-sm text-red-600" role="alert">
+                    {captchaError}
+                  </p>
+                )}
+                {submitError && (
+                  <p className="text-sm text-red-600" role="alert">
+                    {submitError}
+                  </p>
+                )}
+                {submissionSucceeded && (
+                  <p className="text-sm text-green-700" role="status">
+                    Your message has been sent.
+                  </p>
+                )}
               </div>
               {/* submit button */}
               <button
                 type="submit"
-                disabled={state.submitting}
-                className="btn btn-accent flex items-center justify-center gap-2"
+                disabled={
+                  isSubmitting ||
+                  !recaptchaSiteKey ||
+                  !recaptchaConsent ||
+                  !captchaToken
+                }
+                className="btn btn-accent flex items-center justify-center gap-2 disabled:cursor-not-allowed disabled:opacity-50"
               >
-                {state.submitting ? (
+                {isSubmitting ? (
                   <span>Sending...</span>
                 ) : (
                   <>
                     {/* show icon with opacity transition */}
                     <FaCheckCircle
-                      className={`absolute text-white text-lg transition-opacity duration-500 ease-in-out ${
-                        showIcon ? "opacity-100" : "opacity-0"
-                      }`}
+                      className={`absolute text-white text-lg transition-opacity duration-500 ease-in-out ${showIcon ? "opacity-100" : "opacity-0"
+                        }`}
                     />
                     {/* button text */}
                     <span
-                      className={`transition-opacity duration-500 ease-in-out ${
-                        showIcon ? "opacity-0" : "opacity-100"
-                      }`}
+                      className={`transition-opacity duration-500 ease-in-out ${showIcon ? "opacity-0" : "opacity-100"
+                        }`}
                     >
                       Send message
                     </span>

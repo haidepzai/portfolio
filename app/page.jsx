@@ -1,6 +1,6 @@
 "use client";
-import { useEffect } from "react";
-import CookieConsent from "react-cookie-consent";
+import { useEffect, useState } from "react";
+import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -13,6 +13,8 @@ import Testimonial from "@/components/Testimonial";
 import Footer from "@/components/Footer";
 
 const Home = () => {
+  const [recaptchaConsent, setRecaptchaConsent] = useState(false);
+
   // implement locomotive scroll
   useEffect(() => {
     const loadLocomotiveScroll = async () => {
@@ -20,6 +22,10 @@ const Home = () => {
       new LocomotiveScroll();
     };
     loadLocomotiveScroll();
+  }, []);
+
+  useEffect(() => {
+    setRecaptchaConsent(getCookieConsentValue("userCookieConsent") === "true");
   }, []);
 
   return (
@@ -31,33 +37,32 @@ const Home = () => {
       <Journey />
       <Work />
       <Testimonial />
-      <Contact />
+      <Contact recaptchaConsent={recaptchaConsent} />
       <Footer />
       {/* temporary div */}
       {/* <div className="h-[3000px]"></div> */}
 
       {/* Cookie Consent Banner */}
       <CookieConsent
-        location="bottom"
+        location={null}
+        disableStyles
+        containerClasses="cookie-consent-banner"
+        contentClasses="cookie-consent-content"
+        buttonWrapperClasses="cookie-consent-actions"
+        buttonClasses="cookie-consent-accept"
+        declineButtonClasses="cookie-consent-decline"
+        enableDeclineButton
         buttonText="Accept"
         declineButtonText="Decline"
         cookieName="userCookieConsent"
-        style={{ background: "#2B373B", color: "#fff", fontSize: "12px" }}
-        buttonStyle={{ background: "#7edad2", color: "#fff", fontSize: "12px", borderRadius: "5px" }}
-        declineButtonStyle={{
-          background: "#FF5733",
-          color: "#fff",
-          fontSize: "12px",
-        }}
+        ariaAcceptLabel="Accept cookies"
+        ariaDeclineLabel="Decline cookies"
         expires={365} // Cookie expires in 1 year
+        onAccept={() => setRecaptchaConsent(true)}
+        onDecline={() => setRecaptchaConsent(false)}
       >
-        This website uses cookies to enhance your browsing experience.{" "}
-        <a
-          href="/privacy-policy"
-          style={{ color: "#7edad2", textDecoration: "underline" }}
-        >
-          Learn more
-        </a>
+        Google reCAPTCHA protects the contact form and may process device data. {" "}
+        <a href="/privacy-policy">Privacy</a>
       </CookieConsent>
     </>
   );
