@@ -1,0 +1,391 @@
+{
+  "Metadata": {
+    "imprintDescription": "Impressum und Kontaktinformationen zum Portfolio von Son Hai Vu.",
+    "privacyDescription": "Datenschutzerklärung zum Portfolio von Son Hai Vu: personenbezogene Daten, Cookies und Kontaktanfragen.",
+    "description": "Portfolio von Son Hai Vu: Webentwickler für moderne, leistungsstarke Websites und Anwendungen."
+  },
+  "Navigation": {
+    "home": "Start",
+    "about": "Über mich",
+    "journey": "Werdegang",
+    "work": "Projekte",
+    "contact": "Kontakt",
+    "language": "Sprache",
+    "menu": "Menü öffnen oder schließen"
+  },
+  "Hero": {
+    "intro": "Ich entwickle",
+    "heading": "innovative",
+    "websites": "Websites",
+    "apps": "Apps",
+    "software": "Software",
+    "description": "Ich bin Softwareentwickler aus Deutschland mit einer Leidenschaft für Webentwicklung.",
+    "contact": "Kontakt aufnehmen",
+    "portrait": "Porträt von Son Hai Vu"
+  },
+  "About": {
+    "title": "Mein Name ist Son Hai",
+    "role": "Softwareentwickler, M.Sc.",
+    "experienceYears": "Jahre",
+    "experienceLabel": "Berufserfahrung",
+    "description": "Ich bin ein motivierter, anpassungsfähiger und verantwortungsbewusster Softwareentwickler aus Deutschland mit Schwerpunkt auf Webentwicklung und maschinellem Lernen. Ich habe Erfahrung in der Entwicklung von Webanwendungen für Unternehmen und beherrsche verschiedene Programmiersprachen, darunter TypeScript, Python und Java. Ich lerne gerne neue Technologien kennen und möchte meine fachlichen Fähigkeiten und interkulturellen Erfahrungen nutzen, um mich persönlich weiterzuentwickeln.",
+    "location": "Standort",
+    "city": "Stuttgart, Deutschland",
+    "phone": "Telefon",
+    "email": "E-Mail"
+  },
+  "Services": {
+    "architecture": {
+      "title": "Softwarearchitektur",
+      "description": "Entwurf und Konzeption anspruchsvoller Softwareanwendungen."
+    },
+    "web": {
+      "title": "Webentwicklung",
+      "description": "Entwicklung moderner Webanwendungen für alle Geräte."
+    },
+    "ml": {
+      "title": "Maschinelles Lernen",
+      "description": "Erfahrung mit aktuellen Frameworks und Bibliotheken für maschinelles Lernen."
+    },
+    "app": {
+      "title": "App-Entwicklung",
+      "description": "Entwicklung von Apps für iOS und Android mit Swift und Kotlin."
+    }
+  },
+  "Footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
+  },
+  "Cookies": {
+    "settings": "Datenschutzeinstellungen",
+    "withdrawal": "Mit Ablehnen kannst du auch eine frühere Einwilligung widerrufen.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "acceptLabel": "Cookies akzeptieren",
+    "declineLabel": "Cookies ablehnen",
+    "notice": "Mit deiner Einwilligung lädt Google reCAPTCHA zum Spamschutz und verarbeitet IP-Adresse, Browser- und Nutzungsdaten. Eine Übermittlung in die USA ist möglich. Ohne Einwilligung erreichst du uns per E-Mail.",
+    "privacy": "Datenschutz"
+  },
+  "Contact": {
+    "title": "Lass uns zusammenarbeiten",
+    "firstname": "Vorname",
+    "lastname": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefonnummer",
+    "message": "Nachricht",
+    "placeholder": "Schreib mir eine Nachricht...",
+    "success": "Deine Nachricht wurde gesendet.",
+    "sending": "Wird gesendet...",
+    "send": "Nachricht senden",
+    "consent": "Akzeptiere den Cookie-Hinweis, um Google reCAPTCHA zu laden und das Formular abzusenden.",
+    "captchaLoad": "reCAPTCHA konnte nicht geladen werden. Bitte versuche es erneut.",
+    "errors": {
+      "invalidRequest": "Ungültige Anfrage.",
+      "captchaRequired": "Bitte schließe vor dem Senden die reCAPTCHA-Prüfung ab.",
+      "captchaNotConfigured": "CAPTCHA ist nicht eingerichtet. Bitte kontaktiere den Websitebetreiber.",
+      "requiredFields": "Bitte fülle alle Pflichtfelder aus.",
+      "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
+      "serviceNotConfigured": "Der Nachrichtendienst ist nicht eingerichtet.",
+      "captchaFailed": "Die reCAPTCHA-Prüfung ist fehlgeschlagen. Bitte versuche es erneut.",
+      "sendFailed": "Deine Nachricht konnte nicht gesendet werden. Bitte versuche es erneut.",
+      "serviceUnavailable": "Der Nachrichtendienst ist nicht verfügbar. Bitte versuche es später erneut."
+    }
+  },
+  "Stats": {
+    "experience": "Jahre Berufserfahrung",
+    "projects": "Projekte auf GitHub",
+    "certifications": "Zertifizierungen"
+  },
+  "Journey": {
+    "title": "Mein beruflicher Werdegang",
+    "experience": "Berufserfahrung",
+    "education": "Ausbildung",
+    "skills": "Kenntnisse",
+    "items": {
+      "item1": {
+        "company": "Accenture (Kaiserslautern, Deutschland)",
+        "position": "Java-Backend-Entwickler",
+        "duration": "April 2025 - heute",
+        "description": "Mitwirkung an der Entwicklung eines zentralen IT-Systems für die Justizverwaltung im öffentlichen Sektor. Schwerpunkt auf der Weiterentwicklung der Kernarchitektur und der Implementierung von Backend-Komponenten mit Java und Spring Boot. Entwicklung von Microservices. Zusammenarbeit mit Fach- und Entwicklungsteams in einem agilen Umfeld im Rahmen eines bundesweiten Digitalisierungsprojekts."
+      },
+      "item2": {
+        "company": "Alfred Kärcher SE & Co. KG (Winnenden, Deutschland)",
+        "position": "API-Management",
+        "duration": "Sept. 2024 - Feb. 2025",
+        "description": "Konzeption und Bewertung einer maßgeschneiderten API-Management-Strategie im Domain-Driven Design. Analyse der API-Landschaft und Durchführung von Experteninterviews, um aktuelle Herausforderungen bei der API-Entwicklung zu identifizieren. Definition von API-Standards und Richtlinien sowie Vergleich verschiedener API-Management-Werkzeuge."
+      },
+      "item3": {
+        "company": "TRUMPF SE + Co. KG (Ditzingen, Deutschland)",
+        "position": "Softwareentwickler in Forschung und Entwicklung",
+        "duration": "März 2024 - Sept. 2024",
+        "description": "Softwareentwicklung in der Forschungs- und Entwicklungsabteilung für TruConnect, eine Lösung für die vernetzte Fertigung. Entwicklung interner Werkzeuge mit dem .NET Framework. Unterstützung bei der Entwicklung der Monitoring-Anwendung SmartView, die Leistungsdaten und Energieverbrauch von Lasern und Lasersystemen anzeigt. Implementierung einer 3D-Ansicht der Maschinen mit Angular und .NET."
+      },
+      "item4": {
+        "company": "Qibitech Inc. (Tokio, Japan)",
+        "position": "Webentwickler",
+        "duration": "Aug. 2023 - März 2024",
+        "description": "Unterstützung des Teams bei der Frontend-Entwicklung von HATS UI mit Vue.js. HATS (Highly Autonomous Teleoperation Service) ermöglicht die Fernsteuerung autonomer Roboter bei der Ausführung ihrer Aufgaben. HATS UI ist eine Webanwendung mit verschiedenen Funktionen für die Kommunikation mit Robotern. Serverseitige Entwicklung mit Ruby on Rails sowie Erstellung von API-Dokumentation und Unit-Tests."
+      },
+      "item5": {
+        "company": "Capgemini (Leinfelden-Echterdingen, Deutschland)",
+        "position": "Softwareentwickler",
+        "duration": "Juli 2021 - Feb. 2023",
+        "description": "Mitarbeit im Bereich Digital Customer Experience am Customer Messaging System (CusMeS). Fullstack-Entwicklung in einem agilen Scrum-Team. Unterstützung bei der Entwicklung einer Webanwendung für einen internationalen Automobilhersteller mit Angular und Java Spring, die den Massenversand von Nachrichten über SMS, WhatsApp und E-Mail ermöglicht. End-to-End-Tests mit Cypress."
+      },
+      "item6": {
+        "company": "Robert Bosch GmbH (Stuttgart, Deutschland)",
+        "position": "Softwareentwicklung",
+        "duration": "Sept. 2020 - Feb. 2021",
+        "description": "Softwareentwicklung in einem agilen, internationalen Team. Entwicklung von Werkzeugen mit C# und dem .NET Framework. Entwicklung und Erweiterung einer Webanwendung für Transport- und Bestandsmanagement in der Intralogistik mit Angular, HTML5 und CSS. Erstellung von REST-APIs mit ASP.NET und automatisierten Tests mit Cypress. Vorbereitung, Konfiguration, Durchführung und Auswertung eines Vergleichs dynamischer und statischer Tourenplanung für intralogistische Routenzüge."
+      },
+      "item7": {
+        "company": "antares Informations-Systeme GmbH (Geislingen, Deutschland)",
+        "position": "Softwareentwickler",
+        "duration": "Jan. 2020 - Aug. 2020",
+        "description": "Mitarbeit in der Softwareentwicklung. Erstellung von Standardsoftware und Entwicklung von Websites mit HTML, CSS und JavaScript. Unterstützung bei der Suchmaschinenoptimierung mit WordPress sowie Datenbankentwicklung mit PostgreSQL."
+      },
+      "item8": {
+        "institution": "Hochschule der Medien (Stuttgart, Deutschland)",
+        "qualification": "Computer Science and Media (M.Sc.)",
+        "duration": "Feb. 2022 - Feb. 2025",
+        "description": "Schwerpunkte: IT-Projektmanagement mit agiler Softwareentwicklung, Teamführung und Verhandlungskompetenz sowie maschinelles Lernen."
+      },
+      "item9": {
+        "institution": "Universität Tsukuba (Tsukuba, Japan)",
+        "qualification": "Masterstudium Informatik",
+        "duration": "April 2023 - Feb. 2024",
+        "description": "Auslandsstudium mit Kursen in Visualisierung, strukturierten Daten, Data Science, adaptiver Medienverarbeitung und maschinellem Lernen."
+      },
+      "item10": {
+        "institution": "Hochschule der Medien (Stuttgart, Deutschland)",
+        "qualification": "Medieninformatik (B.Sc.)",
+        "duration": "Sept. 2018 - Feb. 2022",
+        "description": "Schwerpunkte: Webentwicklung und maschinelles Lernen mit Data Mining, Mustererkennung und natürlicher Sprachverarbeitung. Bachelorarbeit: Computer-Vision-basierte Extraktion druckerspezifischer Merkmale zur Klassifikation von Tintenstrahldruckern mit maschinellem Lernen."
+      },
+      "item11": {
+        "duration": "Erlernt 2018",
+        "description": "Strukturierung moderner Webinhalte mit HTML unter Berücksichtigung semantischer Auszeichnung und Barrierefreiheit."
+      },
+      "item12": {
+        "duration": "Erlernt 2018",
+        "description": "Gestaltung responsiver Webseiten mit CSS für eine ansprechende Nutzererfahrung mit modernen Designprinzipien und Layouts."
+      },
+      "item13": {
+        "duration": "Erlernt 2018",
+        "description": "Backend-Entwicklung mit Java für unterschiedliche Anwendungsbereiche, darunter Webanwendungen und mobile Apps."
+      },
+      "item14": {
+        "duration": "Erlernt 2018",
+        "description": "Versionsverwaltung mit Git für die Zusammenarbeit und Codeverwaltung in Softwareentwicklungsprojekten."
+      },
+      "item15": {
+        "duration": "Erlernt 2019",
+        "description": "Entwicklung interaktiver Webseiten mit JavaScript durch dynamische Inhalte und Funktionen."
+      },
+      "item16": {
+        "duration": "Erlernt 2019",
+        "description": "Entwicklung serverseitiger Anwendungen mit Node.js mit Fokus auf leistungsstarke und skalierbare Backend-Dienste."
+      },
+      "item17": {
+        "duration": "Erlernt 2019",
+        "description": "Datenbankverwaltung mit MongoDB für flexible und skalierbare Datenspeicherung in Webanwendungen."
+      },
+      "item18": {
+        "duration": "Erlernt 2020",
+        "description": "Entwicklung von Python-Anwendungen für Datenanalyse, maschinelles Lernen und Deep Learning mit Bibliotheken wie NumPy, Pandas und TensorFlow."
+      },
+      "item19": {
+        "duration": "Erlernt 2020",
+        "description": "Implementierung von JavaScript für interaktive Webseiten mit dynamischen Inhalten und Funktionen."
+      },
+      "item20": {
+        "duration": "Erlernt 2020",
+        "description": "Entwicklung von Angular-Anwendungen für Unternehmen mit Fokus auf Skalierbarkeit und Wartbarkeit."
+      },
+      "item21": {
+        "duration": "Erlernt 2021",
+        "description": "Entwicklung dynamischer Benutzeroberflächen mit React.js und komponentenbasiertem Design für effiziente, nahtlose Nutzererlebnisse."
+      },
+      "item22": {
+        "duration": "Erlernt 2021",
+        "description": "Containerisierung mit Docker für konsistente und portable Entwicklungsumgebungen."
+      },
+      "item23": {
+        "duration": "Erlernt 2021",
+        "description": "Kontinuierliche Integration und Bereitstellung mit Jenkins zur Automatisierung und Optimierung des Entwicklungsprozesses."
+      },
+      "item24": {
+        "duration": "Erlernt 2022",
+        "description": "Entwicklung responsiver Webanwendungen mit Bootstrap für eine konsistente Darstellung auf verschiedenen Geräten und Bildschirmgrößen."
+      },
+      "item25": {
+        "duration": "Erlernt 2022",
+        "description": "Als zertifizierter Scrum Master habe ich agile Teams begleitet und die erfolgreiche Umsetzung der Scrum-Praktiken und -Prinzipien unterstützt."
+      },
+      "item26": {
+        "duration": "Erlernt 2023",
+        "description": "Entwicklung moderner Webanwendungen mit Vue.js mit Fokus auf Leistung und Nutzererfahrung."
+      }
+    }
+  },
+  "Certifications": {
+    "title": "Meine Zertifizierungen",
+    "previous": "Vorheriges Zertifikat",
+    "next": "Nächstes Zertifikat",
+    "items": {
+      "item1": {
+        "date": "September 2021",
+        "message": "Als zertifizierter Softwarearchitekt kenne ich die Prinzipien von Softwarearchitektur und -design. Ich entwerfe und implementiere skalierbare, wartbare und sichere Softwarelösungen, die die Anforderungen der Beteiligten erfüllen."
+      },
+      "item2": {
+        "date": "April 2022",
+        "message": "Durch meine Berufserfahrung als Scrum Master kenne ich das Scrum-Framework und unterstütze Teams dabei, mit Scrum hochwertige Produkte zu entwickeln."
+      },
+      "item3": {
+        "date": "Februar 2022",
+        "message": "Ich kenne Cloud-Konzepte, Azure-Dienste sowie die Bereiche Sicherheit, Datenschutz und Compliance und unterstütze Unternehmen dabei, Azure für ihre geschäftlichen Anforderungen einzusetzen."
+      },
+      "item4": {
+        "date": "Dezember 2020",
+        "message": "Ich kenne Google Ads Search und unterstütze Unternehmen bei der Erstellung und Optimierung von Suchkampagnen, um ihre Zielgruppen zu erreichen und Marketingziele umzusetzen."
+      },
+      "item5": {
+        "date": "Februar 2024",
+        "message": "Ich kenne AWS-Dienste, Sicherheitskonzepte und Preismodelle und unterstütze Unternehmen dabei, skalierbare und kosteneffiziente Lösungen mit AWS aufzubauen."
+      },
+      "item6": {
+        "date": "September 2024",
+        "message": "Als zertifizierter Linux-Experte kenne ich Linux-Betriebssysteme, die Kommandozeile und Shell-Skripting und unterstütze Unternehmen bei der Bereitstellung und Verwaltung von Linux-Servern."
+      }
+    }
+  },
+  "Work": {
+    "title": "Meine neuesten Projekte",
+    "loadMore": "Mehr anzeigen",
+    "open": "Projekt öffnen: {title}",
+    "categories": {
+      "all": "Alle",
+      "app": "Apps",
+      "web": "Web",
+      "software": "Software",
+      "ML": "KI / ML"
+    },
+    "items": {
+      "item1": { "title": "Yomi Lens" },
+      "item2": { "title": "Manabu" },
+      "item3": { "title": "Neo Seichi" },
+      "item4": { "title": "Omakase GO" },
+      "item5": { "title": "Smart TODO Kanban" },
+      "item6": { "title": "OpenBarber" },
+      "item7": { "title": "TraveLinked" },
+      "item8": { "title": "Hanabi Mitai App" },
+      "item9": { "title": "Finanzmanager-App" },
+      "item10": { "title": "JSON-Parser in Ruby" },
+      "item11": { "title": "Druckerklassifikation mit maschinellem Lernen" },
+      "item12": { "title": "Japanisch-Lern-App" }
+    }
+  },
+  "Imprint": {
+    "text001": "Impressum",
+    "text002": "Angaben gemäß § 5 DDG",
+    "text003": "Verantwortlich",
+    "text004": "Son Hai Vu",
+    "text005": "Stuttgarter Str. 134",
+    "text006": "73312 Geislingen",
+    "text007": "Deutschland",
+    "text008": "Kontakt",
+    "text009": "Telefon: +49 152 37349594",
+    "text010": "E-Mail:",
+    "text011": "info@sonhaivu.com",
+    "text012": "Tätigkeit",
+    "text013": "Softwareentwicklung sowie Betrieb eines Online-Portfolios und einer Web-Anwendung.",
+    "text014": "Umsatzsteuer",
+    "text015": "Es wird keine Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG angegeben.",
+    "text016": "Haftung für Inhalte",
+    "text017": "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.",
+    "text018": "Haftung für Links",
+    "text019": "Diese Website kann Links zu externen Websites Dritter enthalten, auf deren Inhalte kein Einfluss besteht. Für diese fremden Inhalte wird daher keine Gewähr übernommen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.",
+    "text020": "Urheberrecht",
+    "text021": "Die auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung des jeweiligen Rechteinhabers."
+  },
+  "Privacy": {
+    "text001": "Datenschutzerklärung",
+    "updated": "Stand: 3. November 2026",
+    "intro": "Diese Hinweise erläutern die Verarbeitung personenbezogener Daten beim Besuch von sonhaivu.com und bei Kontaktanfragen. Personenbezogene Daten sind Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen.",
+    "contents": "Inhalt",
+    "controller": {
+      "title": "Verantwortlicher",
+      "name": "Son Hai Vu",
+      "address": "Stuttgarter Str. 134, 73312 Geislingen, Deutschland",
+      "email": "E-Mail"
+    },
+    "sections": {
+      "hosting": {
+        "title": "Hosting und Zugriffsprotokolle: Vercel",
+        "body": "Die Website und die serverseitige Verarbeitung des Kontaktformulars werden bei Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, USA, betrieben. Bei Seitenaufrufen verarbeitet Vercel technisch erforderliche Verbindungsdaten: insbesondere IP-Adresse, Zeitpunkt, angeforderte URL, Browser- und Geräteinformationen sowie gegebenenfalls die übermittelte Referrer-URL. Formulardaten werden beim Absenden ebenfalls über diese Infrastruktur verarbeitet.",
+        "details": "Zwecke sind die Auslieferung der Website, Fehlerdiagnose sowie die Abwehr von Missbrauch und Angriffen. Grundlage des technischen Betriebs ist Art. 6 Abs. 1 lit. f DSGVO; das berechtigte Interesse liegt in einem sicheren und zuverlässigen Onlineangebot. Die Speicherung technischer Protokolle richtet sich nach den eingesetzten Vercel-Diensten, deren Einstellungen und der Erforderlichkeit zur Sicherheitsanalyse. Eine ausschließlich europäische Verarbeitung wird nicht zugesichert."
+      },
+      "contact": {
+        "title": "Kontaktformular und direkte E-Mail",
+        "body": "Das Formular erhebt Vorname, Nachname, E-Mail-Adresse und Nachricht als Pflichtangaben. Eine Telefonnummer ist freiwillig. Diese Daten werden zur Bearbeitung Ihrer Anfrage und für Rückfragen verwendet. Ohne Pflichtangaben kann das Formular nicht versendet werden. Alternativ können Sie ohne reCAPTCHA-Einwilligung direkt an info@sonhaivu.com schreiben; dabei werden Ihre Absenderadresse, Nachricht und weitere von Ihnen mitgeteilte Angaben verarbeitet.",
+        "details": "Bei Anfragen zu Verträgen oder vorvertraglichen Maßnahmen gilt Art. 6 Abs. 1 lit. b DSGVO. Sonstige Anfragen werden nach Art. 6 Abs. 1 lit. f DSGVO beantwortet; das berechtigte Interesse liegt in der Kommunikation mit Interessenten und der Bearbeitung ihrer Anliegen. Die reCAPTCHA-Einwilligung ist davon getrennt und nicht die Rechtsgrundlage für den Inhalt Ihrer Anfrage. Bitte übermitteln Sie keine unnötigen sensiblen Daten."
+      },
+      "email": {
+        "title": "E-Mail-Versand: Resend; Postfach: Purelymail",
+        "body": "Nach erfolgreicher CAPTCHA-Prüfung versendet die Website die Anfrage über Resend (Plus Five Five, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA) an info@sonhaivu.com. Übermittelt werden die eingegebenen Namen, die E-Mail-Adresse als Antwortadresse, die optionale Telefonnummer und der Nachrichtentext. Resend verarbeitet auch Versand- und Zustellmetadaten. Die Website legt keine eigene Kontakt-Datenbank an; das bedeutet nicht, dass die E-Mail-Anbieter die Nachricht nicht speichern.",
+        "details": "Das empfangende Postfach wird von Purelymail (Add Rabbit LLC, USA) betrieben. Dort werden Nachrichten, Adressdaten und E-Mail-Metadaten für Empfang, Speicherung und Beantwortung verarbeitet; dies betrifft auch direkte E-Mails. Purelymail nennt als Serverstandort AWS US-East-1 in Virginia, USA. Es gelten die im Kontaktabschnitt genannten Rechtsgrundlagen. Beide Anbieter können die zur Bereitstellung ihrer Dienste benötigten Unterauftragnehmer einsetzen."
+      },
+      "captcha": {
+        "title": "Spamschutz mit Google reCAPTCHA",
+        "body": "Das Kontaktformular verwendet Google reCAPTCHA v2. Erst nach Ihrer Einwilligung wird der Google-Code geladen. Dabei können IP-Adresse, Browser- und Geräteinformationen, Seitenkontext sowie Interaktions- und Prüfdaten an Google übermittelt und zur Erkennung automatisierter oder missbräuchlicher Anfragen ausgewertet werden. Google setzt unter anderem das Cookie _GRECAPTCHA zur Risikoanalyse. Da die Einbindung über google.com erfolgt, können auch vorhandene Google-Cookies eine Rolle spielen. Eine Verarbeitung in den USA ist möglich.",
+        "details": "Nach Googles aktuellen reCAPTCHA-Hinweisen verarbeitet Google Kundendaten seit dem 2. April 2026 als Auftragsverarbeiter nach den Google-Cloud-Bedingungen für Sicherheit sowie Betrugs- und Missbrauchsprävention. Unsere Einbindung beruht auf Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO und für das Speichern oder Auslesen von Informationen auf Ihrem Endgerät auf § 25 Abs. 1 TDDDG. Der Server sendet den erzeugten Prüftoken an Google, nicht den Nachrichtentext. Ohne Einwilligung bleibt der Formularversand gesperrt; direkte E-Mail bleibt möglich."
+      },
+      "cookies": {
+        "title": "Eigene Cookies und Spracheinstellung",
+        "body": "userCookieConsent speichert Ihre Zustimmung oder Ablehnung zu reCAPTCHA als true oder false für 365 Tage. NEXT_LOCALE speichert die gewählte Sprache (de, en oder ja) für 365 Tage. Beide Cookies gelten für die Website; eine erneute Auswahl kann ihre Laufzeit neu beginnen lassen. Sie enthalten keine Namen oder Nachrichtentexte und werden nicht für Werbung eingesetzt.",
+        "details": "Die Speicherung der Datenschutzauswahl und der angeforderten Spracheinstellung erfolgt nach § 25 Abs. 2 Nr. 2 TDDDG. Die damit verbundene personenbezogene Verarbeitung beruht auf Art. 6 Abs. 1 lit. f DSGVO; das berechtigte Interesse liegt darin, Ihre Auswahl zu beachten und die gewünschte Sprachfassung bereitzustellen. Google bestimmt die Laufzeiten der von reCAPTCHA eingesetzten Cookies; weiterführende Cookie-Informationen sind unten verlinkt. Cookies können Sie jederzeit über Ihre Browsereinstellungen löschen."
+      },
+      "withdrawal": {
+        "title": "Einwilligung ändern oder widerrufen",
+        "body": "Über die Datenschutzeinstellungen auf dieser Seite und im Footer können Sie die Auswahl erneut öffnen und mit Ablehnen eine frühere Einwilligung widerrufen. Nach einem Widerruf wird die Seite neu geladen, damit bereits geladener reCAPTCHA-Code in diesem Dokument nicht weiterläuft. reCAPTCHA wird danach nicht erneut geladen, solange Sie nicht wieder zustimmen.",
+        "details": "Der Widerruf gilt für die Zukunft und berührt die Rechtmäßigkeit der vorherigen Verarbeitung nicht (Art. 7 Abs. 3 DSGVO). Bereits übermittelte Daten werden nicht zurückgerufen. Google-Cookies auf fremden Domains kann diese Website nicht selbst löschen; verwenden Sie dafür Ihre Browser- bzw. Google-Einstellungen. Ihre aktuelle Auswahl wird im Cookie gespeichert."
+      },
+      "retention": {
+        "title": "Speicherdauer und Löschung",
+        "body": "Für Kontaktanfragen gibt es keine pauschale, festgelegte Löschfrist. Maßgeblich sind die Bearbeitung und gegebenenfalls Nachverfolgung der Anfrage, bestehende Vertragsbeziehungen, gesetzliche Aufbewahrungspflichten und die Erforderlichkeit zur Geltendmachung oder Abwehr von Rechtsansprüchen. Entfällt der Zweck und besteht keine weitere Rechtsgrundlage, sind die betreffenden Daten zu löschen. Gesetzlich erforderliche Aufbewahrung beruht auf Art. 6 Abs. 1 lit. c DSGVO.",
+        "details": "Diese Kriterien betreffen auch Nachrichten im Postfach und bei Versanddienstleistern; der Formularcode führt keine automatische fristgesteuerte Löschung durch. Für Anbieterprotokolle und Sicherungen gelten zusätzlich die Diensteinstellungen und Anbieterfristen. Purelymail nennt 30 Tage für Diagnoseprotokolle; nach einer Kontoschließung können Kontodaten noch bis zu 30 Tage in Sicherungen verbleiben. Das ist keine 30-Tage-Löschfrist für einzelne Kontaktanfragen. Die Laufzeit der eigenen Cookies steht im Cookie-Abschnitt."
+      },
+      "transfers": {
+        "title": "Empfänger und internationale Datenübermittlungen",
+        "body": "Empfänger sind die oben beschriebenen Hosting-, E-Mail- und Sicherheitsanbieter sowie deren erforderliche Unterauftragnehmer. Vercel, Resend, Purelymail und Google können Daten außerhalb des EWR, insbesondere in den USA, verarbeiten. Dort können andere Datenschutzregeln und behördliche Zugriffsmöglichkeiten bestehen. Die reCAPTCHA-Einwilligung ersetzt nicht die gesondert erforderliche Absicherung internationaler Übermittlungen nach Art. 44 ff. DSGVO.",
+        "details": "Als Grundlagen kommen ein einschlägiger Angemessenheitsbeschluss nach Art. 45 DSGVO oder geeignete Garantien wie EU-Standardvertragsklauseln nach Art. 46 DSGVO in Betracht. Vercel und Resend beschreiben in ihren verlinkten Unterlagen das EU-US Data Privacy Framework und Standardvertragsklauseln; die Anwendbarkeit hängt vom Empfänger und Vertrag ab. Daraus folgt keine entsprechende Zusicherung für Purelymail. Informationen zu den für Ihre Daten einschlägigen Garantien und gegebenenfalls Kopien können Sie über die oben genannte Kontaktadresse anfragen."
+      },
+      "assets": {
+        "title": "Schriftarten, externe Links und Sicherheit",
+        "body": "Die Schriftarten werden zusammen mit der Website ausgeliefert; Ihr Browser verbindet sich dafür nicht mit Google Fonts. In der Website sind keine eigenen Analyse- oder Werbe-Tracking-Skripte eingebunden; die beschriebenen Hosting- und Sicherheitsverarbeitungen bleiben unberührt. Links zu sozialen Netzwerken und Projektseiten sind normale externe Links, keine eingebetteten Social-Media-Feeds. Beim Aufruf gelten die Datenschutzhinweise der Zielseite.",
+        "details": "Die Website und das Formular werden über HTTPS bereitgestellt. Vollständige Sicherheit jeder E-Mail-Übermittlung kann nicht garantiert werden. Aus der automatisierten reCAPTCHA-Prüfung folgt gegebenenfalls eine Sperre des Formularversands; es erfolgt dadurch keine Entscheidung mit rechtlicher oder vergleichbar erheblicher Wirkung im Sinne von Art. 22 DSGVO. Die Kontaktaufnahme per E-Mail bleibt möglich."
+      },
+      "rights": {
+        "title": "Ihre Rechte und Beschwerdemöglichkeiten",
+        "body": "Unter den gesetzlichen Voraussetzungen haben Sie das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18) und Datenübertragbarkeit (Art. 20). Einwilligungen können Sie jederzeit für die Zukunft widerrufen. Zur Ausübung Ihrer Rechte genügt eine Nachricht an die oben genannte Kontaktadresse; soweit erforderlich, kann ein geeigneter Identitätsnachweis angefordert werden.",
+        "details": "Nach Art. 77 DSGVO können Sie sich bei einer Datenschutzaufsichtsbehörde beschweren, insbesondere am Ort Ihres gewöhnlichen Aufenthalts, Ihres Arbeitsplatzes oder des vermuteten Verstoßes. Für den hier genannten Sitz ist der Landesbeauftragte für Datenschutz und Informationsfreiheit Baden-Württemberg zuständig. Die Beschwerdeseite ist unten verlinkt."
+      },
+      "objection": {
+        "title": "Widerspruch gegen berechtigte Interessen",
+        "body": "Soweit Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO verarbeitet werden, können Sie aus Gründen Ihrer besonderen Situation nach Art. 21 Abs. 1 DSGVO widersprechen. Die Verarbeitung ist dann zu beenden, sofern nicht zwingende schutzwürdige Gründe nachgewiesen werden, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen dient.",
+        "details": "Gegen Verarbeitung für Direktwerbung besteht jederzeit ein Widerspruchsrecht ohne Begründung (Art. 21 Abs. 2 DSGVO). Richten Sie Ihren Widerspruch an die oben genannte E-Mail-Adresse."
+      }
+    },
+    "links": {
+      "title": "Anbieterinformationen und Aufsichtsbehörde",
+      "vercel": "Vercel: Datenschutzhinweise",
+      "resend": "Resend: Auftragsverarbeitung und Übermittlungsgarantien",
+      "purelymail": "Purelymail: Datenschutzhinweise",
+      "google": "Google reCAPTCHA: Datenverarbeitung",
+      "googleDpa": "Google Cloud: Vereinbarung zur Datenverarbeitung",
+      "googleCookies": "Google: Cookie-Informationen",
+      "complaints": "LfDI Baden-Württemberg: Beschwerde einreichen"
+    }
+  }
+}

@@ -16,6 +16,57 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Localization
+
+The portfolio uses `next-intl` with `/de`, `/en` and `/ja` URLs. Requests without a
+language prefix are redirected based on the saved language preference or browser
+language; English is the fallback. The globe button opens a language menu with
+Deutsch, English and Japanese. Switching languages keeps the current page,
+query string and section anchor, and saves the preference in `NEXT_LOCALE`.
+
+Edit `messages/de.json`, `messages/en.json` and `messages/ja.json` to update
+translated text. Keep the same keys in all files. Navigation labels can be translated, but section
+IDs, project URLs and `/api/contact` must remain language-independent. The API
+returns stable error codes that the contact form translates.
+
+Run `npm run test:i18n` to check matching keys, message formatting and translated
+API errors without contacting Google or sending email. The tests also check the
+privacy notice's service coverage and section structure in all three languages.
+
+Page language, descriptions, canonical URLs and alternate-language links are
+generated for each locale.
+
+## Privacy Review Before Publishing
+
+The privacy notice in DE/EN/JA describes Vercel hosting, Resend email delivery,
+the Purelymail mailbox, opt-in reCAPTCHA, the language and consent cookies, and
+data subject rights. It is a technical draft, not legal approval. The imprint
+is separate and has not been legally reviewed as part of this update.
+
+Confirm the actual provider contracts and international transfer safeguards
+before publishing. In particular, Vercel's published processor DPA applies to
+Pro and Enterprise plans; do not assume it covers a Hobby account. Verify the
+applicable Resend and Google Cloud terms, contracting entities and settings.
+Purelymail documents US hosting, but an applicable DPA and Chapter V transfer
+mechanism were not established in this review. Do not treat another provider's
+Data Privacy Framework certification as covering Purelymail. Resolve this with
+Purelymail or use a suitably contracted mailbox provider, then make the transfer
+section specific to the arrangements actually in place.
+
+There is no fixed deletion schedule for contact messages yet. Adopt and document
+a purpose-based review/deletion process covering the mailbox, Resend history,
+logs and backups, and verify provider-specific retention settings. Updating the
+notice does not implement automatic deletion. Check the deployed configuration
+for analytics or other integrations not present in the source code, and obtain
+legal review of the notices and translations before treating them as final.
+
+`userCookieConsent` stores acceptance or refusal for 365 days; `NEXT_LOCALE`
+stores the language preference for 365 days. The global consent provider is
+available on home and legal pages. The privacy settings buttons reopen the
+banner; declining after acceptance saves refusal and reloads the document to
+stop loaded reCAPTCHA code. It cannot undo prior transfers or remove Google
+cookies on other domains. Direct email remains an alternative to the form.
+
 ## Contact Form CAPTCHA
 
 The contact form uses Google reCAPTCHA v2. Add both keys to `.env.local`:
@@ -35,7 +86,8 @@ sending. The recipient address must have a working mailbox or forwarding setup;
 Resend provides outgoing email, not an inbox. Set the same environment variables
 on the deployment host and restart the local server after changing them.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The homepage content lives in `components/Home.jsx`; language routes and the root
+layout live in `app/[locale]`. The page auto-updates as you edit the files.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 

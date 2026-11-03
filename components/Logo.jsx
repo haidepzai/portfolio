@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 
 const Logo = ({ light = false }) => {
   // determine the text color based on the light prop

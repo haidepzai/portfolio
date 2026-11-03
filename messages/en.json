@@ -1,0 +1,415 @@
+{
+  "Metadata": {
+    "imprintDescription": "Legal notice and contact information for Son Hai Vu's portfolio.",
+    "privacyDescription": "Privacy policy for Son Hai Vu's portfolio: personal data, cookies and contact requests.",
+    "description": "Portfolio of Son Hai Vu: web developer building modern, performant websites and applications."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "journey": "Journey",
+    "work": "Work",
+    "contact": "Contact",
+    "language": "Language",
+    "menu": "Toggle menu"
+  },
+  "Hero": {
+    "intro": "I Build And",
+    "heading": "Develop Innovative",
+    "websites": "Websites",
+    "apps": "Apps",
+    "software": "Software",
+    "description": "I'm a software engineer from Germany with a passion for web development.",
+    "contact": "Contact me",
+    "portrait": "Portrait of Son Hai Vu"
+  },
+  "About": {
+    "title": "My name is Son Hai",
+    "role": "Software Developer, M.Sc.",
+    "experienceYears": "Years",
+    "experienceLabel": "of Experience",
+    "description": "A motivated, adaptable and responsible software engineer from Germany specializing in web development and machine learning. Experienced in developing web applications for enterprises. Well-versed in numerous programming languages including TypeScript, Python and Java. Keen to learn new technologies. Confident to have the necessary skills and cultural knowledge to take the next step in my personal development.",
+    "location": "Location",
+    "city": "Stuttgart, Germany",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "Services": {
+    "architecture": {
+      "title": "Software Architecture",
+      "description": "Design and conception of sophisticated software applications."
+    },
+    "web": {
+      "title": "Web Development",
+      "description": "Development of modern web applications for all devices."
+    },
+    "ml": {
+      "title": "Machine Learning",
+      "description": "Well-versed in the latest machine learning frameworks and libraries."
+    },
+    "app": {
+      "title": "App Development",
+      "description": "Creating apps for iOS and Android in Swift and Kotlin."
+    }
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
+  },
+  "Cookies": {
+    "settings": "Privacy settings",
+    "withdrawal": "Declining also withdraws any previous consent.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "acceptLabel": "Accept cookies",
+    "declineLabel": "Decline cookies",
+    "notice": "With your consent, Google reCAPTCHA loads to prevent spam and processes IP address, browser and usage data. Data may be transferred to the USA. Without consent, you can contact us by email.",
+    "privacy": "Privacy"
+  },
+  "Contact": {
+    "title": "Let's Work Together",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "phone": "Phone number",
+    "message": "Message",
+    "placeholder": "Leave me a message...",
+    "success": "Your message has been sent.",
+    "sending": "Sending...",
+    "send": "Send message",
+    "consent": "Accept the cookie notice to load Google reCAPTCHA and send this form.",
+    "captchaLoad": "reCAPTCHA could not be loaded. Please try again.",
+    "errors": {
+      "invalidRequest": "Invalid request.",
+      "captchaRequired": "Please complete the reCAPTCHA check before sending.",
+      "captchaNotConfigured": "CAPTCHA is not configured. Please contact the site owner.",
+      "requiredFields": "Please complete all required fields.",
+      "invalidEmail": "Please enter a valid email address.",
+      "serviceNotConfigured": "The message service is not configured.",
+      "captchaFailed": "reCAPTCHA verification failed. Please try again.",
+      "sendFailed": "Your message could not be sent. Please try again.",
+      "serviceUnavailable": "The message service is unavailable. Please try again later."
+    }
+  },
+  "Stats": {
+    "experience": "Years of Experience",
+    "projects": "Projects on GitHub",
+    "certifications": "Certifications"
+  },
+  "Journey": {
+    "title": "My Professional Journey",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "items": {
+      "item1": {
+        "company": "Accenture (Kaiserslautern, Germany)",
+        "position": "Java Backend Developer",
+        "duration": "April 2025 - until now",
+        "description": "Participation in the development of a central IT system for judicial administration in the public sector. Focus on the further development of the core architecture and the implementation of backend components using Java and Spring Boot. Development of Microservices. Collaboration in an agile environment with business and development teams as part of a nationwide digitalization project."
+      },
+      "item2": {
+        "company": "Alfred Kärcher SE & Co. KG (Winnenden, Germany)",
+        "position": "API Management",
+        "duration": "Sept 2024 - Feb 2025",
+        "description": "Conception and evaluation of a customized API management strategy in Domain Driven Design. Analyzing the API landscape. Conducting Expert Interviews to identify current challenges in the development of APIs. Defining API standards and guidelines. Comparison of different API management tools."
+      },
+      "item3": {
+        "company": "TRUMPF SE + Co. KG (Ditzingen, Germany)",
+        "position": "R&D Software Engineer",
+        "duration": "Mar 2024 - Sep 2024",
+        "description": "Software Engineer in the Research & Development (R&D) department for TruConnect, a solution for the manufacturing industry that enables smart factory operations. Programming tools with .NET Framework for internal use. Support the development of an application (SmartView) for monitoring that provides detailed insight such as performance data and energy consumption in lasers and laser systems. Implementation of a 3D View of the machines using Angular and .NET."
+      },
+      "item4": {
+        "company": "Qibitech Inc. (Tokyo, Japan)",
+        "position": "Web Engineer",
+        "duration": "Aug 2023 - Mar 2024",
+        "description": "Support the team in the frontend development of HATS UI using Vue.js. HATS (Highly Autonomous Teleoperation Service) is a service that allows you to control robots remotely. It is a system targeting remote operation in the task execution of autonomous robots. HATS UI is a web application that provides various functions for the communication with robots. Server-side development with Ruby on Rails. Creating API documentation and Unit tests."
+      },
+      "item5": {
+        "company": "Capgemini (Leinfelden-Echterdingen, Germany)",
+        "position": "Software Engineer",
+        "duration": "Jul 2021 - Feb 2023",
+        "description": "Part of the Digital Customer Experience. Worked for a Customer Messaging System (CusMeS). Fullstack Development in an agile team (Scrum). Support in the development of a web application for an international automotive manufacturer (OEM) with Angular and Java Spring which enables mass messaging through different channels such as SMS, WhatsApp, E-Mails. E2E-Testing with Cypress."
+      },
+      "item6": {
+        "company": "Robert Bosch GmbH (Stuttgart, Germany)",
+        "position": "Software Development",
+        "duration": "Sep 2020 - Feb 2021",
+        "description": "Software development in an agile and international development team. Development of tools in C# and .NET Framework. Development and extension of a web application in the intralogistics environment for transportation and stock management using Angular, HTML5 and CSS. Creation of REST APIs with ASP.NET. Creation of automated tests with Cypress. Preparation, configuration, implementation and evaluation of a comparison between the dynamic tour planning algorithm and the static tour planning algorithm for intralogistics tugger trains."
+      },
+      "item7": {
+        "company": "antares Informations-Systeme GmbH (Geislingen, Germany)",
+        "position": "Software Developer",
+        "duration": "Jan 2020 - Aug 2020",
+        "description": "Worked in the field of software development. Creation of standard software and website programming with HTML/CSS and JavaScript. Support in website optimization (SEO) with CMS (WordPress). Database development with PostgreSQL."
+      },
+      "item8": {
+        "institution": "Stuttgart Media University (Stuttgart, Germany)",
+        "qualification": "Computer Science and Media (M.Sc.)",
+        "duration": "Feb 2022 - Feb 2025",
+        "description": "Focus on IT project management (agile software development, team leadership, negotiation skills) and machine learning."
+      },
+      "item9": {
+        "institution": "University of Tsukuba (Tsukuba, Japan)",
+        "qualification": "Master's Program in Informatics",
+        "duration": "Apr 2023 - Feb 2024",
+        "description": "Study Abroad. Taken courses: Visualization, Structured Data, Data Science, Adaptive Media Processing, Machine Learning"
+      },
+      "item10": {
+        "institution": "Stuttgart Media University (Stuttgart, Germany)",
+        "qualification": "Computer Science and Media (B.Sc.)",
+        "duration": "Sep 2018 - Feb 2022",
+        "description": "Major subject: Web development and machine learning (data-mining, pattern recognition, NLP) Bachelor’s thesis: Computer vision-based feature extraction of printer-specific features for the classification of inkjet printers with machine learning."
+      },
+      "item11": {
+        "duration": "Learned in 2018",
+        "description": "Crafted structured web content using HTML effectively for modern websites, ensuring semanting markup and accessibility."
+      },
+      "item12": {
+        "duration": "Learned in 2018",
+        "description": "Styled responsive web pages using CSS, ensuring an appealing user experience with modern design principles and layouts."
+      },
+      "item13": {
+        "duration": "Learned in 2018",
+        "description": "Using Java for backend development, I have developed applications for various purposes, including web applications and mobile applications."
+      },
+      "item14": {
+        "duration": "Learned in 2018",
+        "description": "Used Git for version control, ensuring collaboration and code management in software development projects."
+      },
+      "item15": {
+        "duration": "Learned in 2019",
+        "description": "Implemented Javascript for interactivity, enhancing user engagement on websites through dynamic content and features."
+      },
+      "item16": {
+        "duration": "Learned in 2019",
+        "description": "Developed server-side applications using Node.js, ensuring high performance and scalability of the backend services."
+      },
+      "item17": {
+        "duration": "Learned in 2019",
+        "description": "Used MongoDB for database management, ensuring flexibility and scalability of the data storage for web applications."
+      },
+      "item18": {
+        "duration": "Learned in 2020",
+        "description": "Developed Python applications for data analysis, machine learning, and deep learning, using libraries such as NumPy, Pandas, and Tensorflow."
+      },
+      "item19": {
+        "duration": "Learned in 2020",
+        "description": "Implemented Javascript for interactivity, enhancing user engagement on websites through dynamic content and features."
+      },
+      "item20": {
+        "duration": "Learned in 2020",
+        "description": "Developed Angular applications for enterprise solutions, ensuring scalability and maintainability of the codebase."
+      },
+      "item21": {
+        "duration": "Learned in 2021",
+        "description": "Built dynamic user interfaces using React.js, optimizing component-driven design for seamless user experiences and efficiency."
+      },
+      "item22": {
+        "duration": "Learned in 2021",
+        "description": "Used Docker for containerization, ensuring consistency and portability of the development environment."
+      },
+      "item23": {
+        "duration": "Learned in 2021",
+        "description": "Used Jenkins for continuous integration and continuous deployment, ensuring automation and efficiency in the development process."
+      },
+      "item24": {
+        "duration": "Learned in 2022",
+        "description": "Developed responsive web applications using Bootstrap, ensuring compatibility and consistency across different devices and screen sizes."
+      },
+      "item25": {
+        "duration": "Learned in 2022",
+        "description": "As a certified Scrum Master, I have worked in agile teams as a Scrum Master, ensuring the successful implementation of Scrum practices and principles."
+      },
+      "item26": {
+        "duration": "Learned in 2023",
+        "description": "Developed Vue.js applications for modern web development, ensuring high performance and user experience."
+      }
+    }
+  },
+  "Certifications": {
+    "title": "My Certifications",
+    "previous": "Previous certification",
+    "next": "Next certification",
+    "items": {
+      "item1": {
+        "date": "September 2021",
+        "message": "As a certified software architect, I have a deep understanding of software architecture and design principles. I can design and implement software solutions that meet the requirements of stakeholders and are scalable, maintainable, and secure."
+      },
+      "item2": {
+        "date": "April 2022",
+        "message": "Having work experience as a Scrum Master, I have a deep understanding of the Scrum framework and can help teams to deliver high-quality products by following Scrum practices."
+      },
+      "item3": {
+        "date": "February 2022",
+        "message": "I have a good understanding of cloud concepts, Azure services, security, privacy, compliance, and trust, and can help organizations to leverage Azure services to meet their business needs."
+      },
+      "item4": {
+        "date": "December 2020",
+        "message": "I have a good understanding of Google Ads Search and can help businesses to create and optimize search campaigns to reach their target audience and achieve their marketing goals."
+      },
+      "item5": {
+        "date": "February 2024",
+        "message": "I have a good understanding of AWS services, security, and pricing, and can help organizations to leverage AWS cloud services to build scalable and cost-effective solutions."
+      },
+      "item6": {
+        "date": "September 2024",
+        "message": "As a certified Linux professional, I have a good understanding of Linux operating systems, command-line, and shell scripting, and can help organizations to deploy and manage Linux servers."
+      }
+    }
+  },
+  "Work": {
+    "title": "My Latest Work",
+    "loadMore": "Load More",
+    "open": "Open project: {title}",
+    "categories": {
+      "all": "All",
+      "app": "Apps",
+      "web": "Web",
+      "software": "Software",
+      "ML": "AI / ML"
+    },
+    "items": {
+      "item1": {
+        "title": "Yomi Lens"
+      },
+      "item2": {
+        "title": "Manabu"
+      },
+      "item3": {
+        "title": "Neo Seichi"
+      },
+      "item4": {
+        "title": "Omakase GO"
+      },
+      "item5": {
+        "title": "Smart TODO Kanban"
+      },
+      "item6": {
+        "title": "OpenBarber"
+      },
+      "item7": {
+        "title": "TraveLinked"
+      },
+      "item8": {
+        "title": "Hanabi Mitai App"
+      },
+      "item9": {
+        "title": "Finance Manager App"
+      },
+      "item10": {
+        "title": "JSON Parser in Ruby"
+      },
+      "item11": {
+        "title": "Printer Classification with Machine Learning"
+      },
+      "item12": {
+        "title": "Learn Japanese App"
+      }
+    }
+  },
+  "Imprint": {
+    "text001": "Legal Notice",
+    "text002": "Information pursuant to Section 5 of the German Digital Services Act (DDG)",
+    "text003": "Responsible for this website",
+    "text004": "Son Hai Vu",
+    "text005": "Stuttgarter Str. 134",
+    "text006": "73312 Geislingen",
+    "text007": "Germany",
+    "text008": "Contact",
+    "text009": "Phone: +49 152 37349594",
+    "text010": "Email:",
+    "text011": "info@sonhaivu.com",
+    "text012": "Activities",
+    "text013": "Software development and operation of an online portfolio and a web application.",
+    "text014": "Value Added Tax",
+    "text015": "No VAT identification number pursuant to Section 27a of the German Value Added Tax Act (UStG) is provided.",
+    "text016": "Liability for content",
+    "text017": "The content of this website has been prepared with the greatest possible care. However, no guarantee can be given for its accuracy, completeness or currency.",
+    "text018": "Liability for links",
+    "text019": "This website may contain links to external third-party websites whose content is beyond our control. We therefore cannot accept liability for that content. The respective provider or operator is always responsible for the content of linked pages.",
+    "text020": "Copyright",
+    "text021": "The content and works published on this website are subject to German copyright law. Any use beyond the limits of copyright law requires the prior written consent of the respective rights holder."
+  },
+  "Privacy": {
+    "text001": "Privacy Policy",
+    "updated": "Last updated: November 3, 2026",
+    "intro": "These notices explain how personal data is processed when you visit sonhaivu.com or contact us. Personal data is information relating to an identified or identifiable person.",
+    "contents": "Contents",
+    "controller": {
+      "title": "Controller",
+      "name": "Son Hai Vu",
+      "address": "Stuttgarter Str. 134, 73312 Geislingen, Germany",
+      "email": "Email"
+    },
+    "sections": {
+      "hosting": {
+        "title": "Hosting and access logs: Vercel",
+        "body": "The website and server-side contact form processing run on Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, USA. Vercel processes technically necessary connection data on page visits: particularly your IP address, timestamp, requested URL, browser and device information, and any referrer URL transmitted. Form submissions also pass through this infrastructure.",
+        "details": "The purposes are website delivery, troubleshooting and protection against abuse and attacks. The legal basis for technical operation is Article 6(1)(f) GDPR; the legitimate interest is a secure and reliable website. Retention of technical logs depends on the Vercel services used, their settings and the need for security analysis. Processing exclusively within Europe is not guaranteed."
+      },
+      "contact": {
+        "title": "Contact form and direct email",
+        "body": "The form requires your first name, last name, email address and message. A phone number is optional. These details are used to handle your request and follow up with you. The form cannot be submitted without required details. You can instead write directly to info@sonhaivu.com without consenting to reCAPTCHA; we then process your sender address, message and any other information you provide.",
+        "details": "Article 6(1)(b) GDPR applies to contractual and pre-contractual requests. Other requests are answered under Article 6(1)(f) GDPR; the legitimate interest is communicating with interested parties and handling their concerns. Consent to reCAPTCHA is separate and is not the legal basis for processing the content of your request. Please do not send unnecessary sensitive data."
+      },
+      "email": {
+        "title": "Email delivery: Resend; mailbox: Purelymail",
+        "body": "After successful CAPTCHA verification, the website sends your request through Resend (Plus Five Five, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA) to info@sonhaivu.com. Data includes the names entered, your email as the reply address, the optional phone number and the message. Resend also processes delivery and transmission metadata. The website does not create its own contact database; this does not mean that email providers do not store the message.",
+        "details": "The receiving mailbox is operated by Purelymail (Add Rabbit LLC, USA). It processes messages, addresses and email metadata for receipt, storage and replies, including direct emails. Purelymail identifies AWS US-East-1 in Virginia, USA, as its server location. The legal bases are set out in the contact section. Both providers may use subprocessors necessary to provide their services."
+      },
+      "captcha": {
+        "title": "Spam protection with Google reCAPTCHA",
+        "body": "The contact form uses Google reCAPTCHA v2. Google code loads only after you consent. Your IP address, browser and device information, page context, interaction data and verification data may be transmitted to Google and assessed to detect automated or abusive requests. Google uses the _GRECAPTCHA cookie for risk analysis. Because the integration uses google.com, existing Google cookies may also be involved. Processing in the USA is possible.",
+        "details": "According to its current reCAPTCHA documentation, Google has processed Customer Data as a processor under Google Cloud terms since April 2, 2026, for security, fraud prevention and abuse prevention. Our integration relies on your consent under Article 6(1)(a) GDPR and, for information stored on or accessed from your device, Section 25(1) TDDDG. The server sends the generated verification token to Google, not your message text. Without consent, form submission stays disabled; direct email remains available."
+      },
+      "cookies": {
+        "title": "First-party cookies and language preference",
+        "body": "userCookieConsent stores your acceptance or refusal of reCAPTCHA as true or false for 365 days. NEXT_LOCALE stores your chosen language (de, en or ja) for 365 days. Both cookies apply across the website; a new selection can restart their lifetime. They do not contain names or messages and are not used for advertising.",
+        "details": "Storing your privacy choice and requested language preference is based on Section 25(2)(2) TDDDG. Related personal data processing relies on Article 6(1)(f) GDPR; the legitimate interest is respecting your choices and providing the requested language. Google determines the lifetimes of cookies used by reCAPTCHA; further cookie information is linked below. You can delete cookies in your browser settings at any time."
+      },
+      "withdrawal": {
+        "title": "Changing or withdrawing consent",
+        "body": "The privacy settings on this page and in the footer let you reopen the choice and withdraw earlier consent by selecting Decline. On withdrawal, the page reloads so that reCAPTCHA code already loaded in this document does not keep running. reCAPTCHA is then not loaded again unless you consent again.",
+        "details": "Withdrawal takes effect for the future and does not affect the lawfulness of earlier processing (Article 7(3) GDPR). It does not recall data already sent. This website cannot itself delete Google cookies on other domains; use your browser or Google settings. Your current choice is saved in the consent cookie."
+      },
+      "retention": {
+        "title": "Retention and deletion",
+        "body": "There is no fixed blanket deletion period for contact requests. Relevant criteria are handling and any follow-up of the request, ongoing contractual relationships, statutory retention duties and the need to establish or defend legal claims. Data must be deleted when its purpose ends and no further legal basis applies. Legally required retention is based on Article 6(1)(c) GDPR.",
+        "details": "These criteria also apply to messages in the mailbox and at delivery providers; the form code does not perform automatic scheduled deletion. Provider logs and backups are additionally subject to service settings and provider retention periods. Purelymail states that diagnostic logs are deleted after 30 days and account data can remain in backups for up to 30 days after account closure. This is not a 30-day deletion period for individual contact requests. First-party cookie lifetimes are listed in the cookie section."
+      },
+      "transfers": {
+        "title": "Recipients and international transfers",
+        "body": "Recipients are the hosting, email and security providers described above and their necessary subprocessors. Vercel, Resend, Purelymail and Google may process data outside the EEA, particularly in the USA, where privacy rules and public authority access may differ. Consent to reCAPTCHA does not replace the separately required safeguards for international transfers under Articles 44 et seq. GDPR.",
+        "details": "Possible bases include an applicable adequacy decision under Article 45 GDPR or appropriate safeguards such as EU Standard Contractual Clauses under Article 46 GDPR. Vercel and Resend describe the EU-US Data Privacy Framework and Standard Contractual Clauses in their linked documents; applicability depends on the recipient and contract. This does not constitute a corresponding assurance for Purelymail. You can request information about safeguards applicable to your data and, where relevant, copies at the contact address above."
+      },
+      "assets": {
+        "title": "Fonts, external links and security",
+        "body": "Fonts are served with the website; your browser does not connect to Google Fonts to display them. No separate analytics or advertising tracking scripts are embedded in the website; the hosting and security processing described above is unaffected. Social network and project links are ordinary external links, not embedded social media feeds. The destination privacy notice applies when you visit it.",
+        "details": "The website and form use HTTPS. Complete security of every email transmission cannot be guaranteed. Automated reCAPTCHA checks may prevent form submission but do not constitute a decision with legal or similarly significant effects within Article 22 GDPR. Contact by email remains available."
+      },
+      "rights": {
+        "title": "Your rights and complaints",
+        "body": "Subject to statutory conditions, you have rights of access (Article 15 GDPR), rectification (Article 16), erasure (Article 17), restriction of processing (Article 18) and data portability (Article 20). You may withdraw consent at any time with effect for the future. To exercise your rights, write to the contact address above; suitable proof of identity may be requested where necessary.",
+        "details": "Under Article 77 GDPR, you may complain to a data protection supervisory authority, particularly where you habitually reside or work, or where the alleged infringement occurred. The authority for the stated location is the State Commissioner for Data Protection and Freedom of Information Baden-Württemberg. Its complaints page is linked below."
+      },
+      "objection": {
+        "title": "Objecting to legitimate-interest processing",
+        "body": "Where data is processed under Article 6(1)(f) GDPR, you may object under Article 21(1) on grounds relating to your particular situation. Processing must then stop unless compelling legitimate grounds overriding your interests, rights and freedoms are demonstrated, or processing serves the establishment, exercise or defence of legal claims.",
+        "details": "You may object to processing for direct marketing at any time without giving reasons (Article 21(2) GDPR). Send your objection to the email address above."
+      }
+    },
+    "links": {
+      "title": "Provider information and supervisory authority",
+      "vercel": "Vercel: privacy notice",
+      "resend": "Resend: data processing and transfer safeguards",
+      "purelymail": "Purelymail: privacy policy",
+      "google": "Google reCAPTCHA: data processing",
+      "googleDpa": "Google Cloud: Data Processing Addendum",
+      "googleCookies": "Google: cookie information",
+      "complaints": "LfDI Baden-Württemberg: submit a complaint"
+    }
+  }
+}

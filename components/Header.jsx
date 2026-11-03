@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row items-center gap-4 lg:justify-between">
           {/* logo */}
           <Logo />
-          <div className="flex items-center gap-12">
+          <div className="flex flex-wrap justify-center items-center w-full lg:w-auto gap-4 xl:gap-6">
             {/* nav & socials */}
             <Nav
               containerStyles="hidden xl:flex"

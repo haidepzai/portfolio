@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { Link as ScrollLink } from "react-scroll";
+import { useLocale, useTranslations } from 'next-intl';
 
 // components
 import RotatingShape from "./RotatingShape";
@@ -9,29 +10,32 @@ import Header from "./Header";
 import Stats from "./Stats/Stats";
 
 const Hero = () => {
+  const translations = useTranslations('Hero');
+  const locale = useLocale();
   return (
     <section className="h-[800px] relative bg-accent/10 xl:bg-white" id="home">
       {/* header */}
       <Header />
       <div className="container mx-auto h-full">
-        <div className="relative z-20 h-full w-full xl:max-w-[768px] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-10">
-          <h1 className="h1 mb-2 max-w-[320px] xl:max-w-none">
-            <span className="text-accent">I Build And</span> Develop Innovative
+        <div className="relative z-20 h-full w-full xl:max-w-[44%] flex flex-col items-center xl:items-start justify-center text-center xl:text-left pt-10">
+          <h1 className="h1 mb-2 max-w-[320px] xl:max-w-none xl:text-[72px]">
+            <span className="block text-accent">{translations('intro')}</span> {translations('heading')}
             <TypeAnimation
+              key={locale}
               preRenderFirstString={true}
-              sequence={["Websites", 2000, "Apps", 2000]}
+              sequence={[translations('apps'), 2000, translations('websites'), 2000, translations('software'), 2000]}
               speed={50}
               repeat={Infinity}
               wrapper="span"
               cursor={false}
-              className="ml-2 xl:ml-4"
+              className="block"
             />
           </h1>
           <p className="lead max-w-[476px] mb-7">
-            I'm a software engineer from Germany with a passion for web development.
+            {translations('description')}
           </p>
           <ScrollLink to="contact" smooth>
-            <button className="btn btn-accent mb-8">Contact me</button>
+            <button className="btn btn-accent mb-8">{translations('contact')}</button>
           </ScrollLink>
           {/* stats */}
           <Stats />
@@ -45,7 +49,7 @@ const Hero = () => {
               quality="100"
               priority
               className="object-contain"
-              alt="Me"
+              alt={translations('portrait')}
             />
           </div>
           {/* arrow shape */}
@@ -62,7 +66,7 @@ const Hero = () => {
             <RotatingShape
               content={
                 <Image
-                  src="assets/hero/shape-1.svg"
+                  src="/assets/hero/shape-1.svg"
                   width={38}
                   height={38}
                   alt=""
@@ -77,7 +81,7 @@ const Hero = () => {
             <RotatingShape
               content={
                 <Image
-                  src="assets/hero/shape-2.svg"
+                  src="/assets/hero/shape-2.svg"
                   width={34}
                   height={34}
                   alt=""
@@ -92,7 +96,7 @@ const Hero = () => {
             <RotatingShape
               content={
                 <Image
-                  src="assets/hero/shape-3.svg"
+                  src="/assets/hero/shape-3.svg"
                   width={36}
                   height={36}
                   alt=""

@@ -1,32 +1,28 @@
 "use client";
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
 
 const services = [
   {
-    icon: "assets/services/ux-ui.svg",
-    title: "Software Architecture",
-    description:
-      "Design and conception of sophisticated software applications.",
+    icon: "/assets/services/ux-ui.svg",
+    key: "architecture",
   },
   {
-    icon: "assets/services/web.svg",
-    title: "Web Development",
-    description: "Development of modern web applications for all devices",
+    icon: "/assets/services/web.svg",
+    key: "web",
   },
   {
-    icon: "assets/services/ml.svg",
-    title: "Machine Learning",
-    description:
-      "Well-versed in the latest machine learning frameworks and libraries",
+    icon: "/assets/services/ml.svg",
+    key: "ml",
   },
   {
-    icon: "assets/services/app.svg",
-    title: "App Development",
-    description: "Creating apps in iOS and Android in Swift and Kotlin.",
+    icon: "/assets/services/app.svg",
+    key: "app",
   },
 ];
 
 const Services = () => {
+  const translations = useTranslations('Services');
   return (
     <section className="relative z-40">
       <div className="container mx-auto">
@@ -39,15 +35,15 @@ const Services = () => {
               >
                 <Image
                   src={services.icon}
-                  alt={services.title}
+                  alt={translations(`${services.key}.title`)}
                   width={48}
                   height={48}
                   className="mb-4"
                 />
                 <h3 className="text-[20px] text-primary font-semibold mb-3">
-                  {services.title}
+                  {translations(`${services.key}.title`)}
                 </h3>
-                <p className="text-[15px]">{services.description}</p>
+                <p className="text-[15px]">{translations(`${services.key}.description`)}</p>
               </li>
             );
           })}
