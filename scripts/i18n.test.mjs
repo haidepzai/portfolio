@@ -29,6 +29,22 @@ test('All languages contain the same non-empty translation keys', () => {
 });
 
 for (const locale of locales) {
+  test(`${locale}: privacy notice covers the configured services and cookies`, () => {
+    const notice = JSON.stringify(dictionaries[locale].Privacy);
+    for (const name of ['Vercel', 'Resend', 'Purelymail', 'reCAPTCHA', 'NEXT_LOCALE', 'userCookieConsent']) {
+      assert.ok(notice.includes(name), `Privacy notice must describe ${name}`);
+    }
+    assert.doesNotMatch(notice, /Privacy[\s-]*Shield|2020|プライバシーシールド/i);
+    assert.deepEqual(Object.keys(dictionaries[locale].Privacy.sections), [
+      'hosting', 'contact', 'email', 'captcha', 'cookies', 'withdrawal',
+      'retention', 'transfers', 'assets', 'rights', 'objection'
+    ]);
+    for (const section of Object.values(dictionaries[locale].Privacy.sections)) {
+      assert.deepEqual(Object.keys(section), ['title', 'body', 'details']);
+      assert.ok(Object.values(section).every(value => typeof value === 'string' && value.trim()));
+    }
+  });
+
   test(`${locale}: every message can be formatted by next-intl`, () => {
     const translate = createTranslator({
       locale,

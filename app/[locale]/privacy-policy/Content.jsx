@@ -1,173 +1,87 @@
 import { getTranslations } from "next-intl/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { CookieSettingsButton } from "@/components/CookieConsentProvider";
+
+const providerLinks = {
+  vercel: "https://vercel.com/legal/privacy-policy",
+  resend: "https://resend.com/legal/dpa",
+  purelymail: "https://purelymail.com/privacy",
+  google: "https://docs.cloud.google.com/recaptcha/docs/faq#data-processing",
+  googleDpa: "https://cloud.google.com/terms/data-processing-addendum",
+  googleCookies: "https://policies.google.com/technologies/cookies",
+  complaints: "https://www.baden-wuerttemberg.datenschutz.de/beschwerde/",
+};
 
 const PrivacyPolicy = async () => {
   const translations = await getTranslations("Privacy");
+  const sections = Object.entries(translations.raw("sections"));
   return (
     <>
       <Header />
       <main className="container mx-auto pt-48 xl:pt-16 pb-16 px-4">
-        <h1 className="text-3xl font-bold mb-6 text-center mt-16">
-          {translations("text001")}
-        </h1>
+        <article className="max-w-3xl mx-auto leading-relaxed">
+          <h1 className="text-3xl font-bold mb-6 text-center mt-16">
+            {translations("text001")}
+          </h1>
+          <p className="mb-4 text-secondary">{translations("updated")}</p>
+          <p className="mb-8">{translations("intro")}</p>
 
-        <h2 className="text-2xl font-semibold mt-8">
-          {translations("text002")}
-        </h2>
-        <p className="mb-4">{translations("text003")}</p>
+          <section aria-labelledby="privacy-controller">
+            <h2 id="privacy-controller" className="text-2xl font-semibold mb-3">
+              {translations("controller.title")}
+            </h2>
+            <address className="not-italic">
+              {translations("controller.name")}<br />
+              {translations("controller.address")}<br />
+              {translations("controller.email")}: {" "}
+              <a href="mailto:info@sonhaivu.com" className="text-primary underline decoration-accent hover:decoration-primary">
+                info@sonhaivu.com
+              </a>
+            </address>
+          </section>
 
-        <h2 className="text-2xl font-semibold mt-8">
-          {translations("text004")}
-        </h2>
-        <ul className="list-disc list-inside pl-6">
-          <li>{translations("text005")}</li>
-          <li>{translations("text006")}</li>
-          <li>{translations("text007")}</li>
-          <li>{translations("text008")}</li>
-          <li>{translations("text009")}</li>
-          <li>{translations("text010")}</li>
-          <li>{translations("text011")}</li>
-          <li>{translations("text012")}</li>
-          <li>{translations("text013")}</li>
-          <li>{translations("text014")}</li>
-          <li>{translations("text015")}</li>
-        </ul>
+          <nav aria-label={translations("contents")} className="my-8">
+            <h2 className="text-2xl font-semibold mb-3">{translations("contents")}</h2>
+            <ul className="list-disc pl-6 space-y-2">
+              {sections.map(([key, section]) => (
+                <li key={key}>
+                  <a href={`#privacy-${key}`} className="underline underline-offset-4">
+                    {section.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
 
-        <h2 className="text-2xl font-semibold mt-8">
-          {translations("text016")}
-        </h2>
-        <p>
-          {translations("text017")}
-          <br />
-          {translations("text018")}
-          <br />
-          {translations("text019")}{" "}
-          <a href="mailto:info@sonhaivu.com" className="text-accent underline">
-            {translations("text020")}
-          </a>
-        </p>
+          {sections.map(([key, section]) => (
+            <section key={key} aria-labelledby={`privacy-${key}`} className="mt-8">
+              <h2 id={`privacy-${key}`} className="text-2xl font-semibold mb-3 scroll-mt-40">
+                {section.title}
+              </h2>
+              <p className="mb-4">{section.body}</p>
+              <p className="mb-4">{section.details}</p>
+              {key === "withdrawal" && (
+                <CookieSettingsButton className="text-primary underline decoration-accent underline-offset-4 hover:decoration-primary" />
+              )}
+            </section>
+          ))}
 
-        <h2 className="text-2xl font-semibold mt-8">
-          {translations("text021")}
-        </h2>
-        <p className="mb-4">{translations("text022")}</p>
-
-        <h2 className="text-2xl font-semibold mt-8">
-          {translations("text023")}
-        </h2>
-        <ul className="list-disc list-inside pl-6">
-          <li>{translations("text024")}</li>
-          <li>{translations("text025")}</li>
-          <li>{translations("text026")}</li>
-          <li>{translations("text027")}</li>
-          <li>{translations("text028")}</li>
-        </ul>
-
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text029")}
-        </h3>
-        <ul className="list-disc list-inside pl-6">
-          <li>{translations("text030")}</li>
-          <li>{translations("text031")}</li>
-        </ul>
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text032")}
-        </h3>
-        <ul className="list-disc list-inside">
-          <li>{translations("text033")}</li>
-        </ul>
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text034")}
-        </h3>
-        <p className="mb-4">{translations("text035")}</p>
-        <ul className="list-disc list-inside pl-6">
-          <li>{translations("text036")}</li>
-          <li>{translations("text037")}</li>
-          <li>{translations("text038")}</li>
-        </ul>
-
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text039")}
-        </h3>
-        <p className="mb-4">{translations("text040")}</p>
-
-        <h2 className="text-2xl font-semibold mt-8">
-          {translations("text041")}
-        </h2>
-        <p className="mb-4">{translations("text042")}</p>
-        <h2 className="text-2xl font-semibold mt-8">
-          {translations("text043")}
-        </h2>
-        <p className="mb-4">{translations("text044")}</p>
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text045")}
-        </h3>
-        <p className="mb-4">{translations("text046")}</p>
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text047")}
-        </h3>
-        <p className="mb-4">{translations("text048")}</p>
-        <ul className="list-disc list-inside pl-6">
-          <li>{translations("text049")}</li>
-          <li>{translations("text050")}</li>
-          <li>{translations("text051")}</li>
-          <li>{translations("text052")}</li>
-          <li>{translations("text053")}</li>
-          <li>{translations("text054")}</li>
-        </ul>
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text055")}
-        </h3>
-        <p className="mb-4">{translations("text056")}</p>
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text057")}
-        </h3>
-        <p className="mb-4">{translations("text058")}</p>
-        <h3>{translations("text059")}</h3>
-        <p className="mb-4">{translations("text060")}</p>
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text061")}
-        </h3>
-        <p className="mb-4">{translations("text062")}</p>
-        <ul className="list-disc list-inside pl-6">
-          <li>{translations("text063")}</li>
-          <li>{translations("text064")}</li>
-          <li>{translations("text065")}</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold mt-8">
-          {translations("text066")}
-        </h2>
-        <p className="mb-4">{translations("text067")}</p>
-
-        <ul className="list-disc list-inside pl-6">
-          <li>{translations("text068")}</li>
-          <li>{translations("text069")}</li>
-          <li>{translations("text070")}</li>
-        </ul>
-
-        <h3 className="text-xl font-semibold mt-6">
-          {translations("text071")}
-        </h3>
-        <p className="mb-4">{translations("text072")}</p>
-
-        <ul className="list-disc list-inside pl-6">
-          <li>{translations("text073")}</li>
-          <li>{translations("text074")}</li>
-          <li>{translations("text075")}</li>
-          <li>{translations("text076")}</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold mt-8">
-          {translations("text077")}
-        </h2>
-        <p className="mb-4">{translations("text078")}</p>
-        <ul className="list-disc list-inside pl-6">
-          <li>{translations("text079")}</li>
-          <li>{translations("text080")}</li>
-          <li>{translations("text081")}</li>
-        </ul>
+          <section aria-labelledby="privacy-links" className="mt-8">
+            <h2 id="privacy-links" className="text-2xl font-semibold mb-3">
+              {translations("links.title")}
+            </h2>
+            <ul className="list-disc pl-6 space-y-2">
+              {Object.entries(providerLinks).map(([key, url]) => (
+                <li key={key}>
+                  <a href={url} className="text-primary underline decoration-accent underline-offset-4 hover:decoration-primary">
+                    {translations(`links.${key}`)}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </article>
       </main>
       <Footer />
     </>

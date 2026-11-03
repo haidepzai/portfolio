@@ -24,7 +24,7 @@ export default function LanguageSwitcher() {
                     title={translations("language")}
                     aria-label={`${translations("language")}: ${languageNames[locale]}`}
                     disabled={pending}
-                    className="flex shrink-0 items-center justify-center gap-2 w-[96px] h-10 border border-primary/20 rounded-md text-sm font-semibold text-primary hover:bg-accent/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent disabled:opacity-50"
+                    className="flex shrink-0 items-center justify-center gap-2 w-[96px] h-10 border border-white/30 rounded-md text-sm font-semibold text-white hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent disabled:opacity-50"
                 >
                     <Globe size={17} aria-hidden="true" />
                     <span>{locale.toUpperCase()}</span>
@@ -34,6 +34,7 @@ export default function LanguageSwitcher() {
             <DropdownMenu.Portal>
                 <DropdownMenu.Content
                     align="end"
+                    side="top"
                     sideOffset={8}
                     collisionPadding={12}
                     aria-label={translations("language")}

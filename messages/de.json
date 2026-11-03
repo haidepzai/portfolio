@@ -58,11 +58,13 @@
     "imprint": "Impressum"
   },
   "Cookies": {
+    "settings": "Datenschutzeinstellungen",
+    "withdrawal": "Mit Ablehnen kannst du auch eine frühere Einwilligung widerrufen.",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "acceptLabel": "Cookies akzeptieren",
     "declineLabel": "Cookies ablehnen",
-    "notice": "Google reCAPTCHA schützt das Kontaktformular und kann Gerätedaten verarbeiten.",
+    "notice": "Mit deiner Einwilligung lädt Google reCAPTCHA zum Spamschutz und verarbeitet IP-Adresse, Browser- und Nutzungsdaten. Eine Übermittlung in die USA ist möglich. Ohne Einwilligung erreichst du uns per E-Mail.",
     "privacy": "Datenschutz"
   },
   "Contact": {
@@ -309,85 +311,81 @@
   },
   "Privacy": {
     "text001": "Datenschutzerklärung",
-    "text002": "Einleitung",
-    "text003": "Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als \"Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer Leistungen als auch insbesondere auf unseren Webseiten, in mobilen Applikationen sowie innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend zusammenfassend bezeichnet als \"Onlineangebot“). Die verwendeten Begriffe sind nicht geschlechtsspezifisch. Stand: 3. Juli 2020",
-    "text004": "Inhaltsübersicht",
-    "text005": "Einleitung",
-    "text006": "Verantwortlicher",
-    "text007": "Übersicht der Verarbeitungen",
-    "text008": "Maßgebliche Rechtsgrundlagen",
-    "text009": "Sicherheitsmaßnahmen",
-    "text010": "Übermittlung und Offenbarung von personenbezogenen Daten",
-    "text011": "Datenverarbeitung in Drittländern",
-    "text012": "Einsatz von Cookies",
-    "text013": "Bereitstellung des Onlineangebotes und Webhosting",
-    "text014": "Kontaktaufnahme",
-    "text015": "Begriffsdefinitionen",
-    "text016": "Verantwortlicher",
-    "text017": "Son Hai Vu,",
-    "text018": "Stuttgarter Str. 134, 73312 Geislingen",
-    "text019": "E-Mail:",
-    "text020": "info@sonhaivu.com",
-    "text021": "Übersicht der Verarbeitungen",
-    "text022": "Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.",
-    "text023": "Arten der verarbeiteten Daten",
-    "text024": "Bestandsdaten (z.B. Namen, Adressen).",
-    "text025": "Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).",
-    "text026": "Kontaktdaten (z.B. E-Mail, Telefonnummern).",
-    "text027": "Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).",
-    "text028": "Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).",
-    "text029": "Kategorien betroffener Personen",
-    "text030": "Kommunikationspartner.",
-    "text031": "Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).",
-    "text032": "Zwecke der Verarbeitung",
-    "text033": "Kontaktanfragen und Kommunikation.",
-    "text034": "Maßgebliche Rechtsgrundlagen",
-    "text035": "Im Folgenden teilen wir die Rechtsgrundlagen der Datenschutzgrundverordnung (DSGVO), auf deren Basis wir die personenbezogenen Daten verarbeiten, mit. Bitte beachten Sie, dass zusätzlich zu den Regelungen der DSGVO die nationalen Datenschutzvorgaben in Ihrem bzw. unserem Wohn- und Sitzland gelten können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der Datenschutzerklärung mit.",
-    "text036": "Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO) - Die betroffene Person hat ihre Einwilligung in die Verarbeitung der sie betreffenden personenbezogenen Daten für einen spezifischen Zweck oder mehrere bestimmte Zwecke gegeben.",
-    "text037": "Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b. DSGVO) - Die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen.",
-    "text038": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO) - Die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen.",
-    "text039": "Nationale Datenschutzregelungen in Deutschland:",
-    "text040": "Zusätzlich zu den Datenschutzregelungen der Datenschutz-Grundverordnung gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall einschließlich Profiling. Des Weiteren regelt es die Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses (§ 26 BDSG), insbesondere im Hinblick auf die Begründung, Durchführung oder Beendigung von Beschäftigungsverhältnissen sowie die Einwilligung von Beschäftigten. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen.",
-    "text041": "Sicherheitsmaßnahmen",
-    "text042": "Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten. Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen und elektronischen Zugangs zu den Daten als auch des sie betreffenden Zugriffs, der Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die eine Wahrnehmung von Betroffenenrechten, die Löschung von Daten und Reaktionen auf die Gefährdung der Daten gewährleisten. Ferner berücksichtigen wir den Schutz personenbezogener Daten bereits bei der Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen.",
-    "text043": "Übermittlung und Offenbarung von personenbezogenen Daten",
-    "text044": "Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass die Daten an andere Stellen, Unternehmen, rechtlich selbstständige Organisationseinheiten oder Personen übermittelt oder sie ihnen gegenüber offengelegt werden. Zu den Empfängern dieser Daten können z.B. Zahlungsinstitute im Rahmen von Zahlungsvorgängen, mit IT-Aufgaben beauftragte Dienstleister oder Anbieter von Diensten und Inhalten, die in eine Webseite eingebunden werden, gehören. In solchen Fall beachten wir die gesetzlichen Vorgaben und schließen insbesondere entsprechende Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den Empfängern Ihrer Daten ab.",
-    "text045": "Datenverarbeitung in Drittländern",
-    "text046": "Sofern wir Daten in einem Drittland (d.h., außerhalb der Europäischen Union (EU), des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder der Offenlegung bzw. Übermittlung von Daten an andere Personen, Stellen oder Unternehmen stattfindet, erfolgt dies nur im Einklang mit den gesetzlichen Vorgaben. Vorbehaltlich ausdrücklicher Einwilligung oder vertraglich oder gesetzlich erforderlicher Übermittlung verarbeiten oder lassen wir die Daten nur in Drittländern mit einem anerkannten Datenschutzniveau, zu denen die unter dem \"Privacy-Shield\" zertifizierten US-Verarbeiter gehören, oder auf Grundlage besonderer Garantien, wie z.B. vertraglicher Verpflichtung durch sogenannte Standardschutzklauseln der EU-Kommission, des Vorliegens von Zertifizierungen oder verbindlicher interner Datenschutzvorschriften, verarbeiten (Art. 44 bis 49 DSGVO, Informationsseite der EU-Kommission: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de ).",
-    "text047": "Einsatz von Cookies",
-    "text048": "Cookies sind Textdateien, die Daten von besuchten Websites oder Domains enthalten und von einem Browser auf dem Computer des Benutzers gespeichert werden. Ein Cookie dient in erster Linie dazu, die Informationen über einen Benutzer während oder nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten Angaben können z.B. die Spracheinstellungen auf einer Webseite, der Loginstatus, ein Warenkorb oder die Stelle, an der ein Video geschaut wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere Technologien, die die gleichen Funktionen wie Cookies erfüllen (z.B., wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen gespeichert werden, auch als \"Nutzer-IDs\" bezeichnet) Die folgenden Cookie-Typen und Funktionen werden unterschieden:",
-    "text049": "Temporäre Cookies (auch: Session- oder Sitzungs-Cookies): Temporäre Cookies werden spätestens gelöscht, nachdem ein Nutzer ein Online-Angebot verlassen und seinen Browser geschlossen hat.",
-    "text050": "Permanente Cookies: Permanente Cookies bleiben auch nach dem Schließen des Browsers gespeichert. So kann beispielsweise der Login-Status gespeichert oder bevorzugte Inhalte direkt angezeigt werden, wenn der Nutzer eine Website erneut besucht. Ebenso können die Interessen von Nutzern, die zur Reichweitenmessung oder zu Marketingzwecken verwendet werden, in einem solchen Cookie gespeichert werden.",
-    "text051": "First-Party-Cookies: First-Party-Cookies werden von uns selbst gesetzt.",
-    "text052": "Third-Party-Cookies (auch: Drittanbieter-Cookies): Drittanbieter-Cookies werden hauptsächlich von Werbetreibenden (sog. Dritten) verwendet, um Benutzerinformationen zu verarbeiten.",
-    "text053": "Notwendige (auch: essentielle oder unbedingt erforderliche) Cookies: Cookies können zum einen für den Betrieb einer Webseite unbedingt erforderlich sein (z.B. um Logins oder andere Nutzereingaben zu speichern oder aus Gründen der Sicherheit).",
-    "text054": "Statistik-, Marketing- und Personalisierungs-Cookies: Ferner werden Cookies im Regelfall auch im Rahmen der Reichweitenmessung eingesetzt sowie dann, wenn die Interessen eines Nutzers oder sein Verhalten (z.B. Betrachten bestimmter Inhalte, Nutzen von Funktionen etc.) auf einzelnen Webseiten in einem Nutzerprofil gespeichert werden. Solche Profile dienen dazu, den Nutzern z.B. Inhalte anzuzeigen, die ihren potentiellen Interessen entsprechen. Dieses Verfahren wird auch als \"Tracking\", d.h., Nachverfolgung der potentiellen Interessen der Nutzer bezeichnet. . Soweit wir Cookies oder \"Tracking\"-Technologien einsetzen, informieren wir Sie gesondert in unserer Datenschutzerklärung oder im Rahmen der Einholung einer Einwilligung.",
-    "text055": "Hinweise zu Rechtsgrundlagen:",
-    "text056": "Auf welcher Rechtsgrundlage wir Ihre personenbezogenen Daten mit Hilfe von Cookies verarbeiten, hängt davon ab, ob wir Sie um eine Einwilligung bitten. Falls dies zutrifft und Sie in die Nutzung von Cookies einwilligen, ist die Rechtsgrundlage der Verarbeitung Ihrer Daten die erklärte Einwilligung. Andernfalls werden die mithilfe von Cookies verarbeiteten Daten auf Grundlage unserer berechtigten Interessen (z.B. an einem betriebswirtschaftlichen Betrieb unseres Onlineangebotes und dessen Verbesserung) verarbeitet oder, wenn der Einsatz von Cookies erforderlich ist, um unsere vertraglichen Verpflichtungen zu erfüllen.",
-    "text057": "Speicherdauer:",
-    "text058": "Sofern wir Ihnen keine expliziten Angaben zur Speicherdauer von permanenten Cookies mitteilen (z. B. im Rahmen eines sog. Cookie-Opt-Ins), gehen Sie bitte davon aus, dass die Speicherdauer bis zu zwei Jahre betragen kann.",
-    "text059": "Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-Out):",
-    "text060": "Abhängig davon, ob die Verarbeitung auf Grundlage einer Einwilligung oder gesetzlichen Erlaubnis erfolgt, haben Sie jederzeit die Möglichkeit, eine erteilte Einwilligung zu widerrufen oder der Verarbeitung Ihrer Daten durch Cookie-Technologien zu widersprechen (zusammenfassend als \"Opt-Out\" bezeichnet). Sie können Ihren Widerspruch zunächst mittels der Einstellungen Ihres Browsers erklären, z.B., indem Sie die Nutzung von Cookies deaktivieren (wobei hierdurch auch die Funktionsfähigkeit unseres Onlineangebotes eingeschränkt werden kann). Ein Widerspruch gegen den Einsatz von Cookies zu Zwecken des Onlinemarketings kann auch mittels einer Vielzahl von Diensten, vor allem im Fall des Trackings, über die Webseiten https://optout.aboutads.info und https://www.youronlinechoices.com/ erklärt werden. Daneben können Sie weitere Widerspruchshinweise im Rahmen der Angaben zu den eingesetzten Dienstleistern und Cookies erhalten.",
-    "text061": "Verarbeitung von Cookie-Daten auf Grundlage einer Einwilligung:",
-    "text062": "Bevor wir Daten im Rahmen der Nutzung von Cookies verarbeiten oder verarbeiten lassen, bitten wir die Nutzer um eine jederzeit widerrufbare Einwilligung. Bevor die Einwilligung nicht ausgesprochen wurde, werden allenfalls Cookies eingesetzt, die für den Betrieb unseres Onlineangebotes unbedingt erforderlich sind.",
-    "text063": "Verarbeitete Datenarten: Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).",
-    "text064": "Betroffene Personen: Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).",
-    "text065": "Rechtsgrundlagen: Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).",
-    "text066": "Bereitstellung des Onlineangebotes und Webhosting",
-    "text067": "Um unser Onlineangebot sicher und effizient bereitstellen zu können, nehmen wir die Leistungen von einem oder mehreren Webhosting-Anbietern in Anspruch, von deren Servern (bzw. von ihnen verwalteten Servern) das Onlineangebot abgerufen werden kann. Zu diesen Zwecken können wir Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und Datenbankdienste sowie Sicherheitsleistungen und technische Wartungsleistungen in Anspruch nehmen. Zu den im Rahmen der Bereitstellung des Hostingangebotes verarbeiteten Daten können alle die Nutzer unseres Onlineangebotes betreffenden Angaben gehören, die im Rahmen der Nutzung und der Kommunikation anfallen. Hierzu gehören regelmäßig die IP-Adresse, die notwendig ist, um die Inhalte von Onlineangeboten an Browser ausliefern zu können, und alle innerhalb unseres Onlineangebotes oder von Webseiten getätigten Eingaben. Erhebung von Zugriffsdaten und Logfiles: Wir selbst (bzw. unser Webhostinganbieter) erheben Daten zu jedem Zugriff auf den Server (sogenannte Serverlogfiles). Zu den Serverlogfiles können die Adresse und Name der abgerufenen Webseiten und Dateien, Datum und Uhrzeit des Abrufs, übertragene Datenmengen, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite) und im Regelfall IP-Adressen und der anfragende Provider gehören. Die Serverlogfiles können zum einen zu Zwecken der Sicherheit eingesetzt werden, z.B., um eine Überlastung der Server zu vermeiden (insbesondere im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken) und zum anderen, um die Auslastung der Server und ihre Stabilität sicherzustellen.",
-    "text068": "Verarbeitete Datenarten: Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos), Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).",
-    "text069": "Betroffene Personen: Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).",
-    "text070": "Rechtsgrundlagen: Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).",
-    "text071": "Kontaktaufnahme",
-    "text072": "Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail, Telefon oder via soziale Medien) werden die Angaben der anfragenden Personen verarbeitet, soweit dies zur Beantwortung der Kontaktanfragen und etwaiger angefragter Maßnahmen erforderlich ist. Die Beantwortung der Kontaktanfragen im Rahmen von vertraglichen oder vorvertraglichen Beziehungen erfolgt zur Erfüllung unserer vertraglichen Pflichten oder zur Beantwortung von (vor)vertraglichen Anfragen und im Übrigen auf Grundlage der berechtigten Interessen an der Beantwortung der Anfragen.",
-    "text073": "Betroffene Personen: Kommunikationspartner.",
-    "text074": "Zwecke der Verarbeitung: Kontaktanfragen und Kommunikation.",
-    "text075": "Rechtsgrundlagen: Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b. DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).",
-    "text076": "Verarbeitete Datenarten: Bestandsdaten (z.B. Namen, Adressen), Kontaktdaten (z.B. E-Mail, Telefonnummern), Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).",
-    "text077": "Begriffsdefinitionen",
-    "text078": "In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutzerklärung verwendeten Begrifflichkeiten. Viele der Begriffe sind dem Gesetz entnommen und vor allem im Art. 4 DSGVO definiert. Die gesetzlichen Definitionen sind verbindlich. Die nachfolgenden Erläuterungen sollen dagegen vor allem dem Verständnis dienen. Die Begriffe sind alphabetisch sortiert.",
-    "text079": "Personenbezogene Daten: \"Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden \"betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.",
-    "text080": "Verantwortlicher: Als \"Verantwortlicher“ wird die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet, bezeichnet.",
-    "text081": "Verarbeitung: \"Verarbeitung\" ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten, sei es das Erheben, das Auswerten, das Speichern, das Übermitteln oder das Löschen."
+    "updated": "Stand: 3. November 2026",
+    "intro": "Diese Hinweise erläutern die Verarbeitung personenbezogener Daten beim Besuch von sonhaivu.com und bei Kontaktanfragen. Personenbezogene Daten sind Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen.",
+    "contents": "Inhalt",
+    "controller": {
+      "title": "Verantwortlicher",
+      "name": "Son Hai Vu",
+      "address": "Stuttgarter Str. 134, 73312 Geislingen, Deutschland",
+      "email": "E-Mail"
+    },
+    "sections": {
+      "hosting": {
+        "title": "Hosting und Zugriffsprotokolle: Vercel",
+        "body": "Die Website und die serverseitige Verarbeitung des Kontaktformulars werden bei Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, USA, betrieben. Bei Seitenaufrufen verarbeitet Vercel technisch erforderliche Verbindungsdaten: insbesondere IP-Adresse, Zeitpunkt, angeforderte URL, Browser- und Geräteinformationen sowie gegebenenfalls die übermittelte Referrer-URL. Formulardaten werden beim Absenden ebenfalls über diese Infrastruktur verarbeitet.",
+        "details": "Zwecke sind die Auslieferung der Website, Fehlerdiagnose sowie die Abwehr von Missbrauch und Angriffen. Grundlage des technischen Betriebs ist Art. 6 Abs. 1 lit. f DSGVO; das berechtigte Interesse liegt in einem sicheren und zuverlässigen Onlineangebot. Die Speicherung technischer Protokolle richtet sich nach den eingesetzten Vercel-Diensten, deren Einstellungen und der Erforderlichkeit zur Sicherheitsanalyse. Eine ausschließlich europäische Verarbeitung wird nicht zugesichert."
+      },
+      "contact": {
+        "title": "Kontaktformular und direkte E-Mail",
+        "body": "Das Formular erhebt Vorname, Nachname, E-Mail-Adresse und Nachricht als Pflichtangaben. Eine Telefonnummer ist freiwillig. Diese Daten werden zur Bearbeitung Ihrer Anfrage und für Rückfragen verwendet. Ohne Pflichtangaben kann das Formular nicht versendet werden. Alternativ können Sie ohne reCAPTCHA-Einwilligung direkt an info@sonhaivu.com schreiben; dabei werden Ihre Absenderadresse, Nachricht und weitere von Ihnen mitgeteilte Angaben verarbeitet.",
+        "details": "Bei Anfragen zu Verträgen oder vorvertraglichen Maßnahmen gilt Art. 6 Abs. 1 lit. b DSGVO. Sonstige Anfragen werden nach Art. 6 Abs. 1 lit. f DSGVO beantwortet; das berechtigte Interesse liegt in der Kommunikation mit Interessenten und der Bearbeitung ihrer Anliegen. Die reCAPTCHA-Einwilligung ist davon getrennt und nicht die Rechtsgrundlage für den Inhalt Ihrer Anfrage. Bitte übermitteln Sie keine unnötigen sensiblen Daten."
+      },
+      "email": {
+        "title": "E-Mail-Versand: Resend; Postfach: Purelymail",
+        "body": "Nach erfolgreicher CAPTCHA-Prüfung versendet die Website die Anfrage über Resend (Plus Five Five, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA) an info@sonhaivu.com. Übermittelt werden die eingegebenen Namen, die E-Mail-Adresse als Antwortadresse, die optionale Telefonnummer und der Nachrichtentext. Resend verarbeitet auch Versand- und Zustellmetadaten. Die Website legt keine eigene Kontakt-Datenbank an; das bedeutet nicht, dass die E-Mail-Anbieter die Nachricht nicht speichern.",
+        "details": "Das empfangende Postfach wird von Purelymail (Add Rabbit LLC, USA) betrieben. Dort werden Nachrichten, Adressdaten und E-Mail-Metadaten für Empfang, Speicherung und Beantwortung verarbeitet; dies betrifft auch direkte E-Mails. Purelymail nennt als Serverstandort AWS US-East-1 in Virginia, USA. Es gelten die im Kontaktabschnitt genannten Rechtsgrundlagen. Beide Anbieter können die zur Bereitstellung ihrer Dienste benötigten Unterauftragnehmer einsetzen."
+      },
+      "captcha": {
+        "title": "Spamschutz mit Google reCAPTCHA",
+        "body": "Das Kontaktformular verwendet Google reCAPTCHA v2. Erst nach Ihrer Einwilligung wird der Google-Code geladen. Dabei können IP-Adresse, Browser- und Geräteinformationen, Seitenkontext sowie Interaktions- und Prüfdaten an Google übermittelt und zur Erkennung automatisierter oder missbräuchlicher Anfragen ausgewertet werden. Google setzt unter anderem das Cookie _GRECAPTCHA zur Risikoanalyse. Da die Einbindung über google.com erfolgt, können auch vorhandene Google-Cookies eine Rolle spielen. Eine Verarbeitung in den USA ist möglich.",
+        "details": "Nach Googles aktuellen reCAPTCHA-Hinweisen verarbeitet Google Kundendaten seit dem 2. April 2026 als Auftragsverarbeiter nach den Google-Cloud-Bedingungen für Sicherheit sowie Betrugs- und Missbrauchsprävention. Unsere Einbindung beruht auf Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO und für das Speichern oder Auslesen von Informationen auf Ihrem Endgerät auf § 25 Abs. 1 TDDDG. Der Server sendet den erzeugten Prüftoken an Google, nicht den Nachrichtentext. Ohne Einwilligung bleibt der Formularversand gesperrt; direkte E-Mail bleibt möglich."
+      },
+      "cookies": {
+        "title": "Eigene Cookies und Spracheinstellung",
+        "body": "userCookieConsent speichert Ihre Zustimmung oder Ablehnung zu reCAPTCHA als true oder false für 365 Tage. NEXT_LOCALE speichert die gewählte Sprache (de, en oder ja) für 365 Tage. Beide Cookies gelten für die Website; eine erneute Auswahl kann ihre Laufzeit neu beginnen lassen. Sie enthalten keine Namen oder Nachrichtentexte und werden nicht für Werbung eingesetzt.",
+        "details": "Die Speicherung der Datenschutzauswahl und der angeforderten Spracheinstellung erfolgt nach § 25 Abs. 2 Nr. 2 TDDDG. Die damit verbundene personenbezogene Verarbeitung beruht auf Art. 6 Abs. 1 lit. f DSGVO; das berechtigte Interesse liegt darin, Ihre Auswahl zu beachten und die gewünschte Sprachfassung bereitzustellen. Google bestimmt die Laufzeiten der von reCAPTCHA eingesetzten Cookies; weiterführende Cookie-Informationen sind unten verlinkt. Cookies können Sie jederzeit über Ihre Browsereinstellungen löschen."
+      },
+      "withdrawal": {
+        "title": "Einwilligung ändern oder widerrufen",
+        "body": "Über die Datenschutzeinstellungen auf dieser Seite und im Footer können Sie die Auswahl erneut öffnen und mit Ablehnen eine frühere Einwilligung widerrufen. Nach einem Widerruf wird die Seite neu geladen, damit bereits geladener reCAPTCHA-Code in diesem Dokument nicht weiterläuft. reCAPTCHA wird danach nicht erneut geladen, solange Sie nicht wieder zustimmen.",
+        "details": "Der Widerruf gilt für die Zukunft und berührt die Rechtmäßigkeit der vorherigen Verarbeitung nicht (Art. 7 Abs. 3 DSGVO). Bereits übermittelte Daten werden nicht zurückgerufen. Google-Cookies auf fremden Domains kann diese Website nicht selbst löschen; verwenden Sie dafür Ihre Browser- bzw. Google-Einstellungen. Ihre aktuelle Auswahl wird im Cookie gespeichert."
+      },
+      "retention": {
+        "title": "Speicherdauer und Löschung",
+        "body": "Für Kontaktanfragen gibt es keine pauschale, festgelegte Löschfrist. Maßgeblich sind die Bearbeitung und gegebenenfalls Nachverfolgung der Anfrage, bestehende Vertragsbeziehungen, gesetzliche Aufbewahrungspflichten und die Erforderlichkeit zur Geltendmachung oder Abwehr von Rechtsansprüchen. Entfällt der Zweck und besteht keine weitere Rechtsgrundlage, sind die betreffenden Daten zu löschen. Gesetzlich erforderliche Aufbewahrung beruht auf Art. 6 Abs. 1 lit. c DSGVO.",
+        "details": "Diese Kriterien betreffen auch Nachrichten im Postfach und bei Versanddienstleistern; der Formularcode führt keine automatische fristgesteuerte Löschung durch. Für Anbieterprotokolle und Sicherungen gelten zusätzlich die Diensteinstellungen und Anbieterfristen. Purelymail nennt 30 Tage für Diagnoseprotokolle; nach einer Kontoschließung können Kontodaten noch bis zu 30 Tage in Sicherungen verbleiben. Das ist keine 30-Tage-Löschfrist für einzelne Kontaktanfragen. Die Laufzeit der eigenen Cookies steht im Cookie-Abschnitt."
+      },
+      "transfers": {
+        "title": "Empfänger und internationale Datenübermittlungen",
+        "body": "Empfänger sind die oben beschriebenen Hosting-, E-Mail- und Sicherheitsanbieter sowie deren erforderliche Unterauftragnehmer. Vercel, Resend, Purelymail und Google können Daten außerhalb des EWR, insbesondere in den USA, verarbeiten. Dort können andere Datenschutzregeln und behördliche Zugriffsmöglichkeiten bestehen. Die reCAPTCHA-Einwilligung ersetzt nicht die gesondert erforderliche Absicherung internationaler Übermittlungen nach Art. 44 ff. DSGVO.",
+        "details": "Als Grundlagen kommen ein einschlägiger Angemessenheitsbeschluss nach Art. 45 DSGVO oder geeignete Garantien wie EU-Standardvertragsklauseln nach Art. 46 DSGVO in Betracht. Vercel und Resend beschreiben in ihren verlinkten Unterlagen das EU-US Data Privacy Framework und Standardvertragsklauseln; die Anwendbarkeit hängt vom Empfänger und Vertrag ab. Daraus folgt keine entsprechende Zusicherung für Purelymail. Informationen zu den für Ihre Daten einschlägigen Garantien und gegebenenfalls Kopien können Sie über die oben genannte Kontaktadresse anfragen."
+      },
+      "assets": {
+        "title": "Schriftarten, externe Links und Sicherheit",
+        "body": "Die Schriftarten werden zusammen mit der Website ausgeliefert; Ihr Browser verbindet sich dafür nicht mit Google Fonts. In der Website sind keine eigenen Analyse- oder Werbe-Tracking-Skripte eingebunden; die beschriebenen Hosting- und Sicherheitsverarbeitungen bleiben unberührt. Links zu sozialen Netzwerken und Projektseiten sind normale externe Links, keine eingebetteten Social-Media-Feeds. Beim Aufruf gelten die Datenschutzhinweise der Zielseite.",
+        "details": "Die Website und das Formular werden über HTTPS bereitgestellt. Vollständige Sicherheit jeder E-Mail-Übermittlung kann nicht garantiert werden. Aus der automatisierten reCAPTCHA-Prüfung folgt gegebenenfalls eine Sperre des Formularversands; es erfolgt dadurch keine Entscheidung mit rechtlicher oder vergleichbar erheblicher Wirkung im Sinne von Art. 22 DSGVO. Die Kontaktaufnahme per E-Mail bleibt möglich."
+      },
+      "rights": {
+        "title": "Ihre Rechte und Beschwerdemöglichkeiten",
+        "body": "Unter den gesetzlichen Voraussetzungen haben Sie das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18) und Datenübertragbarkeit (Art. 20). Einwilligungen können Sie jederzeit für die Zukunft widerrufen. Zur Ausübung Ihrer Rechte genügt eine Nachricht an die oben genannte Kontaktadresse; soweit erforderlich, kann ein geeigneter Identitätsnachweis angefordert werden.",
+        "details": "Nach Art. 77 DSGVO können Sie sich bei einer Datenschutzaufsichtsbehörde beschweren, insbesondere am Ort Ihres gewöhnlichen Aufenthalts, Ihres Arbeitsplatzes oder des vermuteten Verstoßes. Für den hier genannten Sitz ist der Landesbeauftragte für Datenschutz und Informationsfreiheit Baden-Württemberg zuständig. Die Beschwerdeseite ist unten verlinkt."
+      },
+      "objection": {
+        "title": "Widerspruch gegen berechtigte Interessen",
+        "body": "Soweit Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO verarbeitet werden, können Sie aus Gründen Ihrer besonderen Situation nach Art. 21 Abs. 1 DSGVO widersprechen. Die Verarbeitung ist dann zu beenden, sofern nicht zwingende schutzwürdige Gründe nachgewiesen werden, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen dient.",
+        "details": "Gegen Verarbeitung für Direktwerbung besteht jederzeit ein Widerspruchsrecht ohne Begründung (Art. 21 Abs. 2 DSGVO). Richten Sie Ihren Widerspruch an die oben genannte E-Mail-Adresse."
+      }
+    },
+    "links": {
+      "title": "Anbieterinformationen und Aufsichtsbehörde",
+      "vercel": "Vercel: Datenschutzhinweise",
+      "resend": "Resend: Auftragsverarbeitung und Übermittlungsgarantien",
+      "purelymail": "Purelymail: Datenschutzhinweise",
+      "google": "Google reCAPTCHA: Datenverarbeitung",
+      "googleDpa": "Google Cloud: Vereinbarung zur Datenverarbeitung",
+      "googleCookies": "Google: Cookie-Informationen",
+      "complaints": "LfDI Baden-Württemberg: Beschwerde einreichen"
+    }
   }
 }

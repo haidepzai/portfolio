@@ -58,11 +58,13 @@
     "imprint": "Imprint"
   },
   "Cookies": {
+    "settings": "Privacy settings",
+    "withdrawal": "Declining also withdraws any previous consent.",
     "accept": "Accept",
     "decline": "Decline",
     "acceptLabel": "Accept cookies",
     "declineLabel": "Decline cookies",
-    "notice": "Google reCAPTCHA protects the contact form and may process device data.",
+    "notice": "With your consent, Google reCAPTCHA loads to prevent spam and processes IP address, browser and usage data. Data may be transferred to the USA. Without consent, you can contact us by email.",
     "privacy": "Privacy"
   },
   "Contact": {
@@ -333,85 +335,81 @@
   },
   "Privacy": {
     "text001": "Privacy Policy",
-    "text002": "Introduction",
-    "text003": "This privacy policy explains which types of personal data (also referred to as 'data') we process, for which purposes and to what extent. It applies to all processing of personal data carried out by us, both in providing our services and, in particular, on our websites, in mobile applications and on external online presences such as our social media profiles (collectively referred to as the 'online offering'). The terms used are gender-neutral. Last updated: July 3, 2020.",
-    "text004": "Contents",
-    "text005": "Introduction",
-    "text006": "Controller",
-    "text007": "Overview of processing",
-    "text008": "Applicable legal bases",
-    "text009": "Security measures",
-    "text010": "Transfer and disclosure of personal data",
-    "text011": "Data processing in third countries",
-    "text012": "Use of cookies",
-    "text013": "Provision of the online offering and web hosting",
-    "text014": "Contacting us",
-    "text015": "Definitions",
-    "text016": "Controller",
-    "text017": "Son Hai Vu,",
-    "text018": "Stuttgarter Str. 134, 73312 Geislingen",
-    "text019": "Email:",
-    "text020": "info@sonhaivu.com",
-    "text021": "Overview of processing",
-    "text022": "The following overview summarizes the types of data processed and the purposes of processing, and refers to the individuals concerned.",
-    "text023": "Types of data processed",
-    "text024": "Basic data (e.g. names and addresses).",
-    "text025": "Content data (e.g. text entries, photographs and videos).",
-    "text026": "Contact data (e.g. email addresses and phone numbers).",
-    "text027": "Metadata and communication data (e.g. device information and IP addresses).",
-    "text028": "Usage data (e.g. websites visited, interests in content and access times).",
-    "text029": "Categories of data subjects",
-    "text030": "Communication partners.",
-    "text031": "Users (e.g. website visitors and users of online services).",
-    "text032": "Purposes of processing",
-    "text033": "Contact requests and communication.",
-    "text034": "Applicable legal bases",
-    "text035": "The following sets out the legal bases under the General Data Protection Regulation (GDPR) on which we process personal data. Please note that national data protection rules in your country and in our country of residence or establishment may apply in addition to the GDPR. Where more specific legal bases are applicable in individual cases, we will inform you of them in this privacy policy.",
-    "text036": "Consent (Article 6(1)(a) GDPR): the data subject has given consent to the processing of their personal data for one or more specific purposes.",
-    "text037": "Performance of a contract and pre-contractual requests (Article 6(1)(b) GDPR): processing is necessary for the performance of a contract to which the data subject is a party, or to take steps at the data subject's request before entering into a contract.",
-    "text038": "Legitimate interests (Article 6(1)(f) GDPR): processing is necessary for the legitimate interests pursued by the controller or a third party, except where these are overridden by the interests or fundamental rights and freedoms of the data subject that require protection of personal data.",
-    "text039": "National data protection rules in Germany:",
-    "text040": "In addition to the GDPR, national data protection rules apply in Germany, in particular the Federal Data Protection Act (BDSG). The BDSG contains specific provisions on the right of access, the right to erasure, the right to object, the processing of special categories of personal data, processing for other purposes, transfers and automated individual decision-making, including profiling. It also regulates the processing of data for employment purposes (Section 26 BDSG), particularly regarding the establishment, performance or termination of employment relationships and employee consent. The data protection laws of individual German federal states may also apply.",
-    "text041": "Security measures",
-    "text042": "In accordance with legal requirements, we implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk, taking into account the state of the art, implementation costs, the nature, scope, context and purposes of processing, and the likelihood and severity of risks to the rights and freedoms of natural persons. These measures include safeguarding the confidentiality, integrity and availability of data by controlling physical and electronic access, data entry, disclosure, availability and separation. We have also established procedures for exercising data subject rights, deleting data and responding to threats to data security. We consider the protection of personal data when developing or selecting hardware, software and procedures, in accordance with the principles of data protection by design and by default.",
-    "text043": "Transfer and disclosure of personal data",
-    "text044": "When processing personal data, we may transfer or disclose data to other entities, companies, legally independent organizational units or individuals. Recipients may include payment institutions involved in payment transactions, service providers entrusted with IT tasks, or providers of services and content integrated into a website. In such cases, we comply with legal requirements and, in particular, enter into appropriate contracts or agreements with the recipients to protect your data.",
-    "text045": "Data processing in third countries",
-    "text046": "If we process data in a third country, meaning outside the European Union (EU) or the European Economic Area (EEA), or if processing takes place through third-party services or the disclosure or transfer of data to other individuals, entities or companies, this is done only in accordance with legal requirements. Subject to express consent or transfers required by contract or law, we process data, or have it processed, only in third countries with a recognized level of data protection, including US processors certified under the 'Privacy Shield', or on the basis of specific safeguards such as contractual obligations through the European Commission's standard contractual clauses, certifications or binding internal data protection rules (Articles 44 to 49 GDPR). European Commission information: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de .",
-    "text047": "Use of cookies",
-    "text048": "Cookies are text files containing data from visited websites or domains, stored by a browser on the user's computer. A cookie primarily stores information about a user during or after their visit to an online offering. Stored information may include language preferences, login status, a shopping cart or the point at which a video was watched. The term 'cookies' also includes other technologies that perform the same functions, for example storing information using pseudonymous online identifiers, also called 'user IDs'. The following types and functions of cookies are distinguished:",
-    "text049": "Temporary cookies, also known as session cookies: these are deleted at the latest when a user leaves an online offering and closes their browser.",
-    "text050": "Persistent cookies: these remain stored after the browser is closed. For example, login status can be saved or preferred content displayed directly when a user returns to a website. User interests used for audience measurement or marketing may also be stored in such a cookie.",
-    "text051": "First-party cookies: cookies set by us.",
-    "text052": "Third-party cookies: cookies used mainly by advertisers and other third parties to process user information.",
-    "text053": "Necessary, essential or strictly required cookies: cookies may be essential to the operation of a website, for example to store logins or other user entries, or for security reasons.",
-    "text054": "Statistics, marketing and personalization cookies: cookies are also commonly used for audience measurement and to store a user's interests or behavior, such as viewing particular content or using functions on individual websites, in a user profile. Such profiles are used, for example, to display content that may match the user's interests. This process is also known as 'tracking', meaning monitoring users' potential interests. Where we use cookies or tracking technologies, we inform you separately in this privacy policy or when requesting consent.",
-    "text055": "Information on legal bases:",
-    "text056": "The legal basis for processing your personal data using cookies depends on whether we ask for your consent. If we do and you consent to the use of cookies, the legal basis is your consent. Otherwise, data processed using cookies is processed on the basis of our legitimate interests, such as the economic operation and improvement of our online offering, or where cookies are necessary to fulfill our contractual obligations.",
-    "text057": "Storage period:",
-    "text058": "Unless we explicitly provide information about the storage period of persistent cookies, for example during a cookie opt-in, please assume that they may be stored for up to two years.",
-    "text059": "General information on withdrawal and objection (opt-out):",
-    "text060": "Depending on whether processing is based on consent or legal permission, you can withdraw your consent or object to the processing of your data through cookie technologies at any time, collectively referred to as 'opt-out'. You can initially object through your browser settings, for example by disabling cookies, although this may limit the functionality of our online offering. You can also object to cookies used for online marketing through various services, particularly for tracking, at https://optout.aboutads.info and https://www.youronlinechoices.com/ . Further information on objections may be provided with details of the service providers and cookies used.",
-    "text061": "Processing cookie data on the basis of consent:",
-    "text062": "Before we process data, or have it processed, through the use of cookies, we ask users for consent that can be withdrawn at any time. Until consent has been given, only cookies strictly necessary for the operation of our online offering are used.",
-    "text063": "Types of data processed: usage data, such as websites visited, interests in content and access times; metadata and communication data, such as device information and IP addresses.",
-    "text064": "Data subjects: users, such as website visitors and users of online services.",
-    "text065": "Legal bases: consent (Article 6(1)(a) GDPR) and legitimate interests (Article 6(1)(f) GDPR).",
-    "text066": "Provision of the online offering and web hosting",
-    "text067": "To provide our online offering securely and efficiently, we use one or more web hosting providers whose servers, or servers managed by them, deliver the online offering. For these purposes, we may use infrastructure and platform services, computing capacity, storage space, database services, security services and technical maintenance. Data processed when providing hosting may include all information concerning users of our online offering that arises during use and communication. This regularly includes the IP address needed to deliver online content to browsers and all entries made within our online offering or on websites. Collection of access data and log files: we, or our web hosting provider, collect data on every access to the server, known as server log files. These may include the address and name of requested websites and files, the date and time of access, data volumes transferred, confirmation of successful access, browser type and version, the user's operating system, the referring URL and usually IP addresses and the requesting provider. Server log files may be used for security purposes, for example to prevent server overload, particularly through abusive attacks such as DDoS attacks, and to ensure server capacity and stability.",
-    "text068": "Types of data processed: content data, such as text entries, photographs and videos; usage data, such as websites visited, interests in content and access times; metadata and communication data, such as device information and IP addresses.",
-    "text069": "Data subjects: users, such as website visitors and users of online services.",
-    "text070": "Legal bases: legitimate interests (Article 6(1)(f) GDPR).",
-    "text071": "Contacting us",
-    "text072": "When you contact us, for example through a contact form, email, phone or social media, we process the information provided insofar as it is necessary to answer your request and carry out any measures requested. Responses within contractual or pre-contractual relationships are provided to fulfill our contractual obligations or answer pre-contractual requests. Other responses are based on our legitimate interest in answering requests.",
-    "text073": "Data subjects: communication partners.",
-    "text074": "Purposes of processing: contact requests and communication.",
-    "text075": "Legal bases: performance of a contract and pre-contractual requests (Article 6(1)(b) GDPR) and legitimate interests (Article 6(1)(f) GDPR).",
-    "text076": "Types of data processed: basic data, such as names and addresses; contact data, such as email addresses and phone numbers; content data, such as text entries, photographs and videos.",
-    "text077": "Definitions",
-    "text078": "This section provides an overview of the terms used in this privacy policy. Many are taken from legislation and defined primarily in Article 4 GDPR. The statutory definitions are binding; the explanations below are intended to aid understanding. The terms are listed in the order of the German original.",
-    "text079": "Personal data: any information relating to an identified or identifiable natural person, referred to as a 'data subject'. An identifiable natural person is one who can be identified, directly or indirectly, particularly by reference to an identifier such as a name, identification number, location data, an online identifier such as a cookie, or one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that person.",
-    "text080": "Controller: the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of processing personal data.",
-    "text081": "Processing: any operation or set of operations performed on personal data, whether or not by automated means. The term is broad and encompasses practically any handling of data, including collection, analysis, storage, transfer and deletion."
+    "updated": "Last updated: November 3, 2026",
+    "intro": "These notices explain how personal data is processed when you visit sonhaivu.com or contact us. Personal data is information relating to an identified or identifiable person.",
+    "contents": "Contents",
+    "controller": {
+      "title": "Controller",
+      "name": "Son Hai Vu",
+      "address": "Stuttgarter Str. 134, 73312 Geislingen, Germany",
+      "email": "Email"
+    },
+    "sections": {
+      "hosting": {
+        "title": "Hosting and access logs: Vercel",
+        "body": "The website and server-side contact form processing run on Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, USA. Vercel processes technically necessary connection data on page visits: particularly your IP address, timestamp, requested URL, browser and device information, and any referrer URL transmitted. Form submissions also pass through this infrastructure.",
+        "details": "The purposes are website delivery, troubleshooting and protection against abuse and attacks. The legal basis for technical operation is Article 6(1)(f) GDPR; the legitimate interest is a secure and reliable website. Retention of technical logs depends on the Vercel services used, their settings and the need for security analysis. Processing exclusively within Europe is not guaranteed."
+      },
+      "contact": {
+        "title": "Contact form and direct email",
+        "body": "The form requires your first name, last name, email address and message. A phone number is optional. These details are used to handle your request and follow up with you. The form cannot be submitted without required details. You can instead write directly to info@sonhaivu.com without consenting to reCAPTCHA; we then process your sender address, message and any other information you provide.",
+        "details": "Article 6(1)(b) GDPR applies to contractual and pre-contractual requests. Other requests are answered under Article 6(1)(f) GDPR; the legitimate interest is communicating with interested parties and handling their concerns. Consent to reCAPTCHA is separate and is not the legal basis for processing the content of your request. Please do not send unnecessary sensitive data."
+      },
+      "email": {
+        "title": "Email delivery: Resend; mailbox: Purelymail",
+        "body": "After successful CAPTCHA verification, the website sends your request through Resend (Plus Five Five, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA) to info@sonhaivu.com. Data includes the names entered, your email as the reply address, the optional phone number and the message. Resend also processes delivery and transmission metadata. The website does not create its own contact database; this does not mean that email providers do not store the message.",
+        "details": "The receiving mailbox is operated by Purelymail (Add Rabbit LLC, USA). It processes messages, addresses and email metadata for receipt, storage and replies, including direct emails. Purelymail identifies AWS US-East-1 in Virginia, USA, as its server location. The legal bases are set out in the contact section. Both providers may use subprocessors necessary to provide their services."
+      },
+      "captcha": {
+        "title": "Spam protection with Google reCAPTCHA",
+        "body": "The contact form uses Google reCAPTCHA v2. Google code loads only after you consent. Your IP address, browser and device information, page context, interaction data and verification data may be transmitted to Google and assessed to detect automated or abusive requests. Google uses the _GRECAPTCHA cookie for risk analysis. Because the integration uses google.com, existing Google cookies may also be involved. Processing in the USA is possible.",
+        "details": "According to its current reCAPTCHA documentation, Google has processed Customer Data as a processor under Google Cloud terms since April 2, 2026, for security, fraud prevention and abuse prevention. Our integration relies on your consent under Article 6(1)(a) GDPR and, for information stored on or accessed from your device, Section 25(1) TDDDG. The server sends the generated verification token to Google, not your message text. Without consent, form submission stays disabled; direct email remains available."
+      },
+      "cookies": {
+        "title": "First-party cookies and language preference",
+        "body": "userCookieConsent stores your acceptance or refusal of reCAPTCHA as true or false for 365 days. NEXT_LOCALE stores your chosen language (de, en or ja) for 365 days. Both cookies apply across the website; a new selection can restart their lifetime. They do not contain names or messages and are not used for advertising.",
+        "details": "Storing your privacy choice and requested language preference is based on Section 25(2)(2) TDDDG. Related personal data processing relies on Article 6(1)(f) GDPR; the legitimate interest is respecting your choices and providing the requested language. Google determines the lifetimes of cookies used by reCAPTCHA; further cookie information is linked below. You can delete cookies in your browser settings at any time."
+      },
+      "withdrawal": {
+        "title": "Changing or withdrawing consent",
+        "body": "The privacy settings on this page and in the footer let you reopen the choice and withdraw earlier consent by selecting Decline. On withdrawal, the page reloads so that reCAPTCHA code already loaded in this document does not keep running. reCAPTCHA is then not loaded again unless you consent again.",
+        "details": "Withdrawal takes effect for the future and does not affect the lawfulness of earlier processing (Article 7(3) GDPR). It does not recall data already sent. This website cannot itself delete Google cookies on other domains; use your browser or Google settings. Your current choice is saved in the consent cookie."
+      },
+      "retention": {
+        "title": "Retention and deletion",
+        "body": "There is no fixed blanket deletion period for contact requests. Relevant criteria are handling and any follow-up of the request, ongoing contractual relationships, statutory retention duties and the need to establish or defend legal claims. Data must be deleted when its purpose ends and no further legal basis applies. Legally required retention is based on Article 6(1)(c) GDPR.",
+        "details": "These criteria also apply to messages in the mailbox and at delivery providers; the form code does not perform automatic scheduled deletion. Provider logs and backups are additionally subject to service settings and provider retention periods. Purelymail states that diagnostic logs are deleted after 30 days and account data can remain in backups for up to 30 days after account closure. This is not a 30-day deletion period for individual contact requests. First-party cookie lifetimes are listed in the cookie section."
+      },
+      "transfers": {
+        "title": "Recipients and international transfers",
+        "body": "Recipients are the hosting, email and security providers described above and their necessary subprocessors. Vercel, Resend, Purelymail and Google may process data outside the EEA, particularly in the USA, where privacy rules and public authority access may differ. Consent to reCAPTCHA does not replace the separately required safeguards for international transfers under Articles 44 et seq. GDPR.",
+        "details": "Possible bases include an applicable adequacy decision under Article 45 GDPR or appropriate safeguards such as EU Standard Contractual Clauses under Article 46 GDPR. Vercel and Resend describe the EU-US Data Privacy Framework and Standard Contractual Clauses in their linked documents; applicability depends on the recipient and contract. This does not constitute a corresponding assurance for Purelymail. You can request information about safeguards applicable to your data and, where relevant, copies at the contact address above."
+      },
+      "assets": {
+        "title": "Fonts, external links and security",
+        "body": "Fonts are served with the website; your browser does not connect to Google Fonts to display them. No separate analytics or advertising tracking scripts are embedded in the website; the hosting and security processing described above is unaffected. Social network and project links are ordinary external links, not embedded social media feeds. The destination privacy notice applies when you visit it.",
+        "details": "The website and form use HTTPS. Complete security of every email transmission cannot be guaranteed. Automated reCAPTCHA checks may prevent form submission but do not constitute a decision with legal or similarly significant effects within Article 22 GDPR. Contact by email remains available."
+      },
+      "rights": {
+        "title": "Your rights and complaints",
+        "body": "Subject to statutory conditions, you have rights of access (Article 15 GDPR), rectification (Article 16), erasure (Article 17), restriction of processing (Article 18) and data portability (Article 20). You may withdraw consent at any time with effect for the future. To exercise your rights, write to the contact address above; suitable proof of identity may be requested where necessary.",
+        "details": "Under Article 77 GDPR, you may complain to a data protection supervisory authority, particularly where you habitually reside or work, or where the alleged infringement occurred. The authority for the stated location is the State Commissioner for Data Protection and Freedom of Information Baden-Württemberg. Its complaints page is linked below."
+      },
+      "objection": {
+        "title": "Objecting to legitimate-interest processing",
+        "body": "Where data is processed under Article 6(1)(f) GDPR, you may object under Article 21(1) on grounds relating to your particular situation. Processing must then stop unless compelling legitimate grounds overriding your interests, rights and freedoms are demonstrated, or processing serves the establishment, exercise or defence of legal claims.",
+        "details": "You may object to processing for direct marketing at any time without giving reasons (Article 21(2) GDPR). Send your objection to the email address above."
+      }
+    },
+    "links": {
+      "title": "Provider information and supervisory authority",
+      "vercel": "Vercel: privacy notice",
+      "resend": "Resend: data processing and transfer safeguards",
+      "purelymail": "Purelymail: privacy policy",
+      "google": "Google reCAPTCHA: data processing",
+      "googleDpa": "Google Cloud: Data Processing Addendum",
+      "googleCookies": "Google: cookie information",
+      "complaints": "LfDI Baden-Württemberg: submit a complaint"
+    }
   }
 }

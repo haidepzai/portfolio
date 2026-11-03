@@ -4,6 +4,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { pageMetadata } from "@/i18n/metadata";
+import CookieConsentProvider from "@/components/CookieConsentProvider";
 import "../globals.css";
 
 const inter = Inter({
@@ -35,7 +36,9 @@ export default async function LocaleLayout({ children, params }) {
     return (
         <html lang={locale}>
             <body className={`antialiased ${inter.variable} ${bebasNeue.variable}`}>
-                <NextIntlClientProvider>{children}</NextIntlClientProvider>
+                <NextIntlClientProvider>
+                    <CookieConsentProvider>{children}</CookieConsentProvider>
+                </NextIntlClientProvider>
             </body>
         </html>
     );
