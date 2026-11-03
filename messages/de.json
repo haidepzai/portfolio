@@ -1,0 +1,393 @@
+{
+  "Metadata": {
+    "imprintDescription": "Impressum und Kontaktinformationen zum Portfolio von Son Hai Vu.",
+    "privacyDescription": "Datenschutzerklärung zum Portfolio von Son Hai Vu: personenbezogene Daten, Cookies und Kontaktanfragen.",
+    "description": "Portfolio von Son Hai Vu: Webentwickler für moderne, leistungsstarke Websites und Anwendungen."
+  },
+  "Navigation": {
+    "home": "Start",
+    "about": "Über mich",
+    "journey": "Werdegang",
+    "work": "Projekte",
+    "contact": "Kontakt",
+    "language": "Sprache",
+    "menu": "Menü öffnen oder schließen"
+  },
+  "Hero": {
+    "intro": "Ich entwickle",
+    "heading": "innovative",
+    "websites": "Websites",
+    "apps": "Apps",
+    "software": "Software",
+    "description": "Ich bin Softwareentwickler aus Deutschland mit einer Leidenschaft für Webentwicklung.",
+    "contact": "Kontakt aufnehmen",
+    "portrait": "Porträt von Son Hai Vu"
+  },
+  "About": {
+    "title": "Mein Name ist Son Hai",
+    "role": "Softwareentwickler, M.Sc.",
+    "experienceYears": "Jahre",
+    "experienceLabel": "Berufserfahrung",
+    "description": "Ich bin ein motivierter, anpassungsfähiger und verantwortungsbewusster Softwareentwickler aus Deutschland mit Schwerpunkt auf Webentwicklung und maschinellem Lernen. Ich habe Erfahrung in der Entwicklung von Webanwendungen für Unternehmen und beherrsche verschiedene Programmiersprachen, darunter TypeScript, Python und Java. Ich lerne gerne neue Technologien kennen und möchte meine fachlichen Fähigkeiten und interkulturellen Erfahrungen nutzen, um mich persönlich weiterzuentwickeln.",
+    "location": "Standort",
+    "city": "Stuttgart, Deutschland",
+    "phone": "Telefon",
+    "email": "E-Mail"
+  },
+  "Services": {
+    "architecture": {
+      "title": "Softwarearchitektur",
+      "description": "Entwurf und Konzeption anspruchsvoller Softwareanwendungen."
+    },
+    "web": {
+      "title": "Webentwicklung",
+      "description": "Entwicklung moderner Webanwendungen für alle Geräte."
+    },
+    "ml": {
+      "title": "Maschinelles Lernen",
+      "description": "Erfahrung mit aktuellen Frameworks und Bibliotheken für maschinelles Lernen."
+    },
+    "app": {
+      "title": "App-Entwicklung",
+      "description": "Entwicklung von Apps für iOS und Android mit Swift und Kotlin."
+    }
+  },
+  "Footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
+  },
+  "Cookies": {
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "acceptLabel": "Cookies akzeptieren",
+    "declineLabel": "Cookies ablehnen",
+    "notice": "Google reCAPTCHA schützt das Kontaktformular und kann Gerätedaten verarbeiten.",
+    "privacy": "Datenschutz"
+  },
+  "Contact": {
+    "title": "Lass uns zusammenarbeiten",
+    "firstname": "Vorname",
+    "lastname": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefonnummer",
+    "message": "Nachricht",
+    "placeholder": "Schreib mir eine Nachricht...",
+    "success": "Deine Nachricht wurde gesendet.",
+    "sending": "Wird gesendet...",
+    "send": "Nachricht senden",
+    "consent": "Akzeptiere den Cookie-Hinweis, um Google reCAPTCHA zu laden und das Formular abzusenden.",
+    "captchaLoad": "reCAPTCHA konnte nicht geladen werden. Bitte versuche es erneut.",
+    "errors": {
+      "invalidRequest": "Ungültige Anfrage.",
+      "captchaRequired": "Bitte schließe vor dem Senden die reCAPTCHA-Prüfung ab.",
+      "captchaNotConfigured": "CAPTCHA ist nicht eingerichtet. Bitte kontaktiere den Websitebetreiber.",
+      "requiredFields": "Bitte fülle alle Pflichtfelder aus.",
+      "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
+      "serviceNotConfigured": "Der Nachrichtendienst ist nicht eingerichtet.",
+      "captchaFailed": "Die reCAPTCHA-Prüfung ist fehlgeschlagen. Bitte versuche es erneut.",
+      "sendFailed": "Deine Nachricht konnte nicht gesendet werden. Bitte versuche es erneut.",
+      "serviceUnavailable": "Der Nachrichtendienst ist nicht verfügbar. Bitte versuche es später erneut."
+    }
+  },
+  "Stats": {
+    "experience": "Jahre Berufserfahrung",
+    "projects": "Projekte auf GitHub",
+    "certifications": "Zertifizierungen"
+  },
+  "Journey": {
+    "title": "Mein beruflicher Werdegang",
+    "experience": "Berufserfahrung",
+    "education": "Ausbildung",
+    "skills": "Kenntnisse",
+    "items": {
+      "item1": {
+        "company": "Accenture (Kaiserslautern, Deutschland)",
+        "position": "Java-Backend-Entwickler",
+        "duration": "April 2025 - heute",
+        "description": "Mitwirkung an der Entwicklung eines zentralen IT-Systems für die Justizverwaltung im öffentlichen Sektor. Schwerpunkt auf der Weiterentwicklung der Kernarchitektur und der Implementierung von Backend-Komponenten mit Java und Spring Boot. Entwicklung von Microservices. Zusammenarbeit mit Fach- und Entwicklungsteams in einem agilen Umfeld im Rahmen eines bundesweiten Digitalisierungsprojekts."
+      },
+      "item2": {
+        "company": "Alfred Kärcher SE & Co. KG (Winnenden, Deutschland)",
+        "position": "API-Management",
+        "duration": "Sept. 2024 - Feb. 2025",
+        "description": "Konzeption und Bewertung einer maßgeschneiderten API-Management-Strategie im Domain-Driven Design. Analyse der API-Landschaft und Durchführung von Experteninterviews, um aktuelle Herausforderungen bei der API-Entwicklung zu identifizieren. Definition von API-Standards und Richtlinien sowie Vergleich verschiedener API-Management-Werkzeuge."
+      },
+      "item3": {
+        "company": "TRUMPF SE + Co. KG (Ditzingen, Deutschland)",
+        "position": "Softwareentwickler in Forschung und Entwicklung",
+        "duration": "März 2024 - Sept. 2024",
+        "description": "Softwareentwicklung in der Forschungs- und Entwicklungsabteilung für TruConnect, eine Lösung für die vernetzte Fertigung. Entwicklung interner Werkzeuge mit dem .NET Framework. Unterstützung bei der Entwicklung der Monitoring-Anwendung SmartView, die Leistungsdaten und Energieverbrauch von Lasern und Lasersystemen anzeigt. Implementierung einer 3D-Ansicht der Maschinen mit Angular und .NET."
+      },
+      "item4": {
+        "company": "Qibitech Inc. (Tokio, Japan)",
+        "position": "Webentwickler",
+        "duration": "Aug. 2023 - März 2024",
+        "description": "Unterstützung des Teams bei der Frontend-Entwicklung von HATS UI mit Vue.js. HATS (Highly Autonomous Teleoperation Service) ermöglicht die Fernsteuerung autonomer Roboter bei der Ausführung ihrer Aufgaben. HATS UI ist eine Webanwendung mit verschiedenen Funktionen für die Kommunikation mit Robotern. Serverseitige Entwicklung mit Ruby on Rails sowie Erstellung von API-Dokumentation und Unit-Tests."
+      },
+      "item5": {
+        "company": "Capgemini (Leinfelden-Echterdingen, Deutschland)",
+        "position": "Softwareentwickler",
+        "duration": "Juli 2021 - Feb. 2023",
+        "description": "Mitarbeit im Bereich Digital Customer Experience am Customer Messaging System (CusMeS). Fullstack-Entwicklung in einem agilen Scrum-Team. Unterstützung bei der Entwicklung einer Webanwendung für einen internationalen Automobilhersteller mit Angular und Java Spring, die den Massenversand von Nachrichten über SMS, WhatsApp und E-Mail ermöglicht. End-to-End-Tests mit Cypress."
+      },
+      "item6": {
+        "company": "Robert Bosch GmbH (Stuttgart, Deutschland)",
+        "position": "Softwareentwicklung",
+        "duration": "Sept. 2020 - Feb. 2021",
+        "description": "Softwareentwicklung in einem agilen, internationalen Team. Entwicklung von Werkzeugen mit C# und dem .NET Framework. Entwicklung und Erweiterung einer Webanwendung für Transport- und Bestandsmanagement in der Intralogistik mit Angular, HTML5 und CSS. Erstellung von REST-APIs mit ASP.NET und automatisierten Tests mit Cypress. Vorbereitung, Konfiguration, Durchführung und Auswertung eines Vergleichs dynamischer und statischer Tourenplanung für intralogistische Routenzüge."
+      },
+      "item7": {
+        "company": "antares Informations-Systeme GmbH (Geislingen, Deutschland)",
+        "position": "Softwareentwickler",
+        "duration": "Jan. 2020 - Aug. 2020",
+        "description": "Mitarbeit in der Softwareentwicklung. Erstellung von Standardsoftware und Entwicklung von Websites mit HTML, CSS und JavaScript. Unterstützung bei der Suchmaschinenoptimierung mit WordPress sowie Datenbankentwicklung mit PostgreSQL."
+      },
+      "item8": {
+        "institution": "Hochschule der Medien (Stuttgart, Deutschland)",
+        "qualification": "Computer Science and Media (M.Sc.)",
+        "duration": "Feb. 2022 - Feb. 2025",
+        "description": "Schwerpunkte: IT-Projektmanagement mit agiler Softwareentwicklung, Teamführung und Verhandlungskompetenz sowie maschinelles Lernen."
+      },
+      "item9": {
+        "institution": "Universität Tsukuba (Tsukuba, Japan)",
+        "qualification": "Masterstudium Informatik",
+        "duration": "April 2023 - Feb. 2024",
+        "description": "Auslandsstudium mit Kursen in Visualisierung, strukturierten Daten, Data Science, adaptiver Medienverarbeitung und maschinellem Lernen."
+      },
+      "item10": {
+        "institution": "Hochschule der Medien (Stuttgart, Deutschland)",
+        "qualification": "Medieninformatik (B.Sc.)",
+        "duration": "Sept. 2018 - Feb. 2022",
+        "description": "Schwerpunkte: Webentwicklung und maschinelles Lernen mit Data Mining, Mustererkennung und natürlicher Sprachverarbeitung. Bachelorarbeit: Computer-Vision-basierte Extraktion druckerspezifischer Merkmale zur Klassifikation von Tintenstrahldruckern mit maschinellem Lernen."
+      },
+      "item11": {
+        "duration": "Erlernt 2018",
+        "description": "Strukturierung moderner Webinhalte mit HTML unter Berücksichtigung semantischer Auszeichnung und Barrierefreiheit."
+      },
+      "item12": {
+        "duration": "Erlernt 2018",
+        "description": "Gestaltung responsiver Webseiten mit CSS für eine ansprechende Nutzererfahrung mit modernen Designprinzipien und Layouts."
+      },
+      "item13": {
+        "duration": "Erlernt 2018",
+        "description": "Backend-Entwicklung mit Java für unterschiedliche Anwendungsbereiche, darunter Webanwendungen und mobile Apps."
+      },
+      "item14": {
+        "duration": "Erlernt 2018",
+        "description": "Versionsverwaltung mit Git für die Zusammenarbeit und Codeverwaltung in Softwareentwicklungsprojekten."
+      },
+      "item15": {
+        "duration": "Erlernt 2019",
+        "description": "Entwicklung interaktiver Webseiten mit JavaScript durch dynamische Inhalte und Funktionen."
+      },
+      "item16": {
+        "duration": "Erlernt 2019",
+        "description": "Entwicklung serverseitiger Anwendungen mit Node.js mit Fokus auf leistungsstarke und skalierbare Backend-Dienste."
+      },
+      "item17": {
+        "duration": "Erlernt 2019",
+        "description": "Datenbankverwaltung mit MongoDB für flexible und skalierbare Datenspeicherung in Webanwendungen."
+      },
+      "item18": {
+        "duration": "Erlernt 2020",
+        "description": "Entwicklung von Python-Anwendungen für Datenanalyse, maschinelles Lernen und Deep Learning mit Bibliotheken wie NumPy, Pandas und TensorFlow."
+      },
+      "item19": {
+        "duration": "Erlernt 2020",
+        "description": "Implementierung von JavaScript für interaktive Webseiten mit dynamischen Inhalten und Funktionen."
+      },
+      "item20": {
+        "duration": "Erlernt 2020",
+        "description": "Entwicklung von Angular-Anwendungen für Unternehmen mit Fokus auf Skalierbarkeit und Wartbarkeit."
+      },
+      "item21": {
+        "duration": "Erlernt 2021",
+        "description": "Entwicklung dynamischer Benutzeroberflächen mit React.js und komponentenbasiertem Design für effiziente, nahtlose Nutzererlebnisse."
+      },
+      "item22": {
+        "duration": "Erlernt 2021",
+        "description": "Containerisierung mit Docker für konsistente und portable Entwicklungsumgebungen."
+      },
+      "item23": {
+        "duration": "Erlernt 2021",
+        "description": "Kontinuierliche Integration und Bereitstellung mit Jenkins zur Automatisierung und Optimierung des Entwicklungsprozesses."
+      },
+      "item24": {
+        "duration": "Erlernt 2022",
+        "description": "Entwicklung responsiver Webanwendungen mit Bootstrap für eine konsistente Darstellung auf verschiedenen Geräten und Bildschirmgrößen."
+      },
+      "item25": {
+        "duration": "Erlernt 2022",
+        "description": "Als zertifizierter Scrum Master habe ich agile Teams begleitet und die erfolgreiche Umsetzung der Scrum-Praktiken und -Prinzipien unterstützt."
+      },
+      "item26": {
+        "duration": "Erlernt 2023",
+        "description": "Entwicklung moderner Webanwendungen mit Vue.js mit Fokus auf Leistung und Nutzererfahrung."
+      }
+    }
+  },
+  "Certifications": {
+    "title": "Meine Zertifizierungen",
+    "previous": "Vorheriges Zertifikat",
+    "next": "Nächstes Zertifikat",
+    "items": {
+      "item1": {
+        "date": "September 2021",
+        "message": "Als zertifizierter Softwarearchitekt kenne ich die Prinzipien von Softwarearchitektur und -design. Ich entwerfe und implementiere skalierbare, wartbare und sichere Softwarelösungen, die die Anforderungen der Beteiligten erfüllen."
+      },
+      "item2": {
+        "date": "April 2022",
+        "message": "Durch meine Berufserfahrung als Scrum Master kenne ich das Scrum-Framework und unterstütze Teams dabei, mit Scrum hochwertige Produkte zu entwickeln."
+      },
+      "item3": {
+        "date": "Februar 2022",
+        "message": "Ich kenne Cloud-Konzepte, Azure-Dienste sowie die Bereiche Sicherheit, Datenschutz und Compliance und unterstütze Unternehmen dabei, Azure für ihre geschäftlichen Anforderungen einzusetzen."
+      },
+      "item4": {
+        "date": "Dezember 2020",
+        "message": "Ich kenne Google Ads Search und unterstütze Unternehmen bei der Erstellung und Optimierung von Suchkampagnen, um ihre Zielgruppen zu erreichen und Marketingziele umzusetzen."
+      },
+      "item5": {
+        "date": "Februar 2024",
+        "message": "Ich kenne AWS-Dienste, Sicherheitskonzepte und Preismodelle und unterstütze Unternehmen dabei, skalierbare und kosteneffiziente Lösungen mit AWS aufzubauen."
+      },
+      "item6": {
+        "date": "September 2024",
+        "message": "Als zertifizierter Linux-Experte kenne ich Linux-Betriebssysteme, die Kommandozeile und Shell-Skripting und unterstütze Unternehmen bei der Bereitstellung und Verwaltung von Linux-Servern."
+      }
+    }
+  },
+  "Work": {
+    "title": "Meine neuesten Projekte",
+    "loadMore": "Mehr anzeigen",
+    "open": "Projekt öffnen: {title}",
+    "categories": {
+      "all": "Alle",
+      "app": "Apps",
+      "web": "Web",
+      "software": "Software",
+      "ML": "KI / ML"
+    },
+    "items": {
+      "item1": { "title": "Yomi Lens" },
+      "item2": { "title": "Manabu" },
+      "item3": { "title": "Neo Seichi" },
+      "item4": { "title": "Omakase GO" },
+      "item5": { "title": "Smart TODO Kanban" },
+      "item6": { "title": "OpenBarber" },
+      "item7": { "title": "TraveLinked" },
+      "item8": { "title": "Hanabi Mitai App" },
+      "item9": { "title": "Finanzmanager-App" },
+      "item10": { "title": "JSON-Parser in Ruby" },
+      "item11": { "title": "Druckerklassifikation mit maschinellem Lernen" },
+      "item12": { "title": "Japanisch-Lern-App" }
+    }
+  },
+  "Imprint": {
+    "text001": "Impressum",
+    "text002": "Angaben gemäß § 5 DDG",
+    "text003": "Verantwortlich",
+    "text004": "Son Hai Vu",
+    "text005": "Stuttgarter Str. 134",
+    "text006": "73312 Geislingen",
+    "text007": "Deutschland",
+    "text008": "Kontakt",
+    "text009": "Telefon: +49 152 37349594",
+    "text010": "E-Mail:",
+    "text011": "info@sonhaivu.com",
+    "text012": "Tätigkeit",
+    "text013": "Softwareentwicklung sowie Betrieb eines Online-Portfolios und einer Web-Anwendung.",
+    "text014": "Umsatzsteuer",
+    "text015": "Es wird keine Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG angegeben.",
+    "text016": "Haftung für Inhalte",
+    "text017": "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.",
+    "text018": "Haftung für Links",
+    "text019": "Diese Website kann Links zu externen Websites Dritter enthalten, auf deren Inhalte kein Einfluss besteht. Für diese fremden Inhalte wird daher keine Gewähr übernommen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.",
+    "text020": "Urheberrecht",
+    "text021": "Die auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung des jeweiligen Rechteinhabers."
+  },
+  "Privacy": {
+    "text001": "Datenschutzerklärung",
+    "text002": "Einleitung",
+    "text003": "Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als \"Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer Leistungen als auch insbesondere auf unseren Webseiten, in mobilen Applikationen sowie innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend zusammenfassend bezeichnet als \"Onlineangebot“). Die verwendeten Begriffe sind nicht geschlechtsspezifisch. Stand: 3. Juli 2020",
+    "text004": "Inhaltsübersicht",
+    "text005": "Einleitung",
+    "text006": "Verantwortlicher",
+    "text007": "Übersicht der Verarbeitungen",
+    "text008": "Maßgebliche Rechtsgrundlagen",
+    "text009": "Sicherheitsmaßnahmen",
+    "text010": "Übermittlung und Offenbarung von personenbezogenen Daten",
+    "text011": "Datenverarbeitung in Drittländern",
+    "text012": "Einsatz von Cookies",
+    "text013": "Bereitstellung des Onlineangebotes und Webhosting",
+    "text014": "Kontaktaufnahme",
+    "text015": "Begriffsdefinitionen",
+    "text016": "Verantwortlicher",
+    "text017": "Son Hai Vu,",
+    "text018": "Stuttgarter Str. 134, 73312 Geislingen",
+    "text019": "E-Mail:",
+    "text020": "info@sonhaivu.com",
+    "text021": "Übersicht der Verarbeitungen",
+    "text022": "Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.",
+    "text023": "Arten der verarbeiteten Daten",
+    "text024": "Bestandsdaten (z.B. Namen, Adressen).",
+    "text025": "Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).",
+    "text026": "Kontaktdaten (z.B. E-Mail, Telefonnummern).",
+    "text027": "Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).",
+    "text028": "Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).",
+    "text029": "Kategorien betroffener Personen",
+    "text030": "Kommunikationspartner.",
+    "text031": "Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).",
+    "text032": "Zwecke der Verarbeitung",
+    "text033": "Kontaktanfragen und Kommunikation.",
+    "text034": "Maßgebliche Rechtsgrundlagen",
+    "text035": "Im Folgenden teilen wir die Rechtsgrundlagen der Datenschutzgrundverordnung (DSGVO), auf deren Basis wir die personenbezogenen Daten verarbeiten, mit. Bitte beachten Sie, dass zusätzlich zu den Regelungen der DSGVO die nationalen Datenschutzvorgaben in Ihrem bzw. unserem Wohn- und Sitzland gelten können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der Datenschutzerklärung mit.",
+    "text036": "Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO) - Die betroffene Person hat ihre Einwilligung in die Verarbeitung der sie betreffenden personenbezogenen Daten für einen spezifischen Zweck oder mehrere bestimmte Zwecke gegeben.",
+    "text037": "Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b. DSGVO) - Die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen.",
+    "text038": "Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO) - Die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen.",
+    "text039": "Nationale Datenschutzregelungen in Deutschland:",
+    "text040": "Zusätzlich zu den Datenschutzregelungen der Datenschutz-Grundverordnung gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall einschließlich Profiling. Des Weiteren regelt es die Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses (§ 26 BDSG), insbesondere im Hinblick auf die Begründung, Durchführung oder Beendigung von Beschäftigungsverhältnissen sowie die Einwilligung von Beschäftigten. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen.",
+    "text041": "Sicherheitsmaßnahmen",
+    "text042": "Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten. Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen und elektronischen Zugangs zu den Daten als auch des sie betreffenden Zugriffs, der Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die eine Wahrnehmung von Betroffenenrechten, die Löschung von Daten und Reaktionen auf die Gefährdung der Daten gewährleisten. Ferner berücksichtigen wir den Schutz personenbezogener Daten bereits bei der Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen.",
+    "text043": "Übermittlung und Offenbarung von personenbezogenen Daten",
+    "text044": "Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass die Daten an andere Stellen, Unternehmen, rechtlich selbstständige Organisationseinheiten oder Personen übermittelt oder sie ihnen gegenüber offengelegt werden. Zu den Empfängern dieser Daten können z.B. Zahlungsinstitute im Rahmen von Zahlungsvorgängen, mit IT-Aufgaben beauftragte Dienstleister oder Anbieter von Diensten und Inhalten, die in eine Webseite eingebunden werden, gehören. In solchen Fall beachten wir die gesetzlichen Vorgaben und schließen insbesondere entsprechende Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den Empfängern Ihrer Daten ab.",
+    "text045": "Datenverarbeitung in Drittländern",
+    "text046": "Sofern wir Daten in einem Drittland (d.h., außerhalb der Europäischen Union (EU), des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder der Offenlegung bzw. Übermittlung von Daten an andere Personen, Stellen oder Unternehmen stattfindet, erfolgt dies nur im Einklang mit den gesetzlichen Vorgaben. Vorbehaltlich ausdrücklicher Einwilligung oder vertraglich oder gesetzlich erforderlicher Übermittlung verarbeiten oder lassen wir die Daten nur in Drittländern mit einem anerkannten Datenschutzniveau, zu denen die unter dem \"Privacy-Shield\" zertifizierten US-Verarbeiter gehören, oder auf Grundlage besonderer Garantien, wie z.B. vertraglicher Verpflichtung durch sogenannte Standardschutzklauseln der EU-Kommission, des Vorliegens von Zertifizierungen oder verbindlicher interner Datenschutzvorschriften, verarbeiten (Art. 44 bis 49 DSGVO, Informationsseite der EU-Kommission: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de ).",
+    "text047": "Einsatz von Cookies",
+    "text048": "Cookies sind Textdateien, die Daten von besuchten Websites oder Domains enthalten und von einem Browser auf dem Computer des Benutzers gespeichert werden. Ein Cookie dient in erster Linie dazu, die Informationen über einen Benutzer während oder nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten Angaben können z.B. die Spracheinstellungen auf einer Webseite, der Loginstatus, ein Warenkorb oder die Stelle, an der ein Video geschaut wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere Technologien, die die gleichen Funktionen wie Cookies erfüllen (z.B., wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen gespeichert werden, auch als \"Nutzer-IDs\" bezeichnet) Die folgenden Cookie-Typen und Funktionen werden unterschieden:",
+    "text049": "Temporäre Cookies (auch: Session- oder Sitzungs-Cookies): Temporäre Cookies werden spätestens gelöscht, nachdem ein Nutzer ein Online-Angebot verlassen und seinen Browser geschlossen hat.",
+    "text050": "Permanente Cookies: Permanente Cookies bleiben auch nach dem Schließen des Browsers gespeichert. So kann beispielsweise der Login-Status gespeichert oder bevorzugte Inhalte direkt angezeigt werden, wenn der Nutzer eine Website erneut besucht. Ebenso können die Interessen von Nutzern, die zur Reichweitenmessung oder zu Marketingzwecken verwendet werden, in einem solchen Cookie gespeichert werden.",
+    "text051": "First-Party-Cookies: First-Party-Cookies werden von uns selbst gesetzt.",
+    "text052": "Third-Party-Cookies (auch: Drittanbieter-Cookies): Drittanbieter-Cookies werden hauptsächlich von Werbetreibenden (sog. Dritten) verwendet, um Benutzerinformationen zu verarbeiten.",
+    "text053": "Notwendige (auch: essentielle oder unbedingt erforderliche) Cookies: Cookies können zum einen für den Betrieb einer Webseite unbedingt erforderlich sein (z.B. um Logins oder andere Nutzereingaben zu speichern oder aus Gründen der Sicherheit).",
+    "text054": "Statistik-, Marketing- und Personalisierungs-Cookies: Ferner werden Cookies im Regelfall auch im Rahmen der Reichweitenmessung eingesetzt sowie dann, wenn die Interessen eines Nutzers oder sein Verhalten (z.B. Betrachten bestimmter Inhalte, Nutzen von Funktionen etc.) auf einzelnen Webseiten in einem Nutzerprofil gespeichert werden. Solche Profile dienen dazu, den Nutzern z.B. Inhalte anzuzeigen, die ihren potentiellen Interessen entsprechen. Dieses Verfahren wird auch als \"Tracking\", d.h., Nachverfolgung der potentiellen Interessen der Nutzer bezeichnet. . Soweit wir Cookies oder \"Tracking\"-Technologien einsetzen, informieren wir Sie gesondert in unserer Datenschutzerklärung oder im Rahmen der Einholung einer Einwilligung.",
+    "text055": "Hinweise zu Rechtsgrundlagen:",
+    "text056": "Auf welcher Rechtsgrundlage wir Ihre personenbezogenen Daten mit Hilfe von Cookies verarbeiten, hängt davon ab, ob wir Sie um eine Einwilligung bitten. Falls dies zutrifft und Sie in die Nutzung von Cookies einwilligen, ist die Rechtsgrundlage der Verarbeitung Ihrer Daten die erklärte Einwilligung. Andernfalls werden die mithilfe von Cookies verarbeiteten Daten auf Grundlage unserer berechtigten Interessen (z.B. an einem betriebswirtschaftlichen Betrieb unseres Onlineangebotes und dessen Verbesserung) verarbeitet oder, wenn der Einsatz von Cookies erforderlich ist, um unsere vertraglichen Verpflichtungen zu erfüllen.",
+    "text057": "Speicherdauer:",
+    "text058": "Sofern wir Ihnen keine expliziten Angaben zur Speicherdauer von permanenten Cookies mitteilen (z. B. im Rahmen eines sog. Cookie-Opt-Ins), gehen Sie bitte davon aus, dass die Speicherdauer bis zu zwei Jahre betragen kann.",
+    "text059": "Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-Out):",
+    "text060": "Abhängig davon, ob die Verarbeitung auf Grundlage einer Einwilligung oder gesetzlichen Erlaubnis erfolgt, haben Sie jederzeit die Möglichkeit, eine erteilte Einwilligung zu widerrufen oder der Verarbeitung Ihrer Daten durch Cookie-Technologien zu widersprechen (zusammenfassend als \"Opt-Out\" bezeichnet). Sie können Ihren Widerspruch zunächst mittels der Einstellungen Ihres Browsers erklären, z.B., indem Sie die Nutzung von Cookies deaktivieren (wobei hierdurch auch die Funktionsfähigkeit unseres Onlineangebotes eingeschränkt werden kann). Ein Widerspruch gegen den Einsatz von Cookies zu Zwecken des Onlinemarketings kann auch mittels einer Vielzahl von Diensten, vor allem im Fall des Trackings, über die Webseiten https://optout.aboutads.info und https://www.youronlinechoices.com/ erklärt werden. Daneben können Sie weitere Widerspruchshinweise im Rahmen der Angaben zu den eingesetzten Dienstleistern und Cookies erhalten.",
+    "text061": "Verarbeitung von Cookie-Daten auf Grundlage einer Einwilligung:",
+    "text062": "Bevor wir Daten im Rahmen der Nutzung von Cookies verarbeiten oder verarbeiten lassen, bitten wir die Nutzer um eine jederzeit widerrufbare Einwilligung. Bevor die Einwilligung nicht ausgesprochen wurde, werden allenfalls Cookies eingesetzt, die für den Betrieb unseres Onlineangebotes unbedingt erforderlich sind.",
+    "text063": "Verarbeitete Datenarten: Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).",
+    "text064": "Betroffene Personen: Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).",
+    "text065": "Rechtsgrundlagen: Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).",
+    "text066": "Bereitstellung des Onlineangebotes und Webhosting",
+    "text067": "Um unser Onlineangebot sicher und effizient bereitstellen zu können, nehmen wir die Leistungen von einem oder mehreren Webhosting-Anbietern in Anspruch, von deren Servern (bzw. von ihnen verwalteten Servern) das Onlineangebot abgerufen werden kann. Zu diesen Zwecken können wir Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und Datenbankdienste sowie Sicherheitsleistungen und technische Wartungsleistungen in Anspruch nehmen. Zu den im Rahmen der Bereitstellung des Hostingangebotes verarbeiteten Daten können alle die Nutzer unseres Onlineangebotes betreffenden Angaben gehören, die im Rahmen der Nutzung und der Kommunikation anfallen. Hierzu gehören regelmäßig die IP-Adresse, die notwendig ist, um die Inhalte von Onlineangeboten an Browser ausliefern zu können, und alle innerhalb unseres Onlineangebotes oder von Webseiten getätigten Eingaben. Erhebung von Zugriffsdaten und Logfiles: Wir selbst (bzw. unser Webhostinganbieter) erheben Daten zu jedem Zugriff auf den Server (sogenannte Serverlogfiles). Zu den Serverlogfiles können die Adresse und Name der abgerufenen Webseiten und Dateien, Datum und Uhrzeit des Abrufs, übertragene Datenmengen, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite) und im Regelfall IP-Adressen und der anfragende Provider gehören. Die Serverlogfiles können zum einen zu Zwecken der Sicherheit eingesetzt werden, z.B., um eine Überlastung der Server zu vermeiden (insbesondere im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken) und zum anderen, um die Auslastung der Server und ihre Stabilität sicherzustellen.",
+    "text068": "Verarbeitete Datenarten: Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos), Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).",
+    "text069": "Betroffene Personen: Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).",
+    "text070": "Rechtsgrundlagen: Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).",
+    "text071": "Kontaktaufnahme",
+    "text072": "Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail, Telefon oder via soziale Medien) werden die Angaben der anfragenden Personen verarbeitet, soweit dies zur Beantwortung der Kontaktanfragen und etwaiger angefragter Maßnahmen erforderlich ist. Die Beantwortung der Kontaktanfragen im Rahmen von vertraglichen oder vorvertraglichen Beziehungen erfolgt zur Erfüllung unserer vertraglichen Pflichten oder zur Beantwortung von (vor)vertraglichen Anfragen und im Übrigen auf Grundlage der berechtigten Interessen an der Beantwortung der Anfragen.",
+    "text073": "Betroffene Personen: Kommunikationspartner.",
+    "text074": "Zwecke der Verarbeitung: Kontaktanfragen und Kommunikation.",
+    "text075": "Rechtsgrundlagen: Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b. DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).",
+    "text076": "Verarbeitete Datenarten: Bestandsdaten (z.B. Namen, Adressen), Kontaktdaten (z.B. E-Mail, Telefonnummern), Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).",
+    "text077": "Begriffsdefinitionen",
+    "text078": "In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutzerklärung verwendeten Begrifflichkeiten. Viele der Begriffe sind dem Gesetz entnommen und vor allem im Art. 4 DSGVO definiert. Die gesetzlichen Definitionen sind verbindlich. Die nachfolgenden Erläuterungen sollen dagegen vor allem dem Verständnis dienen. Die Begriffe sind alphabetisch sortiert.",
+    "text079": "Personenbezogene Daten: \"Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden \"betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.",
+    "text080": "Verantwortlicher: Als \"Verantwortlicher“ wird die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet, bezeichnet.",
+    "text081": "Verarbeitung: \"Verarbeitung\" ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten, sei es das Erheben, das Auswerten, das Speichern, das Übermitteln oder das Löschen."
+  }
+}

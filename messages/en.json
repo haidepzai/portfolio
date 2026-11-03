@@ -1,0 +1,417 @@
+{
+  "Metadata": {
+    "imprintDescription": "Legal notice and contact information for Son Hai Vu's portfolio.",
+    "privacyDescription": "Privacy policy for Son Hai Vu's portfolio: personal data, cookies and contact requests.",
+    "description": "Portfolio of Son Hai Vu: web developer building modern, performant websites and applications."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "journey": "Journey",
+    "work": "Work",
+    "contact": "Contact",
+    "language": "Language",
+    "menu": "Toggle menu"
+  },
+  "Hero": {
+    "intro": "I Build And",
+    "heading": "Develop Innovative",
+    "websites": "Websites",
+    "apps": "Apps",
+    "software": "Software",
+    "description": "I'm a software engineer from Germany with a passion for web development.",
+    "contact": "Contact me",
+    "portrait": "Portrait of Son Hai Vu"
+  },
+  "About": {
+    "title": "My name is Son Hai",
+    "role": "Software Developer, M.Sc.",
+    "experienceYears": "Years",
+    "experienceLabel": "of Experience",
+    "description": "A motivated, adaptable and responsible software engineer from Germany specializing in web development and machine learning. Experienced in developing web applications for enterprises. Well-versed in numerous programming languages including TypeScript, Python and Java. Keen to learn new technologies. Confident to have the necessary skills and cultural knowledge to take the next step in my personal development.",
+    "location": "Location",
+    "city": "Stuttgart, Germany",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "Services": {
+    "architecture": {
+      "title": "Software Architecture",
+      "description": "Design and conception of sophisticated software applications."
+    },
+    "web": {
+      "title": "Web Development",
+      "description": "Development of modern web applications for all devices."
+    },
+    "ml": {
+      "title": "Machine Learning",
+      "description": "Well-versed in the latest machine learning frameworks and libraries."
+    },
+    "app": {
+      "title": "App Development",
+      "description": "Creating apps for iOS and Android in Swift and Kotlin."
+    }
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
+  },
+  "Cookies": {
+    "accept": "Accept",
+    "decline": "Decline",
+    "acceptLabel": "Accept cookies",
+    "declineLabel": "Decline cookies",
+    "notice": "Google reCAPTCHA protects the contact form and may process device data.",
+    "privacy": "Privacy"
+  },
+  "Contact": {
+    "title": "Let's Work Together",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "phone": "Phone number",
+    "message": "Message",
+    "placeholder": "Leave me a message...",
+    "success": "Your message has been sent.",
+    "sending": "Sending...",
+    "send": "Send message",
+    "consent": "Accept the cookie notice to load Google reCAPTCHA and send this form.",
+    "captchaLoad": "reCAPTCHA could not be loaded. Please try again.",
+    "errors": {
+      "invalidRequest": "Invalid request.",
+      "captchaRequired": "Please complete the reCAPTCHA check before sending.",
+      "captchaNotConfigured": "CAPTCHA is not configured. Please contact the site owner.",
+      "requiredFields": "Please complete all required fields.",
+      "invalidEmail": "Please enter a valid email address.",
+      "serviceNotConfigured": "The message service is not configured.",
+      "captchaFailed": "reCAPTCHA verification failed. Please try again.",
+      "sendFailed": "Your message could not be sent. Please try again.",
+      "serviceUnavailable": "The message service is unavailable. Please try again later."
+    }
+  },
+  "Stats": {
+    "experience": "Years of Experience",
+    "projects": "Projects on GitHub",
+    "certifications": "Certifications"
+  },
+  "Journey": {
+    "title": "My Professional Journey",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "items": {
+      "item1": {
+        "company": "Accenture (Kaiserslautern, Germany)",
+        "position": "Java Backend Developer",
+        "duration": "April 2025 - until now",
+        "description": "Participation in the development of a central IT system for judicial administration in the public sector. Focus on the further development of the core architecture and the implementation of backend components using Java and Spring Boot. Development of Microservices. Collaboration in an agile environment with business and development teams as part of a nationwide digitalization project."
+      },
+      "item2": {
+        "company": "Alfred Kärcher SE & Co. KG (Winnenden, Germany)",
+        "position": "API Management",
+        "duration": "Sept 2024 - Feb 2025",
+        "description": "Conception and evaluation of a customized API management strategy in Domain Driven Design. Analyzing the API landscape. Conducting Expert Interviews to identify current challenges in the development of APIs. Defining API standards and guidelines. Comparison of different API management tools."
+      },
+      "item3": {
+        "company": "TRUMPF SE + Co. KG (Ditzingen, Germany)",
+        "position": "R&D Software Engineer",
+        "duration": "Mar 2024 - Sep 2024",
+        "description": "Software Engineer in the Research & Development (R&D) department for TruConnect, a solution for the manufacturing industry that enables smart factory operations. Programming tools with .NET Framework for internal use. Support the development of an application (SmartView) for monitoring that provides detailed insight such as performance data and energy consumption in lasers and laser systems. Implementation of a 3D View of the machines using Angular and .NET."
+      },
+      "item4": {
+        "company": "Qibitech Inc. (Tokyo, Japan)",
+        "position": "Web Engineer",
+        "duration": "Aug 2023 - Mar 2024",
+        "description": "Support the team in the frontend development of HATS UI using Vue.js. HATS (Highly Autonomous Teleoperation Service) is a service that allows you to control robots remotely. It is a system targeting remote operation in the task execution of autonomous robots. HATS UI is a web application that provides various functions for the communication with robots. Server-side development with Ruby on Rails. Creating API documentation and Unit tests."
+      },
+      "item5": {
+        "company": "Capgemini (Leinfelden-Echterdingen, Germany)",
+        "position": "Software Engineer",
+        "duration": "Jul 2021 - Feb 2023",
+        "description": "Part of the Digital Customer Experience. Worked for a Customer Messaging System (CusMeS). Fullstack Development in an agile team (Scrum). Support in the development of a web application for an international automotive manufacturer (OEM) with Angular and Java Spring which enables mass messaging through different channels such as SMS, WhatsApp, E-Mails. E2E-Testing with Cypress."
+      },
+      "item6": {
+        "company": "Robert Bosch GmbH (Stuttgart, Germany)",
+        "position": "Software Development",
+        "duration": "Sep 2020 - Feb 2021",
+        "description": "Software development in an agile and international development team. Development of tools in C# and .NET Framework. Development and extension of a web application in the intralogistics environment for transportation and stock management using Angular, HTML5 and CSS. Creation of REST APIs with ASP.NET. Creation of automated tests with Cypress. Preparation, configuration, implementation and evaluation of a comparison between the dynamic tour planning algorithm and the static tour planning algorithm for intralogistics tugger trains."
+      },
+      "item7": {
+        "company": "antares Informations-Systeme GmbH (Geislingen, Germany)",
+        "position": "Software Developer",
+        "duration": "Jan 2020 - Aug 2020",
+        "description": "Worked in the field of software development. Creation of standard software and website programming with HTML/CSS and JavaScript. Support in website optimization (SEO) with CMS (WordPress). Database development with PostgreSQL."
+      },
+      "item8": {
+        "institution": "Stuttgart Media University (Stuttgart, Germany)",
+        "qualification": "Computer Science and Media (M.Sc.)",
+        "duration": "Feb 2022 - Feb 2025",
+        "description": "Focus on IT project management (agile software development, team leadership, negotiation skills) and machine learning."
+      },
+      "item9": {
+        "institution": "University of Tsukuba (Tsukuba, Japan)",
+        "qualification": "Master's Program in Informatics",
+        "duration": "Apr 2023 - Feb 2024",
+        "description": "Study Abroad. Taken courses: Visualization, Structured Data, Data Science, Adaptive Media Processing, Machine Learning"
+      },
+      "item10": {
+        "institution": "Stuttgart Media University (Stuttgart, Germany)",
+        "qualification": "Computer Science and Media (B.Sc.)",
+        "duration": "Sep 2018 - Feb 2022",
+        "description": "Major subject: Web development and machine learning (data-mining, pattern recognition, NLP) Bachelor’s thesis: Computer vision-based feature extraction of printer-specific features for the classification of inkjet printers with machine learning."
+      },
+      "item11": {
+        "duration": "Learned in 2018",
+        "description": "Crafted structured web content using HTML effectively for modern websites, ensuring semanting markup and accessibility."
+      },
+      "item12": {
+        "duration": "Learned in 2018",
+        "description": "Styled responsive web pages using CSS, ensuring an appealing user experience with modern design principles and layouts."
+      },
+      "item13": {
+        "duration": "Learned in 2018",
+        "description": "Using Java for backend development, I have developed applications for various purposes, including web applications and mobile applications."
+      },
+      "item14": {
+        "duration": "Learned in 2018",
+        "description": "Used Git for version control, ensuring collaboration and code management in software development projects."
+      },
+      "item15": {
+        "duration": "Learned in 2019",
+        "description": "Implemented Javascript for interactivity, enhancing user engagement on websites through dynamic content and features."
+      },
+      "item16": {
+        "duration": "Learned in 2019",
+        "description": "Developed server-side applications using Node.js, ensuring high performance and scalability of the backend services."
+      },
+      "item17": {
+        "duration": "Learned in 2019",
+        "description": "Used MongoDB for database management, ensuring flexibility and scalability of the data storage for web applications."
+      },
+      "item18": {
+        "duration": "Learned in 2020",
+        "description": "Developed Python applications for data analysis, machine learning, and deep learning, using libraries such as NumPy, Pandas, and Tensorflow."
+      },
+      "item19": {
+        "duration": "Learned in 2020",
+        "description": "Implemented Javascript for interactivity, enhancing user engagement on websites through dynamic content and features."
+      },
+      "item20": {
+        "duration": "Learned in 2020",
+        "description": "Developed Angular applications for enterprise solutions, ensuring scalability and maintainability of the codebase."
+      },
+      "item21": {
+        "duration": "Learned in 2021",
+        "description": "Built dynamic user interfaces using React.js, optimizing component-driven design for seamless user experiences and efficiency."
+      },
+      "item22": {
+        "duration": "Learned in 2021",
+        "description": "Used Docker for containerization, ensuring consistency and portability of the development environment."
+      },
+      "item23": {
+        "duration": "Learned in 2021",
+        "description": "Used Jenkins for continuous integration and continuous deployment, ensuring automation and efficiency in the development process."
+      },
+      "item24": {
+        "duration": "Learned in 2022",
+        "description": "Developed responsive web applications using Bootstrap, ensuring compatibility and consistency across different devices and screen sizes."
+      },
+      "item25": {
+        "duration": "Learned in 2022",
+        "description": "As a certified Scrum Master, I have worked in agile teams as a Scrum Master, ensuring the successful implementation of Scrum practices and principles."
+      },
+      "item26": {
+        "duration": "Learned in 2023",
+        "description": "Developed Vue.js applications for modern web development, ensuring high performance and user experience."
+      }
+    }
+  },
+  "Certifications": {
+    "title": "My Certifications",
+    "previous": "Previous certification",
+    "next": "Next certification",
+    "items": {
+      "item1": {
+        "date": "September 2021",
+        "message": "As a certified software architect, I have a deep understanding of software architecture and design principles. I can design and implement software solutions that meet the requirements of stakeholders and are scalable, maintainable, and secure."
+      },
+      "item2": {
+        "date": "April 2022",
+        "message": "Having work experience as a Scrum Master, I have a deep understanding of the Scrum framework and can help teams to deliver high-quality products by following Scrum practices."
+      },
+      "item3": {
+        "date": "February 2022",
+        "message": "I have a good understanding of cloud concepts, Azure services, security, privacy, compliance, and trust, and can help organizations to leverage Azure services to meet their business needs."
+      },
+      "item4": {
+        "date": "December 2020",
+        "message": "I have a good understanding of Google Ads Search and can help businesses to create and optimize search campaigns to reach their target audience and achieve their marketing goals."
+      },
+      "item5": {
+        "date": "February 2024",
+        "message": "I have a good understanding of AWS services, security, and pricing, and can help organizations to leverage AWS cloud services to build scalable and cost-effective solutions."
+      },
+      "item6": {
+        "date": "September 2024",
+        "message": "As a certified Linux professional, I have a good understanding of Linux operating systems, command-line, and shell scripting, and can help organizations to deploy and manage Linux servers."
+      }
+    }
+  },
+  "Work": {
+    "title": "My Latest Work",
+    "loadMore": "Load More",
+    "open": "Open project: {title}",
+    "categories": {
+      "all": "All",
+      "app": "Apps",
+      "web": "Web",
+      "software": "Software",
+      "ML": "AI / ML"
+    },
+    "items": {
+      "item1": {
+        "title": "Yomi Lens"
+      },
+      "item2": {
+        "title": "Manabu"
+      },
+      "item3": {
+        "title": "Neo Seichi"
+      },
+      "item4": {
+        "title": "Omakase GO"
+      },
+      "item5": {
+        "title": "Smart TODO Kanban"
+      },
+      "item6": {
+        "title": "OpenBarber"
+      },
+      "item7": {
+        "title": "TraveLinked"
+      },
+      "item8": {
+        "title": "Hanabi Mitai App"
+      },
+      "item9": {
+        "title": "Finance Manager App"
+      },
+      "item10": {
+        "title": "JSON Parser in Ruby"
+      },
+      "item11": {
+        "title": "Printer Classification with Machine Learning"
+      },
+      "item12": {
+        "title": "Learn Japanese App"
+      }
+    }
+  },
+  "Imprint": {
+    "text001": "Legal Notice",
+    "text002": "Information pursuant to Section 5 of the German Digital Services Act (DDG)",
+    "text003": "Responsible for this website",
+    "text004": "Son Hai Vu",
+    "text005": "Stuttgarter Str. 134",
+    "text006": "73312 Geislingen",
+    "text007": "Germany",
+    "text008": "Contact",
+    "text009": "Phone: +49 152 37349594",
+    "text010": "Email:",
+    "text011": "info@sonhaivu.com",
+    "text012": "Activities",
+    "text013": "Software development and operation of an online portfolio and a web application.",
+    "text014": "Value Added Tax",
+    "text015": "No VAT identification number pursuant to Section 27a of the German Value Added Tax Act (UStG) is provided.",
+    "text016": "Liability for content",
+    "text017": "The content of this website has been prepared with the greatest possible care. However, no guarantee can be given for its accuracy, completeness or currency.",
+    "text018": "Liability for links",
+    "text019": "This website may contain links to external third-party websites whose content is beyond our control. We therefore cannot accept liability for that content. The respective provider or operator is always responsible for the content of linked pages.",
+    "text020": "Copyright",
+    "text021": "The content and works published on this website are subject to German copyright law. Any use beyond the limits of copyright law requires the prior written consent of the respective rights holder."
+  },
+  "Privacy": {
+    "text001": "Privacy Policy",
+    "text002": "Introduction",
+    "text003": "This privacy policy explains which types of personal data (also referred to as 'data') we process, for which purposes and to what extent. It applies to all processing of personal data carried out by us, both in providing our services and, in particular, on our websites, in mobile applications and on external online presences such as our social media profiles (collectively referred to as the 'online offering'). The terms used are gender-neutral. Last updated: July 3, 2020.",
+    "text004": "Contents",
+    "text005": "Introduction",
+    "text006": "Controller",
+    "text007": "Overview of processing",
+    "text008": "Applicable legal bases",
+    "text009": "Security measures",
+    "text010": "Transfer and disclosure of personal data",
+    "text011": "Data processing in third countries",
+    "text012": "Use of cookies",
+    "text013": "Provision of the online offering and web hosting",
+    "text014": "Contacting us",
+    "text015": "Definitions",
+    "text016": "Controller",
+    "text017": "Son Hai Vu,",
+    "text018": "Stuttgarter Str. 134, 73312 Geislingen",
+    "text019": "Email:",
+    "text020": "info@sonhaivu.com",
+    "text021": "Overview of processing",
+    "text022": "The following overview summarizes the types of data processed and the purposes of processing, and refers to the individuals concerned.",
+    "text023": "Types of data processed",
+    "text024": "Basic data (e.g. names and addresses).",
+    "text025": "Content data (e.g. text entries, photographs and videos).",
+    "text026": "Contact data (e.g. email addresses and phone numbers).",
+    "text027": "Metadata and communication data (e.g. device information and IP addresses).",
+    "text028": "Usage data (e.g. websites visited, interests in content and access times).",
+    "text029": "Categories of data subjects",
+    "text030": "Communication partners.",
+    "text031": "Users (e.g. website visitors and users of online services).",
+    "text032": "Purposes of processing",
+    "text033": "Contact requests and communication.",
+    "text034": "Applicable legal bases",
+    "text035": "The following sets out the legal bases under the General Data Protection Regulation (GDPR) on which we process personal data. Please note that national data protection rules in your country and in our country of residence or establishment may apply in addition to the GDPR. Where more specific legal bases are applicable in individual cases, we will inform you of them in this privacy policy.",
+    "text036": "Consent (Article 6(1)(a) GDPR): the data subject has given consent to the processing of their personal data for one or more specific purposes.",
+    "text037": "Performance of a contract and pre-contractual requests (Article 6(1)(b) GDPR): processing is necessary for the performance of a contract to which the data subject is a party, or to take steps at the data subject's request before entering into a contract.",
+    "text038": "Legitimate interests (Article 6(1)(f) GDPR): processing is necessary for the legitimate interests pursued by the controller or a third party, except where these are overridden by the interests or fundamental rights and freedoms of the data subject that require protection of personal data.",
+    "text039": "National data protection rules in Germany:",
+    "text040": "In addition to the GDPR, national data protection rules apply in Germany, in particular the Federal Data Protection Act (BDSG). The BDSG contains specific provisions on the right of access, the right to erasure, the right to object, the processing of special categories of personal data, processing for other purposes, transfers and automated individual decision-making, including profiling. It also regulates the processing of data for employment purposes (Section 26 BDSG), particularly regarding the establishment, performance or termination of employment relationships and employee consent. The data protection laws of individual German federal states may also apply.",
+    "text041": "Security measures",
+    "text042": "In accordance with legal requirements, we implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk, taking into account the state of the art, implementation costs, the nature, scope, context and purposes of processing, and the likelihood and severity of risks to the rights and freedoms of natural persons. These measures include safeguarding the confidentiality, integrity and availability of data by controlling physical and electronic access, data entry, disclosure, availability and separation. We have also established procedures for exercising data subject rights, deleting data and responding to threats to data security. We consider the protection of personal data when developing or selecting hardware, software and procedures, in accordance with the principles of data protection by design and by default.",
+    "text043": "Transfer and disclosure of personal data",
+    "text044": "When processing personal data, we may transfer or disclose data to other entities, companies, legally independent organizational units or individuals. Recipients may include payment institutions involved in payment transactions, service providers entrusted with IT tasks, or providers of services and content integrated into a website. In such cases, we comply with legal requirements and, in particular, enter into appropriate contracts or agreements with the recipients to protect your data.",
+    "text045": "Data processing in third countries",
+    "text046": "If we process data in a third country, meaning outside the European Union (EU) or the European Economic Area (EEA), or if processing takes place through third-party services or the disclosure or transfer of data to other individuals, entities or companies, this is done only in accordance with legal requirements. Subject to express consent or transfers required by contract or law, we process data, or have it processed, only in third countries with a recognized level of data protection, including US processors certified under the 'Privacy Shield', or on the basis of specific safeguards such as contractual obligations through the European Commission's standard contractual clauses, certifications or binding internal data protection rules (Articles 44 to 49 GDPR). European Commission information: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de .",
+    "text047": "Use of cookies",
+    "text048": "Cookies are text files containing data from visited websites or domains, stored by a browser on the user's computer. A cookie primarily stores information about a user during or after their visit to an online offering. Stored information may include language preferences, login status, a shopping cart or the point at which a video was watched. The term 'cookies' also includes other technologies that perform the same functions, for example storing information using pseudonymous online identifiers, also called 'user IDs'. The following types and functions of cookies are distinguished:",
+    "text049": "Temporary cookies, also known as session cookies: these are deleted at the latest when a user leaves an online offering and closes their browser.",
+    "text050": "Persistent cookies: these remain stored after the browser is closed. For example, login status can be saved or preferred content displayed directly when a user returns to a website. User interests used for audience measurement or marketing may also be stored in such a cookie.",
+    "text051": "First-party cookies: cookies set by us.",
+    "text052": "Third-party cookies: cookies used mainly by advertisers and other third parties to process user information.",
+    "text053": "Necessary, essential or strictly required cookies: cookies may be essential to the operation of a website, for example to store logins or other user entries, or for security reasons.",
+    "text054": "Statistics, marketing and personalization cookies: cookies are also commonly used for audience measurement and to store a user's interests or behavior, such as viewing particular content or using functions on individual websites, in a user profile. Such profiles are used, for example, to display content that may match the user's interests. This process is also known as 'tracking', meaning monitoring users' potential interests. Where we use cookies or tracking technologies, we inform you separately in this privacy policy or when requesting consent.",
+    "text055": "Information on legal bases:",
+    "text056": "The legal basis for processing your personal data using cookies depends on whether we ask for your consent. If we do and you consent to the use of cookies, the legal basis is your consent. Otherwise, data processed using cookies is processed on the basis of our legitimate interests, such as the economic operation and improvement of our online offering, or where cookies are necessary to fulfill our contractual obligations.",
+    "text057": "Storage period:",
+    "text058": "Unless we explicitly provide information about the storage period of persistent cookies, for example during a cookie opt-in, please assume that they may be stored for up to two years.",
+    "text059": "General information on withdrawal and objection (opt-out):",
+    "text060": "Depending on whether processing is based on consent or legal permission, you can withdraw your consent or object to the processing of your data through cookie technologies at any time, collectively referred to as 'opt-out'. You can initially object through your browser settings, for example by disabling cookies, although this may limit the functionality of our online offering. You can also object to cookies used for online marketing through various services, particularly for tracking, at https://optout.aboutads.info and https://www.youronlinechoices.com/ . Further information on objections may be provided with details of the service providers and cookies used.",
+    "text061": "Processing cookie data on the basis of consent:",
+    "text062": "Before we process data, or have it processed, through the use of cookies, we ask users for consent that can be withdrawn at any time. Until consent has been given, only cookies strictly necessary for the operation of our online offering are used.",
+    "text063": "Types of data processed: usage data, such as websites visited, interests in content and access times; metadata and communication data, such as device information and IP addresses.",
+    "text064": "Data subjects: users, such as website visitors and users of online services.",
+    "text065": "Legal bases: consent (Article 6(1)(a) GDPR) and legitimate interests (Article 6(1)(f) GDPR).",
+    "text066": "Provision of the online offering and web hosting",
+    "text067": "To provide our online offering securely and efficiently, we use one or more web hosting providers whose servers, or servers managed by them, deliver the online offering. For these purposes, we may use infrastructure and platform services, computing capacity, storage space, database services, security services and technical maintenance. Data processed when providing hosting may include all information concerning users of our online offering that arises during use and communication. This regularly includes the IP address needed to deliver online content to browsers and all entries made within our online offering or on websites. Collection of access data and log files: we, or our web hosting provider, collect data on every access to the server, known as server log files. These may include the address and name of requested websites and files, the date and time of access, data volumes transferred, confirmation of successful access, browser type and version, the user's operating system, the referring URL and usually IP addresses and the requesting provider. Server log files may be used for security purposes, for example to prevent server overload, particularly through abusive attacks such as DDoS attacks, and to ensure server capacity and stability.",
+    "text068": "Types of data processed: content data, such as text entries, photographs and videos; usage data, such as websites visited, interests in content and access times; metadata and communication data, such as device information and IP addresses.",
+    "text069": "Data subjects: users, such as website visitors and users of online services.",
+    "text070": "Legal bases: legitimate interests (Article 6(1)(f) GDPR).",
+    "text071": "Contacting us",
+    "text072": "When you contact us, for example through a contact form, email, phone or social media, we process the information provided insofar as it is necessary to answer your request and carry out any measures requested. Responses within contractual or pre-contractual relationships are provided to fulfill our contractual obligations or answer pre-contractual requests. Other responses are based on our legitimate interest in answering requests.",
+    "text073": "Data subjects: communication partners.",
+    "text074": "Purposes of processing: contact requests and communication.",
+    "text075": "Legal bases: performance of a contract and pre-contractual requests (Article 6(1)(b) GDPR) and legitimate interests (Article 6(1)(f) GDPR).",
+    "text076": "Types of data processed: basic data, such as names and addresses; contact data, such as email addresses and phone numbers; content data, such as text entries, photographs and videos.",
+    "text077": "Definitions",
+    "text078": "This section provides an overview of the terms used in this privacy policy. Many are taken from legislation and defined primarily in Article 4 GDPR. The statutory definitions are binding; the explanations below are intended to aid understanding. The terms are listed in the order of the German original.",
+    "text079": "Personal data: any information relating to an identified or identifiable natural person, referred to as a 'data subject'. An identifiable natural person is one who can be identified, directly or indirectly, particularly by reference to an identifier such as a name, identification number, location data, an online identifier such as a cookie, or one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that person.",
+    "text080": "Controller: the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of processing personal data.",
+    "text081": "Processing: any operation or set of operations performed on personal data, whether or not by automated means. The term is broad and encompasses practically any handling of data, including collection, analysis, storage, transfer and deletion."
+  }
+}

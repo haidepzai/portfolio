@@ -4,8 +4,11 @@ import ReCAPTCHA from "react-google-recaptcha";
 import AnimatedText from "./AnimatedText";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
+import { useLocale, useTranslations } from 'next-intl';
 
 const Contact = ({ recaptchaConsent }) => {
+  const translations = useTranslations('Contact');
+  const locale = useLocale();
   const recaptchaRef = useRef(null);
   const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
   const [captchaToken, setCaptchaToken] = useState(null);
@@ -13,6 +16,10 @@ const Contact = ({ recaptchaConsent }) => {
   const [submitError, setSubmitError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submissionSucceeded, setSubmissionSucceeded] = useState(false);
+
+  useEffect(() => {
+    setCaptchaToken(null);
+  }, [locale]);
 
   // state for form inputs
   const [formData, setFormData] = useState({
@@ -47,7 +54,7 @@ const Contact = ({ recaptchaConsent }) => {
     setSubmitError("");
 
     if (!recaptchaSiteKey || !recaptchaConsent || !captchaToken) {
-      setSubmitError("Please complete the reCAPTCHA check before sending.");
+      setSubmitError('captchaRequired');
       return;
     }
 
@@ -63,7 +70,9 @@ const Contact = ({ recaptchaConsent }) => {
       const result = await response.json();
 
       if (!response.ok) {
-        throw new Error(result.error || "Your message could not be sent.");
+        const code = result.code;
+        setSubmitError(typeof code === 'string' && translations.has(`errors.${code}`) ? code : 'sendFailed');
+        return;
       }
 
       setFormData({
@@ -74,12 +83,8 @@ const Contact = ({ recaptchaConsent }) => {
         message: "",
       });
       setSubmissionSucceeded(true);
-    } catch (error) {
-      setSubmitError(
-        error instanceof Error
-          ? error.message
-          : "Your message could not be sent. Please try again."
-      );
+    } catch {
+      setSubmitError('sendFailed');
     } finally {
       setCaptchaToken(null);
       recaptchaRef.current?.reset();
@@ -93,7 +98,7 @@ const Contact = ({ recaptchaConsent }) => {
         <div className="flex flex-col items-center xl:flex-row gap-16">
           <div className="flex-1 mx-auto xl:mx-0 flex flex-col">
             <AnimatedText
-              text="Let's Work Together"
+              text={translations('title')}
               textStyles="h2 mb-12 text-center xl:text-left"
             />
             {/* form */}
@@ -109,7 +114,7 @@ const Contact = ({ recaptchaConsent }) => {
                     htmlFor="firstname"
                     className="block mb-2 text-sm font-medium text-primary"
                   >
-                    First Name <span className="text-accent">*</span>
+                    {translations('firstname')} <span className="text-accent">*</span>
                   </label>
                   <input
                     onChange={handleChange}
@@ -118,7 +123,7 @@ const Contact = ({ recaptchaConsent }) => {
                     name="firstname"
                     value={formData.firstname}
                     className="input"
-                    placeholder="First Name"
+                    placeholder={translations('firstname')}
                     required
                   />
                 </div>
@@ -128,7 +133,7 @@ const Contact = ({ recaptchaConsent }) => {
                     htmlFor="lastname"
                     className="block mb-2 text-sm font-medium text-primary"
                   >
-                    Last Name <span className="text-accent">*</span>
+                    {translations('lastname')} <span className="text-accent">*</span>
                   </label>
                   <input
                     onChange={handleChange}
@@ -137,7 +142,7 @@ const Contact = ({ recaptchaConsent }) => {
                     name="lastname"
                     value={formData.lastname}
                     className="input"
-                    placeholder="Last Name"
+                    placeholder={translations('lastname')}
                     required
                   />
                 </div>
@@ -148,11 +153,11 @@ const Contact = ({ recaptchaConsent }) => {
                   htmlFor="email"
                   className="block mb-2 text-sm font-medium text-primary"
                 >
-                  Email <span className="text-accent">*</span>
+                  {translations('email')} <span className="text-accent">*</span>
                 </label>
                 <input
                   onChange={handleChange}
-                  type="text"
+                  type="email"
                   id="email"
                   name="email"
                   value={formData.email}
@@ -167,7 +172,7 @@ const Contact = ({ recaptchaConsent }) => {
                   htmlFor="phone"
                   className="block mb-2 text-sm font-medium text-primary"
                 >
-                  Phone number
+                  {translations('phone')}
                 </label>
                 <input
                   onChange={handleChange}
@@ -185,7 +190,7 @@ const Contact = ({ recaptchaConsent }) => {
                   htmlFor="message"
                   className="block mb-2 text-sm font-medium text-primary"
                 >
-                  Message <span className="text-accent">*</span>
+                  {translations('message')} <span className="text-accent">*</span>
                 </label>
                 <textarea
                   onChange={handleChange}
@@ -193,7 +198,7 @@ const Contact = ({ recaptchaConsent }) => {
                   name="message"
                   value={formData.message}
                   className="textarea"
-                  placeholder="Leave me a message..."
+                  placeholder={translations('placeholder')}
                   rows="5"
                   required
                 />
@@ -201,6 +206,8 @@ const Contact = ({ recaptchaConsent }) => {
               <div className="space-y-2">
                 {recaptchaSiteKey && recaptchaConsent ? (
                   <ReCAPTCHA
+                    key={locale}
+                    hl={locale}
                     ref={recaptchaRef}
                     sitekey={recaptchaSiteKey}
                     onChange={(token) => {
@@ -211,34 +218,31 @@ const Contact = ({ recaptchaConsent }) => {
                     onExpired={() => setCaptchaToken(null)}
                     onErrored={() => {
                       setCaptchaToken(null);
-                      setCaptchaError(
-                        "reCAPTCHA could not be loaded. Please try again."
-                      );
+                      setCaptchaError('captchaLoad');
                     }}
                   />
                 ) : !recaptchaSiteKey ? (
                   <p className="text-sm text-red-600" role="alert">
-                    CAPTCHA is not configured. Please contact the site owner.
+                    {translations('errors.captchaNotConfigured')}
                   </p>
                 ) : (
                   <p className="text-sm text-secondary" role="status">
-                    Accept the cookie notice to load Google reCAPTCHA and send
-                    this form.
+                    {translations('consent')}
                   </p>
                 )}
                 {captchaError && (
                   <p className="text-sm text-red-600" role="alert">
-                    {captchaError}
+                    {translations(captchaError)}
                   </p>
                 )}
                 {submitError && (
                   <p className="text-sm text-red-600" role="alert">
-                    {submitError}
+                    {translations(`errors.${submitError}`)}
                   </p>
                 )}
                 {submissionSucceeded && (
                   <p className="text-sm text-green-700" role="status">
-                    Your message has been sent.
+                    {translations('success')}
                   </p>
                 )}
               </div>
@@ -254,7 +258,7 @@ const Contact = ({ recaptchaConsent }) => {
                 className="btn btn-accent flex items-center justify-center gap-2 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 {isSubmitting ? (
-                  <span>Sending...</span>
+                  <span>{translations('sending')}</span>
                 ) : (
                   <>
                     {/* show icon with opacity transition */}
@@ -267,7 +271,7 @@ const Contact = ({ recaptchaConsent }) => {
                       className={`transition-opacity duration-500 ease-in-out ${showIcon ? "opacity-0" : "opacity-100"
                         }`}
                     >
-                      Send message
+                      {translations('send')}
                     </span>
                   </>
                 )}

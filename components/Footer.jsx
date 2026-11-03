@@ -1,9 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 import Logo from "./Logo";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
 const Footer = () => {
+  const translations = useTranslations('Footer');
   const [year, setYear] = useState(""); // Empty state to avoid hydration mismatch
 
   useEffect(() => {
@@ -16,19 +18,19 @@ const Footer = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between">
           <Logo light={true} />
           <div className="text-white/70 font-light text-center xl:text-left mt-4 xl:mt-0">
-            Copyright &copy; {year}. All rights reserved. | {" "}
+            Copyright &copy; {year}. {translations('rights')} | {" "}
             <Link
               href="/privacy-policy"
               className="hover:text-white transition"
             >
-              Privacy Policy
+              {translations('privacy')}
             </Link>
             {" "} | {" "}
             <Link
               href="/imprint"
               className="hover:text-white transition"
             >
-              Imprint
+              {translations('imprint')}
             </Link>
           </div>
         </div>

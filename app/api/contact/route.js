@@ -5,13 +5,13 @@ export async function POST(request) {
   const body = await request.json().catch(() => null);
 
   if (!body || typeof body !== "object") {
-    return Response.json({ error: "Invalid request." }, { status: 400 });
+    return Response.json({ code: "invalidRequest", error: "Invalid request." }, { status: 400 });
   }
 
   const recaptchaToken = body.recaptchaToken;
   if (typeof recaptchaToken !== "string" || !recaptchaToken) {
     return Response.json(
-      { error: "Please complete the reCAPTCHA check." },
+      { code: "captchaRequired", error: "Please complete the reCAPTCHA check." },
       { status: 400 }
     );
   }
@@ -19,7 +19,7 @@ export async function POST(request) {
   const secretKey = process.env.RECAPTCHA_SECRET_KEY;
   if (!secretKey) {
     return Response.json(
-      { error: "CAPTCHA verification is not configured." },
+      { code: "captchaNotConfigured", error: "CAPTCHA verification is not configured." },
       { status: 503 }
     );
   }
@@ -31,7 +31,7 @@ export async function POST(request) {
     )
   ) {
     return Response.json(
-      { error: "Please complete all required fields." },
+      { code: "requiredFields", error: "Please complete all required fields." },
       { status: 400 }
     );
   }
@@ -39,7 +39,7 @@ export async function POST(request) {
   const email = body.email.trim();
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return Response.json(
-      { error: "Please enter a valid email address." },
+      { code: "invalidEmail", error: "Please enter a valid email address." },
       { status: 400 }
     );
   }
@@ -47,7 +47,7 @@ export async function POST(request) {
   const resendApiKey = process.env.RESEND_API_KEY;
   if (!resendApiKey) {
     return Response.json(
-      { error: "The message service is not configured." },
+      { code: "serviceNotConfigured", error: "The message service is not configured." },
       { status: 503 }
     );
   }
@@ -66,7 +66,7 @@ export async function POST(request) {
 
     if (!verificationResponse.ok || !verification.success) {
       return Response.json(
-        { error: "reCAPTCHA verification failed. Please try again." },
+        { code: "captchaFailed", error: "reCAPTCHA verification failed. Please try again." },
         { status: 403 }
       );
     }
@@ -95,7 +95,7 @@ export async function POST(request) {
 
     if (!resendResponse.ok) {
       return Response.json(
-        { error: "Your message could not be sent. Please try again." },
+        { code: "sendFailed", error: "Your message could not be sent. Please try again." },
         { status: 502 }
       );
     }
@@ -103,7 +103,7 @@ export async function POST(request) {
     return Response.json({ success: true });
   } catch {
     return Response.json(
-      { error: "The message service is unavailable. Please try again later." },
+      { code: "serviceUnavailable", error: "The message service is unavailable. Please try again later." },
       { status: 502 }
     );
   }

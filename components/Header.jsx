@@ -5,6 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 import Logo from "./Logo";
 import Nav from "./Nav";
 import Socials from "./Socials";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row items-center gap-4 lg:justify-between">
           {/* logo */}
           <Logo />
-          <div className="flex items-center gap-12">
+          <div className="flex flex-wrap justify-center items-center w-full lg:w-auto gap-4 xl:gap-6">
             {/* nav & socials */}
             <Nav
               containerStyles="hidden xl:flex"
@@ -24,6 +25,7 @@ const Header = () => {
               containerStyles="flex items-center gap-2"
               iconStyles="text-base w-[32px] h-[32px] bg-primary text-white flex items-center justify-center rounded-full"
             />
+            <LanguageSwitcher />
           </div>
         </div>
       </div>

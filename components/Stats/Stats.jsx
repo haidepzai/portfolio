@@ -1,32 +1,34 @@
 import StatsItem from "./StatsItem";
+import { useTranslations } from 'next-intl';
 
 const statsData = [
   {
     endCountNum: 3,
     endCountText: "+",
-    text: "Years of Experience",
+    text: "experience",
   },
   {
     endCountNum: 55,
     endCountText: "+",
-    text: "Projects on Github",
+    text: "projects",
   },
   {
     endCountNum: 10,
     endCountText: "+",
-    text: "Certifications",
+    text: "certifications",
   },
 ];
 
 const Stats = () => {
+  const translations = useTranslations('Stats');
   return (
-    <section className="flex justify-center xl:justify-normal mx-auto xl:mx-0 xl:w[380px] gap-4 xl:gap-0">
+    <section className="grid grid-cols-3 w-full max-w-[380px] mx-auto xl:mx-0 gap-2">
       {statsData.map((item, index) => {
         return (
           <StatsItem
             endCountNum={item.endCountNum}
             endCountText={item.endCountText}
-            text={item.text}
+            text={translations(item.text)}
             key={index}
           />
         );

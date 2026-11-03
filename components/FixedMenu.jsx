@@ -4,12 +4,15 @@ import { useEffect, useState } from "react";
 import { CgMenuGridR } from "react-icons/cg";
 import { useMediaQuery } from "react-responsive";
 import { FiMapPin, FiPhoneCall, FiMail } from "react-icons/fi";
+import { useTranslations } from 'next-intl';
 
 // components
 import Nav from "./Nav";
 import Socials from "./Socials";
 
 const FixedMenu = () => {
+  const translations = useTranslations('About');
+  const navigation = useTranslations('Navigation');
   const [showMenuButton, setShowMenuButton] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   const [isMounted, setIsMounted] = useState(false); // ensure the component is mounted
@@ -68,9 +71,9 @@ const FixedMenu = () => {
                         <FiMapPin />
                       </div>
                       <p className="font-semibold text-primary text-lg">
-                        Location
+                        {translations('location')}
                       </p>
-                      <p>Stuttgart, Germany</p>
+                      <p>{translations('city')}</p>
                     </div>
                     {/* phone */}
                     <div className="flex flex-col">
@@ -78,7 +81,7 @@ const FixedMenu = () => {
                         <FiPhoneCall />
                       </div>
                       <p className="font-semibold text-primary text-lg">
-                        Phone
+                        {translations('phone')}
                       </p>
                       <p>+49 152 37349594</p>
                     </div>
@@ -88,7 +91,7 @@ const FixedMenu = () => {
                         <FiMail />
                       </div>
                       <p className="font-semibold text-primary text-lg">
-                        Email
+                        {translations('email')}
                       </p>
                       <p>sonhai.vu@gmx.de</p>
                     </div>
@@ -109,6 +112,8 @@ const FixedMenu = () => {
       {isMobile ? (
         <div className="fixed z-50 bottom-16">
           <button
+            aria-label={navigation('menu')}
+            aria-expanded={showMenu}
             onClick={() => setShowMenu(!showMenu)}
             className="bg-accent shadow-custom w-[54px] h-[54px] rounded-lg cursor-pointer flex items-center justify-center select-none pointer-events-auto"
           >
@@ -130,6 +135,8 @@ const FixedMenu = () => {
               className="fixed z-50 bottom-16 pointer-events-auto"
             >
               <button
+                aria-label={navigation('menu')}
+                aria-expanded={showMenu}
                 onClick={() => setShowMenu(!showMenu)}
                 className="bg-accent shadow-custom w-[54px] h-[54px] rounded-lg cursor-pointer flex items-center justify-center select-none"
               >

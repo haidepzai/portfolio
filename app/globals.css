@@ -13,6 +13,10 @@
   .h5,
   .h6 {
     @apply text-primary;
+    overflow-wrap: anywhere;
+  }
+  main {
+    overflow-wrap: anywhere;
   }
   .h1 {
     @apply font-primary text-[45px] xl:text-[90px] leading-none;
@@ -45,6 +49,28 @@
   :root {
 
     --radius: 0.5rem
+  }
+}
+
+html[lang="ja"] body {
+  --font-japanese: "Noto Sans JP Variable";
+  --font-inter: var(--font-japanese), sans-serif;
+  --font-bebas: var(--font-japanese), sans-serif;
+}
+
+html[lang="ja"] .h1 {
+  font-size: 36px;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+html[lang="ja"] .h2 {
+  letter-spacing: 0;
+}
+
+@media (min-width: 1200px) {
+  html[lang="ja"] .h1 {
+    font-size: 56px;
   }
 }
 

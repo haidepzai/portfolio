@@ -1,7 +1,7 @@
 "use client";
 import { Link as ScrollLink } from "react-scroll";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link, usePathname } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
 const links = [
   { name: "home" },
@@ -12,6 +12,7 @@ const links = [
 ];
 
 const Nav = ({ containerStyles, listStyles, linkStyles, spy }) => {
+  const translations = useTranslations('Navigation');
   const pathname = usePathname();
   const isHome = pathname === "/";
 
@@ -29,11 +30,11 @@ const Nav = ({ containerStyles, listStyles, linkStyles, spy }) => {
               onSetActive={(to) => console.log(`Active section: ${to}`)}
               className={linkStyles}
             >
-              {link.name}
+              {translations(link.name)}
             </ScrollLink>
           ) : (
             <Link key={index} href={`/#${link.name}`} className={linkStyles}>
-              {link.name}
+              {translations(link.name)}
             </Link>
           );
         })}
